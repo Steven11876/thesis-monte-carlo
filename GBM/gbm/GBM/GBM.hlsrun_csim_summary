@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\GBM.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/09/25 03:45:43",
+ "timestampMillis": "1736412343368",
+ "buildStep": {
+  "cmdId": "cb62cd2c-eb1e-4948-8371-e783baa4ca83",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\logs\\GBM.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg --work_dir GBM ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg",
+   "--work_dir",
+   "GBM"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:45:43",
+ "timestampMillis": "1736412343369",
+ "status": {
+  "cmdId": "cb62cd2c-eb1e-4948-8371-e783baa4ca83",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/09/25 03:45:51",
+ "timestampMillis": "1736412351673",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "GBM",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\steve\\thesis-monte-carlo\\test.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/09/25 03:45:51",
+ "timestampMillis": "1736412351675",
+ "buildStep": {
+  "cmdId": "aa3cb789-2bd2-4a51-b246-991a238d0360",
+  "name": "",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:45:51",
+ "timestampMillis": "1736412351676",
+ "status": {
+  "cmdId": "aa3cb789-2bd2-4a51-b246-991a238d0360",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:46:01",
+ "timestampMillis": "1736412361848",
+ "status": {
+  "cmdId": "aa3cb789-2bd2-4a51-b246-991a238d0360",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:46:02",
+ "timestampMillis": "1736412362071",
+ "status": {
+  "cmdId": "cb62cd2c-eb1e-4948-8371-e783baa4ca83",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:46:02",
+ "timestampMillis": "1736412362072",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:46:02",
+ "timestampMillis": "1736412362073",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

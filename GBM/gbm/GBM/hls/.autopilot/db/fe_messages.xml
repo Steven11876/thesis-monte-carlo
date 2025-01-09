@@ -1,0 +1,18 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="GBM" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=GBM" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:8:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'S' since this interface mode only supports scalar types">
+        <args Name="S"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:8:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments' since this interface mode only supports scalar types">
+        <args Name="random_increments"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:17:26" msg_body="Loop 'VITIS_LOOP_17_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_17_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:8:0" msg_body="Unrolling loop 'VITIS_LOOP_17_3' (C:/Users/steve/thesis-monte-carlo/test.c:17:26) in function 'GBM' completely with a factor of 49">
+        <args Factor="49" LoopLoc="C:/Users/steve/thesis-monte-carlo/test.c:17:26" LoopName="VITIS_LOOP_17_3"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

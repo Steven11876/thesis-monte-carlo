@@ -1,0 +1,368 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_GBM_ir
+Args:            
+  - Callee:          GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_GBM_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 11, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of length '
+  - Length:          '100'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        S4seq
+  - ArrayName:       S
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_11_1
+  - String:          ' '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:11:22'
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 12, Column: 14 }
+  - OrigDirection:   write
+  - OrigID:          for.inc.store.4
+...
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 15, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          'Sequential '
+  - Direction:       read
+  - String:          ' of length '
+  - Length:          '4900'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        random_increments5seq
+  - ArrayName:       random_increments
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_15_2
+  - String:          ' '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:15:22'
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 19, Column: 72 }
+  - OrigDirection:   read
+  - OrigID:          for.inc21.load.7
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 19, 
+                   Column: 18 }
+Function:        GBM
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     store
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 19, Column: 18 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 19, Column: 18 }
+  - OrigDirection:   read
+  - OrigID:          VITIS_LOOP_17_3.load.5
+  - ArrayName:       S
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            AccessClobbered
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 19, 
+                   Column: 18 }
+Function:        GBM
+Args:            
+  - String:          'Access is clobbered by '
+  - ClobberedBy:     load
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 19, Column: 18 }
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      store
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 19, Column: 18 }
+  - OrigDirection:   write
+  - OrigID:          for.inc24.store.1
+  - ArrayName:       S
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 15, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 15, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          random_increments5seq
+  - ArrayName:       random_increments
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_17_3
+  - String:          ' '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:17:26'
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-widen
+Name:            BurstWidened
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 11, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - OrigLength:      '100'
+  - String:          ' x '
+  - OrigWords:       '64'
+  - String:          'bit words has been widened by '
+  - Factor:          '4'
+  - String:          ': '
+  - Length:          '25'
+  - String:          ' x '
+  - Words:           '256'
+  - String:          bit words
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 11, Column: 22 }
+  - OrigDirection:   write
+  - OrigID:          S4seq
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        wseq
+  - ArrayName:       S
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_11_1
+  - String:          ' '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:11:22'
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadStartIndexAlignment
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 15, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          Start index of the access is unaligned
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 15, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          random_increments5seq
+  - ArrayName:       random_increments
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_17_3
+  - String:          ' '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:17:26'
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_11_1
+  - String:          '> at '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:11:22'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_15_2
+  - String:          '> at '
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:15:22'
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 17, 
+                   Column: 26 }
+Function:        GBM
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_17_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 8, 
+                   Column: 0 }
+Function:        GBM
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_17_3
+  - String:          ''' ('
+  - LoopLoc:         'C:/Users/steve/thesis-monte-carlo/test.c:17:26'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          GBM
+  - String:          ''' completely with a factor of '
+  - Factor:          '49'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 8, 
+                   Column: 0 }
+Function:        GBM
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            S
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Failure
+Pass:            reflow-interface-check
+Name:            UnspportedNonScalarType
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 8, 
+                   Column: 0 }
+Function:        GBM
+Args:            
+  - String:          'Cannot apply interface mode '''
+  - String:          ap_none
+  - String:          ''' '
+  - String:          'on function argument '''
+  - Name:            random_increments
+  - String:          ''' since this interface mode only supports scalar types'
+...
+--- !Missed
+Pass:            reflow-supported-subset
+Name:            MismatchPortAndBurstAccessWidth
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 15, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 15, Column: 22 }
+  - OrigDirection:   read
+  - OrigID:          random_increments5seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      random_increments
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 11, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '25'
+  - String:          ' and bit width '
+  - Width:           '256'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - Function:        GBM
+    DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', 
+                       Line: 8, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: 'C:/Users/steve/thesis-monte-carlo/test.c', Line: 11, 
+                   Column: 22 }
+Function:        GBM
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of length '
+  - Length:          '25'
+  - String:          ' and bit width '
+  - Width:           '256'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

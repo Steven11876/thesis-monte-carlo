@@ -1,0 +1,7 @@
+Running: xsim.dir/GBM/xsimk.exe -simmode gui -wdb GBM.wdb -simrunnum 0 -socket 56370
+Design successfully loaded
+Design Loading Memory Usage: 55880 KB (Peak: 55880 KB)
+Design Loading CPU Usage: 999 ms
+Simulation completed
+Simulation Memory Usage: 64396 KB (Peak: 64396 KB)
+Simulation CPU Usage: 77952 ms

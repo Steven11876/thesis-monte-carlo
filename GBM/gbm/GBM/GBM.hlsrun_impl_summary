@@ -1,0 +1,268 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\GBM.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/09/25 03:55:00",
+ "timestampMillis": "1736412900712",
+ "buildStep": {
+  "cmdId": "5c1b7481-431f-4fbe-bf9d-5e65d9dd998c",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\logs\\GBM.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg --work_dir GBM ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg",
+   "--work_dir",
+   "GBM"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:55:00",
+ "timestampMillis": "1736412900712",
+ "status": {
+  "cmdId": "5c1b7481-431f-4fbe-bf9d-5e65d9dd998c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909845",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "GBM",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\steve\\thesis-monte-carlo\\test.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909848",
+ "buildStep": {
+  "cmdId": "7bb67795-5857-49e7-8c1e-d23a35d84787",
+  "name": "",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909849",
+ "status": {
+  "cmdId": "7bb67795-5857-49e7-8c1e-d23a35d84787",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909852",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909852",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909853",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909854",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909855",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:55:09",
+ "timestampMillis": "1736412909857",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 04:10:03",
+ "timestampMillis": "1736413803012",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 04:10:03",
+ "timestampMillis": "1736413803014",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 04:10:03",
+ "timestampMillis": "1736413803015",
+ "status": {
+  "cmdId": "7bb67795-5857-49e7-8c1e-d23a35d84787",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 04:10:03",
+ "timestampMillis": "1736413803241",
+ "status": {
+  "cmdId": "5c1b7481-431f-4fbe-bf9d-5e65d9dd998c",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 04:10:03",
+ "timestampMillis": "1736413803241",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 04:10:03",
+ "timestampMillis": "1736413803242",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

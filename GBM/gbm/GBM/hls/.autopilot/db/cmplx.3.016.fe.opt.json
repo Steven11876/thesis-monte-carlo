@@ -1,0 +1,14 @@
+{
+  "0": {
+    "basicblocks": 9,
+    "calls": "",
+    "file": "test.c",
+    "fileloc": 8,
+    "instructions": 866,
+    "loads": {
+      "T": 50
+    },
+    "name": "GBM",
+    "total_instructions": 866
+  }
+}

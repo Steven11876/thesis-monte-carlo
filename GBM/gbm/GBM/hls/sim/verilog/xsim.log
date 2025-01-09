@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jan  9 03:52:10 2025
+# Process ID         : 5820
+# Current directory  : C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/sim/verilog
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/GBM/xsim_script.tcl}
+# Log file           : C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/sim/verilog/xsim.log
+# Journal file       : C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/sim/verilog\xsim.jou
+# Running On         : Steven
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33775 MB
+# Swap memory        : 5368 MB
+# Total Virtual      : 39144 MB
+# Available Virtual  : 15109 MB
+#-----------------------------------------------------------
+source xsim.dir/GBM/xsim_script.tcl
+# xsim {GBM} -autoloadwcfg -tclbatch {GBM.tcl}
+Time resolution is 1 ps
+source GBM.tcl
+## run all
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_GBM_top/AESL_inst_GBM/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11/GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u/inst/i_synth/exp_op/i_sp_or_dp/OP/i_calculate_Xf/dsp/two/dsp48e1_add_hi/i_no_versal_es1_workaround/DSP/prcs_carryinsel_drc  File: C:/Xilinx/Vivado/2024.2/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_GBM_top/AESL_inst_GBM/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11/GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u/inst/i_synth/exp_op/i_sp_or_dp/OP/i_calculate_Xf/dsp/two/dsp48e1_add_hi/i_no_versal_es1_workaround/DSP/prcs_carryinsel_drc  File: C:/Xilinx/Vivado/2024.2/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_GBM_top/AESL_inst_GBM/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11/GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u/inst/i_synth/exp_op/i_sp_or_dp/OP/i_ccm_ln2/\g_tables(1)\/i_addsub/dsp/two/dsp48e1_add_hi/i_no_versal_es1_workaround/DSP/prcs_carryinsel_drc  File: C:/Xilinx/Vivado/2024.2/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_GBM_top/AESL_inst_GBM/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11/GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u/inst/i_synth/exp_op/i_sp_or_dp/OP/i_ccm_ln2/\g_tables(1)\/i_addsub/dsp/two/dsp48e1_add_hi/i_no_versal_es1_workaround/DSP/prcs_carryinsel_drc  File: C:/Xilinx/Vivado/2024.2/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : CARRYCASCIN can only be used in the current DSP48E1 instance if the previous DSP48E1  is performing a two input ADD or SUBTRACT operation, or the current DSP48E1 is configured in the MAC extend opmode(6:0) equals 1001000. 
+Time: 0 ps  Iteration: 2  Process: /apatb_GBM_top/AESL_inst_GBM/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11/GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u/inst/i_synth/exp_op/i_sp_or_dp/OP/i_ccm_ln2/\g_tables(0)\/i_addsub/dsp/two/dsp48e1_add_hi/i_no_versal_es1_workaround/DSP/prcs_carryinsel_drc  File: C:/Xilinx/Vivado/2024.2/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: DRC warning : DSP48E1 CARRYINSEL is set to 010 with OPMODEREG set to 0. This causes unknown values after reset occurs. It is suggested to use OPMODEREG = 1 when cascading large adders.
+Time: 0 ps  Iteration: 2  Process: /apatb_GBM_top/AESL_inst_GBM/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11/GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u/inst/i_synth/exp_op/i_sp_or_dp/OP/i_ccm_ln2/\g_tables(0)\/i_addsub/dsp/two/dsp48e1_add_hi/i_no_versal_es1_workaround/DSP/prcs_carryinsel_drc  File: C:/Xilinx/Vivado/2024.2/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "140000"
+// RTL Simulation : 1 / 1 [100.00%] @ "400068000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 400116 ns : File "C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/sim/verilog/GBM.autotb.v" Line 450
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:23 . Memory (MB): peak = 197.078 ; gain = 0.000
+## quit
+INFO: xsimkernel Simulation Memory Usage: 64396 KB (Peak: 64396 KB), Simulation CPU Usage: 77952 ms
+INFO: [Common 17-206] Exiting xsim at Thu Jan  9 03:53:39 2025...

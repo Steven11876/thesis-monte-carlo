@@ -1,0 +1,100 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Jan  9 04:07:18 2025
+| Host         : Steven running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 6 -file ./report/GBM_utilization_hierarchical_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xc7s15cpga196-2
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------------------------------------+------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+|                          Instance                         |                           Module                           | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs  | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------------------------------------------+------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+| bd_0_wrapper                                              |                                                      (top) |      30639 |      29356 |       0 | 1283 | 34041 |      8 |      0 |         71 |
+|   bd_0_i                                                  |                                                       bd_0 |      30639 |      29356 |       0 | 1283 | 34041 |      8 |      0 |         71 |
+|     hls_inst                                              |                                            bd_0_hls_inst_0 |      30639 |      29356 |       0 | 1283 | 34041 |      8 |      0 |         71 |
+|       (hls_inst)                                          |                                            bd_0_hls_inst_0 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |          0 |
+|       inst                                                |                                        bd_0_hls_inst_0_GBM |      30639 |      29356 |       0 | 1283 | 34041 |      8 |      0 |         71 |
+|         (inst)                                            |                                        bd_0_hls_inst_0_GBM |         13 |         12 |       0 |    1 |   740 |      0 |      0 |          0 |
+|         control_s_axi_U                                   |                          bd_0_hls_inst_0_GBM_control_s_axi |        402 |        402 |       0 |    0 |   440 |      0 |      0 |          0 |
+|         dadddsub_64ns_64ns_64_6_full_dsp_1_U21            |     bd_0_hls_inst_0_GBM_dadddsub_64ns_64ns_64_6_full_dsp_1 |        717 |        717 |       0 |    0 |   525 |      0 |      0 |          3 |
+|           (dadddsub_64ns_64ns_64_6_full_dsp_1_U21)        |     bd_0_hls_inst_0_GBM_dadddsub_64ns_64ns_64_6_full_dsp_1 |         65 |         65 |       0 |    0 |   194 |      0 |      0 |          0 |
+|           GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u     |  bd_0_hls_inst_0_GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip |        652 |        652 |       0 |    0 |   331 |      0 |      0 |          3 |
+|             (GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u) |  bd_0_hls_inst_0_GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip |          0 |          0 |       0 |    0 |     0 |      0 |      0 |          0 |
+|             inst                                          |     bd_0_hls_inst_0_floating_point_v7_1_19__parameterized2 |        652 |        652 |       0 |    0 |   331 |      0 |      0 |          3 |
+|         ddiv_64ns_64ns_64_31_no_dsp_1_U23                 |          bd_0_hls_inst_0_GBM_ddiv_64ns_64ns_64_31_no_dsp_1 |       3172 |       3105 |       0 |   67 |  1779 |      0 |      0 |          0 |
+|           (ddiv_64ns_64ns_64_31_no_dsp_1_U23)             |          bd_0_hls_inst_0_GBM_ddiv_64ns_64ns_64_31_no_dsp_1 |         32 |         32 |       0 |    0 |   129 |      0 |      0 |          0 |
+|           GBM_ddiv_64ns_64ns_64_31_no_dsp_1_ip_u          |       bd_0_hls_inst_0_GBM_ddiv_64ns_64ns_64_31_no_dsp_1_ip |       3140 |       3073 |       0 |   67 |  1650 |      0 |      0 |          0 |
+|             (GBM_ddiv_64ns_64ns_64_31_no_dsp_1_ip_u)      |       bd_0_hls_inst_0_GBM_ddiv_64ns_64ns_64_31_no_dsp_1_ip |          0 |          0 |       0 |    0 |     0 |      0 |      0 |          0 |
+|             inst                                          |     bd_0_hls_inst_0_floating_point_v7_1_19__parameterized3 |       3140 |       3073 |       0 |   67 |  1650 |      0 |      0 |          0 |
+|         dmul_64ns_64ns_64_6_max_dsp_1_U22                 |          bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1 |        209 |        198 |       0 |   11 |   328 |      0 |      0 |         11 |
+|           (dmul_64ns_64ns_64_6_max_dsp_1_U22)             |          bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1 |        100 |        100 |       0 |    0 |   193 |      0 |      0 |          0 |
+|           GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_u          |   bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_420 |        109 |         98 |       0 |   11 |   135 |      0 |      0 |         11 |
+|             (GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_u)      |   bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_420 |          0 |          0 |       0 |    0 |     0 |      0 |      0 |          0 |
+|             inst                                          |     bd_0_hls_inst_0_floating_point_v7_1_19__parameterized0 |        109 |         98 |       0 |   11 |   135 |      0 |      0 |         11 |
+|         dsqrt_64ns_64ns_64_57_no_dsp_1_U24                |         bd_0_hls_inst_0_GBM_dsqrt_64ns_64ns_64_57_no_dsp_1 |       1774 |       1698 |       0 |   76 |  3407 |      0 |      0 |          0 |
+|           (dsqrt_64ns_64ns_64_57_no_dsp_1_U24)            |         bd_0_hls_inst_0_GBM_dsqrt_64ns_64ns_64_57_no_dsp_1 |         40 |         40 |       0 |    0 |   129 |      0 |      0 |          0 |
+|           GBM_dsqrt_64ns_64ns_64_57_no_dsp_1_ip_u         |      bd_0_hls_inst_0_GBM_dsqrt_64ns_64ns_64_57_no_dsp_1_ip |       1734 |       1658 |       0 |   76 |  3278 |      0 |      0 |          0 |
+|             (GBM_dsqrt_64ns_64ns_64_57_no_dsp_1_ip_u)     |      bd_0_hls_inst_0_GBM_dsqrt_64ns_64ns_64_57_no_dsp_1_ip |          0 |          0 |       0 |    0 |     0 |      0 |      0 |          0 |
+|             inst                                          |     bd_0_hls_inst_0_floating_point_v7_1_19__parameterized4 |       1734 |       1658 |       0 |   76 |  3278 |      0 |      0 |          0 |
+|         gmem_m_axi_U                                      |                             bd_0_hls_inst_0_GBM_gmem_m_axi |       2462 |       1558 |       0 |  904 |  2567 |      8 |      0 |          0 |
+|           bus_read                                        |                        bd_0_hls_inst_0_GBM_gmem_m_axi_read |        583 |        583 |       0 |    0 |  1036 |      0 |      0 |          0 |
+|             fifo_burst                                    |    bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized1_339 |         16 |         16 |       0 |    0 |    13 |      0 |      0 |          0 |
+|             fifo_rctl                                     |    bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized1_340 |          9 |          9 |       0 |    0 |     8 |      0 |      0 |          0 |
+|             rreq_burst_conv                               |         bd_0_hls_inst_0_GBM_gmem_m_axi_burst_converter_341 |        289 |        289 |       0 |    0 |   491 |      0 |      0 |          0 |
+|             rs_rdata                                      |   bd_0_hls_inst_0_GBM_gmem_m_axi_reg_slice__parameterized2 |        269 |        269 |       0 |    0 |   524 |      0 |      0 |          0 |
+|           bus_write                                       |                       bd_0_hls_inst_0_GBM_gmem_m_axi_write |        810 |        453 |       0 |  357 |  1050 |      0 |      0 |          0 |
+|             (bus_write)                                   |                       bd_0_hls_inst_0_GBM_gmem_m_axi_write |          6 |          6 |       0 |    0 |    10 |      0 |      0 |          0 |
+|             fifo_burst                                    |        bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized4 |         25 |         21 |       0 |    4 |    16 |      0 |      0 |          0 |
+|             fifo_resp                                     |    bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized1_337 |         17 |         16 |       0 |    1 |    13 |      0 |      0 |          0 |
+|             rs_resp                                       |   bd_0_hls_inst_0_GBM_gmem_m_axi_reg_slice__parameterized1 |          4 |          4 |       0 |    0 |     5 |      0 |      0 |          0 |
+|             wreq_burst_conv                               |             bd_0_hls_inst_0_GBM_gmem_m_axi_burst_converter |        290 |        290 |       0 |    0 |   491 |      0 |      0 |          0 |
+|             wreq_throttle                                 |                    bd_0_hls_inst_0_GBM_gmem_m_axi_throttle |        468 |        116 |       0 |  352 |   515 |      0 |      0 |          0 |
+|           load_unit_0                                     |                        bd_0_hls_inst_0_GBM_gmem_m_axi_load |        521 |        248 |       0 |  273 |   237 |      4 |      0 |          0 |
+|             (load_unit_0)                                 |                        bd_0_hls_inst_0_GBM_gmem_m_axi_load |          1 |          1 |       0 |    0 |    88 |      0 |      0 |          0 |
+|             buff_rdata                                    |        bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized3 |         60 |         60 |       0 |    0 |    36 |      4 |      0 |          0 |
+|             fifo_rreq                                     |                    bd_0_hls_inst_0_GBM_gmem_m_axi_fifo_335 |        460 |        187 |       0 |  273 |   113 |      0 |      0 |          0 |
+|           store_unit_0                                    |                       bd_0_hls_inst_0_GBM_gmem_m_axi_store |        548 |        274 |       0 |  274 |   244 |      4 |      0 |          0 |
+|             (store_unit_0)                                |                       bd_0_hls_inst_0_GBM_gmem_m_axi_store |          1 |          1 |       0 |    0 |    87 |      0 |      0 |          0 |
+|             buff_wdata                                    |        bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized0 |         19 |         19 |       0 |    0 |    20 |      4 |      0 |          0 |
+|             fifo_wreq                                     |                        bd_0_hls_inst_0_GBM_gmem_m_axi_fifo |        489 |        216 |       0 |  273 |   113 |      0 |      0 |          0 |
+|             fifo_wrsp                                     |        bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized1 |         19 |         18 |       0 |    1 |    13 |      0 |      0 |          0 |
+|             user_resp                                     |        bd_0_hls_inst_0_GBM_gmem_m_axi_fifo__parameterized2 |         20 |         20 |       0 |    0 |    11 |      0 |      0 |          0 |
+|         grp_GBM_Pipeline_VITIS_LOOP_11_1_fu_132           |           bd_0_hls_inst_0_GBM_GBM_Pipeline_VITIS_LOOP_11_1 |         23 |         23 |       0 |    0 |   203 |      0 |      0 |          0 |
+|           (grp_GBM_Pipeline_VITIS_LOOP_11_1_fu_132)       |           bd_0_hls_inst_0_GBM_GBM_Pipeline_VITIS_LOOP_11_1 |          2 |          2 |       0 |    0 |   201 |      0 |      0 |          0 |
+|           flow_control_loop_pipe_sequential_init_U        | bd_0_hls_inst_0_GBM_flow_control_loop_pipe_sequential_init |         21 |         21 |       0 |    0 |     2 |      0 |      0 |          0 |
+|         grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140           |           bd_0_hls_inst_0_GBM_GBM_Pipeline_VITIS_LOOP_15_2 |      21867 |      21643 |       0 |  224 | 24052 |      0 |      0 |         57 |
+|           (grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140)       |           bd_0_hls_inst_0_GBM_GBM_Pipeline_VITIS_LOOP_15_2 |      15835 |      15829 |       0 |    6 | 21073 |      0 |      0 |          0 |
+|           dadd_64ns_64ns_64_6_full_dsp_1_U5               |         bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1 |        648 |        648 |       0 |    0 |   395 |      0 |      0 |          3 |
+|             (dadd_64ns_64ns_64_6_full_dsp_1_U5)           |         bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1 |          0 |          0 |       0 |    0 |    64 |      0 |      0 |          0 |
+|             GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u       |  bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_241 |        648 |        648 |       0 |    0 |   331 |      0 |      0 |          3 |
+|           dadd_64ns_64ns_64_6_full_dsp_1_U6               |       bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_0 |        648 |        648 |       0 |    0 |   395 |      0 |      0 |          3 |
+|             (dadd_64ns_64ns_64_6_full_dsp_1_U6)           |       bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_0 |          0 |          0 |       0 |    0 |    64 |      0 |      0 |          0 |
+|             GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u       |  bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_147 |        648 |        648 |       0 |    0 |   331 |      0 |      0 |          3 |
+|           dadd_64ns_64ns_64_6_full_dsp_1_U7               |       bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_1 |        648 |        648 |       0 |    0 |   459 |      0 |      0 |          3 |
+|             (dadd_64ns_64ns_64_6_full_dsp_1_U7)           |       bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_1 |          0 |          0 |       0 |    0 |   128 |      0 |      0 |          0 |
+|             GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u       |      bd_0_hls_inst_0_GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip |        648 |        648 |       0 |    0 |   331 |      0 |      0 |          3 |
+|           dexp_64ns_64ns_64_18_full_dsp_1_U11             |        bd_0_hls_inst_0_GBM_dexp_64ns_64ns_64_18_full_dsp_1 |       2244 |       2048 |       0 |  196 |  1074 |      0 |      0 |         26 |
+|             (dexp_64ns_64ns_64_18_full_dsp_1_U11)         |        bd_0_hls_inst_0_GBM_dexp_64ns_64ns_64_18_full_dsp_1 |        236 |        236 |       0 |    0 |   128 |      0 |      0 |          0 |
+|             GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip_u      |     bd_0_hls_inst_0_GBM_dexp_64ns_64ns_64_18_full_dsp_1_ip |       2008 |       1812 |       0 |  196 |   946 |      0 |      0 |         26 |
+|           dmul_64ns_64ns_64_6_max_dsp_1_U10               |        bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_2 |       1408 |       1397 |       0 |   11 |   328 |      0 |      0 |         11 |
+|             (dmul_64ns_64ns_64_6_max_dsp_1_U10)           |        bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_2 |       1299 |       1299 |       0 |    0 |   193 |      0 |      0 |          0 |
+|             GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_u        |    bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_16 |        109 |         98 |       0 |   11 |   135 |      0 |      0 |         11 |
+|           dmul_64ns_64ns_64_6_max_dsp_1_U9                |        bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_3 |        436 |        425 |       0 |   11 |   328 |      0 |      0 |         11 |
+|             (dmul_64ns_64ns_64_6_max_dsp_1_U9)            |        bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_3 |        327 |        327 |       0 |    0 |   193 |      0 |      0 |          0 |
+|             GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip_u        |       bd_0_hls_inst_0_GBM_dmul_64ns_64ns_64_6_max_dsp_1_ip |        109 |         98 |       0 |   11 |   135 |      0 |      0 |         11 |
++-----------------------------------------------------------+------------------------------------------------------------+------------+------------+---------+------+-------+--------+--------+------------+
+
+

@@ -1,0 +1,226 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\GBM.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/09/25 03:50:05",
+ "timestampMillis": "1736412605499",
+ "buildStep": {
+  "cmdId": "fbc4bfca-9cda-4394-ac6b-c396de64a183",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\logs\\GBM.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg --work_dir GBM ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg",
+   "--work_dir",
+   "GBM"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:50:05",
+ "timestampMillis": "1736412605500",
+ "status": {
+  "cmdId": "fbc4bfca-9cda-4394-ac6b-c396de64a183",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614422",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "GBM",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\steve\\thesis-monte-carlo\\test.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614424",
+ "buildStep": {
+  "cmdId": "542b1bf5-2608-4b8c-a191-00e4074dbf89",
+  "name": "",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614425",
+ "status": {
+  "cmdId": "542b1bf5-2608-4b8c-a191-00e4074dbf89",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614425",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\sim\\report\\GBM_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614426",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614427",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614428",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:50:14",
+ "timestampMillis": "1736412614428",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:53:42",
+ "timestampMillis": "1736412822577",
+ "status": {
+  "cmdId": "542b1bf5-2608-4b8c-a191-00e4074dbf89",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 03:53:42",
+ "timestampMillis": "1736412822776",
+ "status": {
+  "cmdId": "fbc4bfca-9cda-4394-ac6b-c396de64a183",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:53:42",
+ "timestampMillis": "1736412822776",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 03:53:42",
+ "timestampMillis": "1736412822777",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

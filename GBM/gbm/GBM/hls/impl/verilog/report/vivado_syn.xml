@@ -1,0 +1,188 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>8.000</TargetClockPeriod>
+  <AchievedClockPeriod>7.194</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>7.194</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>7.194</CP_SYNTH>
+  <CP_TARGET>8.000</CP_TARGET>
+  <SLACK_FINAL>0.806</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>0.806</SLACK_SYNTH>
+  <TIMING_MET>TRUE</TIMING_MET>
+  <TNS_FINAL>0.000</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>0.000</TNS_SYNTH>
+  <WNS_FINAL>0.806</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>0.806</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>16</BRAM>
+    <CLB>0</CLB>
+    <DSP>71</DSP>
+    <FF>34041</FF>
+    <LATCH>0</LATCH>
+    <LUT>30639</LUT>
+    <SRL>1283</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>20</BRAM>
+    <CLB>0</CLB>
+    <DSP>20</DSP>
+    <FF>16000</FF>
+    <LUT>8000</LUT>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="GBM" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="8">control_s_axi_U dadddsub_64ns_64ns_64_6_full_dsp_1_U21 ddiv_64ns_64ns_64_31_no_dsp_1_U23 dmul_64ns_64ns_64_6_max_dsp_1_U22 dsqrt_64ns_64ns_64_57_no_dsp_1_U24 gmem_m_axi_U grp_GBM_Pipeline_VITIS_LOOP_11_1_fu_132 grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140</SubModules>
+    <Resources BRAM="16" DSP="71" FF="34041" LUT="30639" LogicLUT="29356" RAMB36="8" SRL="1283"/>
+    <LocalResources FF="740" LUT="13" LogicLUT="12" SRL="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_control_s_axi">
+    <Resources FF="440" LUT="402" LogicLUT="402"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_dadddsub_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="525" LUT="717" LogicLUT="717"/>
+    <LocalResources FF="194" LUT="65" LogicLUT="65"/>
+  </RtlModule>
+  <RtlModule CELL="inst/ddiv_64ns_64ns_64_31_no_dsp_1_U23" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_ddiv_64ns_64ns_64_31_no_dsp_1">
+    <Resources FF="1779" LUT="3172" LogicLUT="3105" SRL="67"/>
+    <LocalResources FF="129" LUT="32" LogicLUT="32"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dmul_64ns_64ns_64_6_max_dsp_1_U22" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="328" LUT="209" LogicLUT="198" SRL="11"/>
+    <LocalResources FF="193" LUT="100" LogicLUT="100"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dsqrt_64ns_64ns_64_57_no_dsp_1_U24" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_dsqrt_64ns_64ns_64_57_no_dsp_1">
+    <Resources FF="3407" LUT="1774" LogicLUT="1698" SRL="76"/>
+    <LocalResources FF="129" LUT="40" LogicLUT="40"/>
+  </RtlModule>
+  <RtlModule CELL="inst/gmem_m_axi_U" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_gmem_m_axi">
+    <Resources BRAM="16" FF="2567" LUT="2462" LogicLUT="1558" RAMB36="8" SRL="904"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_11_1_fu_132" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_GBM_Pipeline_VITIS_LOOP_11_1">
+    <SubModules count="1">flow_control_loop_pipe_sequential_init_U</SubModules>
+    <Resources FF="203" LUT="23" LogicLUT="23"/>
+    <LocalResources FF="201" LUT="2" LogicLUT="2"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_11_1_fu_132/flow_control_loop_pipe_sequential_init_U" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_11_1.v" ORIG_REF_NAME="GBM_flow_control_loop_pipe_sequential_init">
+    <Resources FF="2" LUT="21" LogicLUT="21"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140" DEPTH="1" FILE_NAME="GBM.v" ORIG_REF_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2">
+    <SubModules count="6">dadd_64ns_64ns_64_6_full_dsp_1_U5 dadd_64ns_64ns_64_6_full_dsp_1_U6 dadd_64ns_64ns_64_6_full_dsp_1_U7 dexp_64ns_64ns_64_18_full_dsp_1_U11 dmul_64ns_64ns_64_6_max_dsp_1_U10 dmul_64ns_64ns_64_6_max_dsp_1_U9</SubModules>
+    <Resources DSP="57" FF="24052" LUT="21867" LogicLUT="21643" SRL="224"/>
+    <LocalResources FF="21073" LUT="15835" LogicLUT="15829" SRL="6"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2.v" ORIG_REF_NAME="GBM_dadd_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="395" LUT="648" LogicLUT="648"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2.v" ORIG_REF_NAME="GBM_dadd_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="395" LUT="648" LogicLUT="648"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2.v" ORIG_REF_NAME="GBM_dadd_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="459" LUT="648" LogicLUT="648"/>
+    <LocalResources FF="128"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dexp_64ns_64ns_64_18_full_dsp_1_U11" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2.v" ORIG_REF_NAME="GBM_dexp_64ns_64ns_64_18_full_dsp_1">
+    <Resources DSP="26" FF="1074" LUT="2244" LogicLUT="2048" SRL="196"/>
+    <LocalResources FF="128" LUT="236" LogicLUT="236"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dmul_64ns_64ns_64_6_max_dsp_1_U10" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2.v" ORIG_REF_NAME="GBM_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="328" LUT="1408" LogicLUT="1397" SRL="11"/>
+    <LocalResources FF="193" LUT="1299" LogicLUT="1299"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dmul_64ns_64ns_64_6_max_dsp_1_U9" DEPTH="2" FILE_NAME="GBM_GBM_Pipeline_VITIS_LOOP_15_2.v" ORIG_REF_NAME="GBM_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="328" LUT="436" LogicLUT="425" SRL="11"/>
+    <LocalResources FF="193" LUT="327" LogicLUT="327"/>
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="6.017" DATAPATH_LOGIC_DELAY="2.135" DATAPATH_NET_DELAY="3.882" ENDPOINT_PIN="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP/CARRYIN" LOGIC_LEVELS="10" MAX_FANOUT="107" SLACK="0.806" STARTPOINT_PIN="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[0].C_MUX.CARRY_MUX_i_2__0" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_3" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_1__0" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[0].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[4].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_5" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_1" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1" PRIMITIVE_TYPE="MUXFX.others.MUXF7" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX2" PRIMITIVE_TYPE="MUXFX.others.MUXF8" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/SUB_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_1" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.017" DATAPATH_LOGIC_DELAY="2.135" DATAPATH_NET_DELAY="3.882" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP/CARRYIN" LOGIC_LEVELS="10" MAX_FANOUT="107" SLACK="0.806" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[0].C_MUX.CARRY_MUX_i_2__0" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_3" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_1__0" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[0].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[4].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_5" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_1" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1" PRIMITIVE_TYPE="MUXFX.others.MUXF7" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX2" PRIMITIVE_TYPE="MUXFX.others.MUXF8" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/SUB_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_1" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U5/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.017" DATAPATH_LOGIC_DELAY="2.135" DATAPATH_NET_DELAY="3.882" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP/CARRYIN" LOGIC_LEVELS="10" MAX_FANOUT="107" SLACK="0.806" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[0].C_MUX.CARRY_MUX_i_2__0" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_3" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_1__0" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[0].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[4].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_5" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_1" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1" PRIMITIVE_TYPE="MUXFX.others.MUXF7" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX2" PRIMITIVE_TYPE="MUXFX.others.MUXF8" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/SUB_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_1" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U6/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="6.017" DATAPATH_LOGIC_DELAY="2.135" DATAPATH_NET_DELAY="3.882" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP/CARRYIN" LOGIC_LEVELS="10" MAX_FANOUT="107" SLACK="0.806" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[15].CARRYS_DEL.NEED_DEL.CARRYS_FD" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/NUMB_CMP/FAST_CMP.CMP_BOT/C_CHAIN/CHAIN_GEN[0].C_MUX.CARRY_MUX_i_2__0" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_3" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/A_IP_DELAY/i_pipe/CHAIN_GEN[1].C_MUX.CARRY_MUX_i_1__0" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[0].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/EQ_ZERO/CARRY_ZERO_DET/CHAIN_GEN[4].C_MUX.CARRY_MUX_CARRY4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_5" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1_i_1" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX1" PRIMITIVE_TYPE="MUXFX.others.MUXF7" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX2" PRIMITIVE_TYPE="MUXFX.others.MUXF8" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/SUB_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_1" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140/dadd_64ns_64ns_64_6_full_dsp_1_U7/GBM_dadd_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="5.216" DATAPATH_LOGIC_DELAY="1.676" DATAPATH_NET_DELAY="3.540" ENDPOINT_PIN="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP/OPMODE[0]" LOGIC_LEVELS="5" MAX_FANOUT="71" SLACK="0.860" STARTPOINT_PIN="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="xbip_pipe_v3_0_vh_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/MUX_LOOP[2].OTHER_LEVELS.DO_CHUNKS[0].LUT6_STRUCT_MUX.MUX0_i_4" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_121" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_111" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_84" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/EXP/BMA_EXP_DELAY/i_pipe/i_no_versal_es1_workaround.DSP_i_53" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U21/GBM_dadddsub_64ns_64ns_64_6_full_dsp_1_ip_u/inst/i_synth/ADDSUB_OP.ADDSUB/LOGIC_SPEED.OP/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.FRAC_ADDSUB/i_no_versal_es1_workaround.DSP48E1_ADD.DSP48E1_ADD/i_no_versal_es1_workaround.DSP" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="floating_point_v7_1_rfs.vhd" LINE_NUMBER="1"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/GBM_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/GBM_failfast_synth.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/GBM_power_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/GBM_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/GBM_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/GBM_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/GBM_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>
