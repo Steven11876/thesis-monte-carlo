@@ -1,8 +1,8 @@
- 
 #include <math.h>    // For sqrt
+#include "test.h"
 
-#define STEPS 100
-#define STOCKS 200
+// #define STEPS 100
+// #define STOCKS 200
 
 void
 GBM(double S[STOCKS], double S0, double r, double sigma, double T, double random_increments[STOCKS * (STEPS-1)] ) {

@@ -3,8 +3,8 @@
 #include <math.h>    // For sqrt
 #include <stdio.h>   // For printf
 
-#define STEPS 100
-#define STOCKS 200
+#define STEPS 50
+#define STOCKS 100
 
 void
 GBM(double S[STOCKS], double S0, double r, double sigma, double T, double random_increments[STOCKS * (STEPS-1)] ) {

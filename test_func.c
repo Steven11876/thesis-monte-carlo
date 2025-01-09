@@ -1,10 +1,10 @@
 #include <assert.h>
 #include <stdlib.h>  // For malloc and free, rand
 #include <stdio.h>   // For printf
-#include "test.c"
+#include "test.h"
 
-#define STEPS 100
-#define STOCKS 200
+// #define STEPS 100
+// #define STOCKS 200
 
 
 int 
