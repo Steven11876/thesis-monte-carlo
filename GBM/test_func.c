@@ -6,7 +6,6 @@
 // #define STEPS 100
 // #define STOCKS 200
 
-
 int 
 main() {
     FILE *fp; 
