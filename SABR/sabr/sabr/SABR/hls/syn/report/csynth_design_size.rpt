@@ -1,0 +1,73 @@
+================================================================
+== Design Size Report
+================================================================
+
+* Total Instructions per Compilation Phase
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Phase         | Step                        | Instructions | Description                                                                            |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+| Compile/Link  |                             | 26,919       | After all functions are compiled and linked into a single design                       |
+|               |                             |              |                                                                                        |
+| Unroll/Inline |                             |              | After user unroll and inline pragmas are applied                                       |
+|               | (1) unroll                  |  2,423       | user unroll pragmas are applied                                                        |
+|               | (2) simplification          |    985       | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                  |    995       | user inline pragmas are applied                                                        |
+|               | (4) simplification          |    766       | simplification of applied user inline pragmas                                          |
+|               |                             |              |                                                                                        |
+| Array/Struct  |                             |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
+|               | (1) array partition         |    767       | user array partition pragmas are applied                                               |
+|               | (2) simplification          |    767       | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate  |    767       | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape           |    767       | apply array reshape pragmas                                                            |
+|               | (5) access patterns         |    797       | array access pattern optmizations                                                      |
+|               |                             |              |                                                                                        |
+| Performance   |                             |              | After transformations are applied to meet performance pragma targets                   |
+|               | (1) loop simplification     |    754       | loop and instruction simplification                                                    |
+|               | (2) parallelization         | 32,231       | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition         | 32,231       | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification          | 32,229       | simplification of design after performance transformations                             |
+|               |                             |              |                                                                                        |
+| HW Transforms |                             |              | After hardware transfomations                                                          |
+|               | (1) lowering                | 32,699       | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations           | 32,465       | high level synthesis optimizations                                                     |
++---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
+
+* Instructions per Function for each Compilation Phase
++---------------------------------------+-------------------+-----------------+---------------+---------------+-------------------+-------------------+
+| Function                              | Location          | Compile/Link    | Unroll/Inline | Array/Struct  | Performance       | HW Transforms     |
++---------------------------------------+-------------------+-----------------+---------------+---------------+-------------------+-------------------+
+| + SABR                                | test.c:10         | 26,919          | 766           | 797           | 32,229            | 32,465            |
+|  + pow                                | powdouble.cpp:6   | 26,829          |               |               |                   |                   |
+|   + pow_generic<double>               | hls_pow.h:291     | 26,827          |               |               |                   |                   |
+|      fp_struct                        | x_hls_utils.h:456 |   638 (2 calls) |               |               |                   |                   |
+|      fp_struct                        | x_hls_utils.h:454 |     4           |               |               |                   |                   |
+|      expv                             | x_hls_utils.h:485 |   218 (2 calls) |               |               |                   |                   |
+|    + generic_isinf<double>            | hls_isinf.h:16    |   778 (2 calls) |               |               |                   |                   |
+|       fp_struct                       | x_hls_utils.h:456 |   638 (2 calls) |               |               |                   |                   |
+|    + generic_isnan<double>            | hls_isnan.h:16    |   780 (2 calls) |               |               |                   |                   |
+|       fp_struct                       | x_hls_utils.h:456 |   638 (2 calls) |               |               |                   |                   |
+|    + to_ieee                          | x_hls_utils.h:509 | 2,727 (9 calls) |               |               |                   |                   |
+|     + to_double                       | x_hls_utils.h:494 | 2,709 (9 calls) |               |               |                   |                   |
+|        data                           | x_hls_utils.h:475 | 2,511 (9 calls) |               |               |                   |                   |
+|    + log_range_reduction<71>          | hls_pow.h:186     | 10,185          |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,256           |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,228           |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,233           |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,237           |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,237           |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,237           |               |               |                   |                   |
+|       log_range_reduce<ap_fixed<12... | hls_pow.h:30      | 1,237           |               |               |                   |                   |
+|      exp_Z1P_m_1                      | hls_pow.h:224     | 2,725           |               |               |                   |                   |
+|  + pow_generic<double>                | hls_pow.h:291     |                 | 680           | 678           | 31,066 (49 calls) | 30,821 (49 calls) |
+|     to_ieee                           | x_hls_utils.h:509 |                 |  81 (9 calls) |  81 (9 calls) | 2,646 (441 calls) | 2,646 (441 calls) |
+|     log_range_reduction<71>           | hls_pow.h:186     |                 | 224           | 224           | 10,976 (49 calls) | 10,976 (49 calls) |
++---------------------------------------+-------------------+-----------------+---------------+---------------+-------------------+-------------------+
+
+* Design Size Message Settings
++---------------------------------------------+--------+------------------------------------------------------------------+
+| Message Setting                             | Value  | Description                                                      |
++---------------------------------------------+--------+------------------------------------------------------------------+
+| config_compile -design_size_maximum_warning | 100000 | Show a warning when total design instructions exceeds this value |
++---------------------------------------------+--------+------------------------------------------------------------------+
+
+

@@ -1,0 +1,61 @@
+{
+  "0": {
+    "basicblocks": 7,
+    "calls": "1",
+    "file": "test.c",
+    "fileloc": 10,
+    "instructions": 86,
+    "loads": {
+      "T": 4
+    },
+    "name": "SABR",
+    "stores": {
+      "T": 4
+    },
+    "total_instructions": 766
+  },
+  "1": {
+    "basicblocks": 31,
+    "calls": "2 2 2 2 2 3 2 2 2 2",
+    "file": "hls_pow.h",
+    "fileloc": 291,
+    "instructions": 375,
+    "loads": {
+      "G": 6,
+      "L": 2
+    },
+    "name": "pow_generic<double>",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 680
+  },
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 509,
+    "instructions": 9,
+    "loads": {
+      "L": 3
+    },
+    "name": "to_ieee",
+    "total_instructions": 9
+  },
+  "3": {
+    "basicblocks": 15,
+    "calls": "",
+    "file": "hls_pow.h",
+    "fileloc": 186,
+    "instructions": 224,
+    "loads": {
+      "G": 7,
+      "L": 1
+    },
+    "name": "log_range_reduction<71>",
+    "stores": {
+      "L": 15
+    },
+    "total_instructions": 224
+  }
+}

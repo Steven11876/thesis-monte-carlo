@@ -1,0 +1,15 @@
+C:\Users\steve\thesis-monte-carlo\SABR\sabr\sabr\SABR\hls\.autopilot\db\test.pp.0.c:1863:5: warning: Added loop label VITIS_LOOP_12_1:   [xilinx-label-all-loops]
+    for (int m = 0; m < 100; m++) {
+    ^~~
+    VITIS_LOOP_12_1: 
+C:\Users\steve\thesis-monte-carlo\SABR\sabr\sabr\SABR\hls\.autopilot\db\test.pp.0.c:1863:5: note: FIX-IT applied suggested code changes
+C:\Users\steve\thesis-monte-carlo\SABR\sabr\sabr\SABR\hls\.autopilot\db\test.pp.0.c:1868:5: warning: Added loop label VITIS_LOOP_17_2:   [xilinx-label-all-loops]
+    for (int m = 0; m < 100; m++) {
+    ^~~
+    VITIS_LOOP_17_2: 
+C:\Users\steve\thesis-monte-carlo\SABR\sabr\sabr\SABR\hls\.autopilot\db\test.pp.0.c:1868:5: note: FIX-IT applied suggested code changes
+C:\Users\steve\thesis-monte-carlo\SABR\sabr\sabr\SABR\hls\.autopilot\db\test.pp.0.c:1870:9: warning: Added loop label VITIS_LOOP_19_3:   [xilinx-label-all-loops]
+        for (int j = 0; j < (50 -1); j++) {
+        ^~~
+        VITIS_LOOP_19_3: 
+C:\Users\steve\thesis-monte-carlo\SABR\sabr\sabr\SABR\hls\.autopilot\db\test.pp.0.c:1870:9: note: FIX-IT applied suggested code changes

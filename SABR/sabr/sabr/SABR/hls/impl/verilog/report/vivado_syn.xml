@@ -1,0 +1,447 @@
+<profile>
+<RunData>
+  <RUN_TYPE>synth</RUN_TYPE>
+  <VIVADO_VERSION>v.2024.2</VIVADO_VERSION>
+  <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
+</RunData>
+<TimingReport>
+  <TargetClockPeriod>8.000</TargetClockPeriod>
+  <AchievedClockPeriod>11.532</AchievedClockPeriod>
+  <CLOCK_NAME>ap_clk</CLOCK_NAME>
+  <CP_FINAL>11.532</CP_FINAL>
+  <CP_ROUTE>NA</CP_ROUTE>
+  <CP_SYNTH>11.532</CP_SYNTH>
+  <CP_TARGET>8.000</CP_TARGET>
+  <SLACK_FINAL>-3.532</SLACK_FINAL>
+  <SLACK_ROUTE></SLACK_ROUTE>
+  <SLACK_SYNTH>-3.532</SLACK_SYNTH>
+  <TIMING_MET>FALSE</TIMING_MET>
+  <TNS_FINAL>-852.460</TNS_FINAL>
+  <TNS_ROUTE>NA</TNS_ROUTE>
+  <TNS_SYNTH>-852.460</TNS_SYNTH>
+  <WNS_FINAL>-3.532</WNS_FINAL>
+  <WNS_ROUTE>NA</WNS_ROUTE>
+  <WNS_SYNTH>-3.532</WNS_SYNTH>
+</TimingReport>
+<AreaReport>
+  <Resources>
+    <BRAM>20</BRAM>
+    <CLB>0</CLB>
+    <DSP>79</DSP>
+    <FF>55724</FF>
+    <LATCH>0</LATCH>
+    <LUT>72696</LUT>
+    <SRL>2578</SRL>
+    <URAM>0</URAM>
+  </Resources>
+  <AvailableResources>
+    <BRAM>20</BRAM>
+    <CLB>0</CLB>
+    <DSP>20</DSP>
+    <FF>16000</FF>
+    <LUT>8000</LUT>
+    <URAM>0</URAM>
+  </AvailableResources>
+</AreaReport>
+<RtlModules>
+  <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="SABR" TOP_CELL="bd_0_i/hls_inst/inst">
+    <SubModules count="10">control_s_axi_U dadddsub_64ns_64ns_64_6_full_dsp_1_U81 ddiv_64ns_64ns_64_31_no_dsp_1_U84 dmul_64ns_64ns_64_6_max_dsp_1_U82 dmul_64ns_64ns_64_6_max_dsp_1_U83 dsqrt_64ns_64ns_64_57_no_dsp_1_U85 dsqrt_64ns_64ns_64_57_no_dsp_1_U86 gmem_m_axi_U grp_SABR_Pipeline_VITIS_LOOP_12_1_fu_184 grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194</SubModules>
+    <Resources BRAM="20" DSP="79" FF="55724" LUT="72696" LogicLUT="70118" RAMB18="2" RAMB36="9" SRL="2578"/>
+    <LocalResources FF="1156" LUT="7610" LogicLUT="7607" SRL="3"/>
+  </RtlModule>
+  <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_control_s_axi">
+    <Resources FF="697" LUT="605" LogicLUT="605"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dadddsub_64ns_64ns_64_6_full_dsp_1_U81" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_dadddsub_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="525" LUT="686" LogicLUT="686"/>
+    <LocalResources FF="194" LUT="34" LogicLUT="34"/>
+  </RtlModule>
+  <RtlModule CELL="inst/ddiv_64ns_64ns_64_31_no_dsp_1_U84" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_ddiv_64ns_64ns_64_31_no_dsp_1">
+    <Resources FF="1714" LUT="3141" LogicLUT="3074" SRL="67"/>
+    <LocalResources FF="64"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dmul_64ns_64ns_64_6_max_dsp_1_U82" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="328" LUT="271" LogicLUT="260" SRL="11"/>
+    <LocalResources FF="193" LUT="162" LogicLUT="162"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dmul_64ns_64ns_64_6_max_dsp_1_U83" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="328" LUT="141" LogicLUT="130" SRL="11"/>
+    <LocalResources FF="193" LUT="32" LogicLUT="32"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dsqrt_64ns_64ns_64_57_no_dsp_1_U85" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_dsqrt_64ns_64ns_64_57_no_dsp_1">
+    <Resources FF="3407" LUT="1771" LogicLUT="1695" SRL="76"/>
+    <LocalResources FF="129" LUT="5" LogicLUT="5"/>
+  </RtlModule>
+  <RtlModule CELL="inst/dsqrt_64ns_64ns_64_57_no_dsp_1_U86" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_dsqrt_64ns_64ns_64_57_no_dsp_1">
+    <Resources FF="3406" LUT="1766" LogicLUT="1690" SRL="76"/>
+    <LocalResources FF="128"/>
+  </RtlModule>
+  <RtlModule CELL="inst/gmem_m_axi_U" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_gmem_m_axi">
+    <Resources BRAM="16" FF="2564" LUT="2386" LogicLUT="1482" RAMB36="8" SRL="904"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_12_1_fu_184" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_SABR_Pipeline_VITIS_LOOP_12_1">
+    <SubModules count="1">flow_control_loop_pipe_sequential_init_U</SubModules>
+    <Resources FF="562" LUT="334" LogicLUT="331" SRL="3"/>
+    <LocalResources FF="560" LUT="307" LogicLUT="304" SRL="3"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_12_1_fu_184/flow_control_loop_pipe_sequential_init_U" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_12_1.v" ORIG_REF_NAME="SABR_flow_control_loop_pipe_sequential_init">
+    <Resources FF="2" LUT="37" LogicLUT="37"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194" DEPTH="1" FILE_NAME="SABR.v" ORIG_REF_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2">
+    <SubModules count="6">dadd_64ns_64ns_64_6_full_dsp_1_U60 dadd_64ns_64ns_64_6_full_dsp_1_U61 dexp_64ns_64ns_64_18_full_dsp_1_U66 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 grp_pow_generic_double_s_fu_920</SubModules>
+    <Resources BRAM="4" DSP="54" FF="41037" LUT="53986" LogicLUT="52559" RAMB18="2" RAMB36="1" SRL="1427"/>
+    <LocalResources FF="27174" LUT="26920" LogicLUT="26771" SRL="149"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/dadd_64ns_64ns_64_6_full_dsp_1_U60" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2.v" ORIG_REF_NAME="SABR_dadd_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="459" LUT="745" LogicLUT="745"/>
+    <LocalResources FF="128" LUT="97" LogicLUT="97"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/dadd_64ns_64ns_64_6_full_dsp_1_U61" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2.v" ORIG_REF_NAME="SABR_dadd_64ns_64ns_64_6_full_dsp_1">
+    <Resources DSP="3" FF="459" LUT="648" LogicLUT="648"/>
+    <LocalResources FF="128"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/dexp_64ns_64ns_64_18_full_dsp_1_U66" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2.v" ORIG_REF_NAME="SABR_dexp_64ns_64ns_64_18_full_dsp_1">
+    <Resources DSP="26" FF="1010" LUT="2069" LogicLUT="1873" SRL="196"/>
+    <LocalResources FF="64" LUT="96" LogicLUT="96"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/dmul_64ns_64ns_64_6_max_dsp_1_U64" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2.v" ORIG_REF_NAME="SABR_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="263" LUT="456" LogicLUT="445" SRL="11"/>
+    <LocalResources FF="128" LUT="346" LogicLUT="346"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/dmul_64ns_64ns_64_6_max_dsp_1_U65" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2.v" ORIG_REF_NAME="SABR_dmul_64ns_64ns_64_6_max_dsp_1">
+    <Resources DSP="11" FF="263" LUT="271" LogicLUT="260" SRL="11"/>
+    <LocalResources FF="128" LUT="161" LogicLUT="161"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920" DEPTH="2" FILE_NAME="SABR_SABR_Pipeline_VITIS_LOOP_17_2.v" ORIG_REF_NAME="SABR_pow_generic_double_s">
+    <SubModules count="26">mac_muladd_16s_15ns_19s_31_4_0_U25 mul_12s_80ns_90_5_0_U6 mul_13s_71s_71_5_0_U7 mul_40ns_40ns_79_2_0_U8 mul_43ns_36ns_79_2_0_U9 mul_49ns_44ns_93_3_0_U10 mul_50ns_50ns_99_3_0_U11 mul_54s_6ns_54_3_0_U12 mul_71ns_4ns_75_5_0_U20 mul_73ns_6ns_79_5_0_U13 mul_77ns_6ns_82_5_0_U14 mul_78s_54s_131_5_0_U15 mul_82ns_6ns_87_5_0_U16 mul_83ns_6ns_89_5_0_U17 mul_87ns_6ns_92_5_0_U18 mul_92ns_6ns_97_5_0_U19 pow_reduce_anonymous_namespace_log0_lut_table_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_4_16_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_6_64_array_U pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_array_U pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_array_U</SubModules>
+    <Resources BRAM="4" FF="11409" LUT="22877" LogicLUT="21817" RAMB18="2" RAMB36="1" SRL="1060"/>
+    <LocalResources BRAM="2" FF="6217" LUT="6168" LogicLUT="5327" RAMB18="2" SRL="841"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mac_muladd_16s_15ns_19s_31_4_0_U25" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mac_muladd_16s_15ns_19s_31_4_0">
+    <Resources FF="73" LUT="430" LogicLUT="430"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_12s_80ns_90_5_0_U6" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_12s_80ns_90_5_0">
+    <Resources FF="320" LUT="402" LogicLUT="385" SRL="17"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_13s_71s_71_5_0_U7" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_13s_71s_71_5_0">
+    <Resources FF="222" LUT="323" LogicLUT="318" SRL="5"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_40ns_40ns_79_2_0_U8" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_40ns_40ns_79_2_0">
+    <Resources FF="154" LUT="1227" LogicLUT="1227"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_43ns_36ns_79_2_0_U9" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_43ns_36ns_79_2_0">
+    <Resources FF="156" LUT="1052" LogicLUT="1052"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_49ns_44ns_93_3_0_U10" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_49ns_44ns_93_3_0">
+    <Resources FF="246" LUT="1999" LogicLUT="1999"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_50ns_50ns_99_3_0">
+    <Resources FF="178" LUT="2298" LogicLUT="2298"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_54s_6ns_54_3_0_U12" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_54s_6ns_54_3_0">
+    <Resources FF="134" LUT="309" LogicLUT="303" SRL="6"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_71ns_4ns_75_5_0_U20" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_71ns_4ns_75_5_0">
+    <Resources FF="286" LUT="325" LogicLUT="292" SRL="33"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_73ns_6ns_79_5_0_U13" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_73ns_6ns_79_5_0">
+    <Resources FF="239" LUT="484" LogicLUT="467" SRL="17"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_77ns_6ns_82_5_0_U14" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_77ns_6ns_82_5_0">
+    <Resources FF="254" LUT="499" LogicLUT="482" SRL="17"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_78s_54s_131_5_0_U15" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_78s_54s_131_5_0">
+    <Resources FF="1155" LUT="4215" LogicLUT="4198" SRL="17"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_82ns_6ns_87_5_0_U16" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_82ns_6ns_87_5_0">
+    <Resources FF="272" LUT="534" LogicLUT="509" SRL="25"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_83ns_6ns_89_5_0_U17" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_83ns_6ns_89_5_0">
+    <Resources FF="268" LUT="528" LogicLUT="511" SRL="17"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_87ns_6ns_92_5_0_U18" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_87ns_6ns_92_5_0">
+    <Resources FF="287" LUT="568" LogicLUT="538" SRL="30"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_92ns_6ns_97_5_0_U19" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_mul_92ns_6ns_97_5_0">
+    <Resources FF="302" LUT="605" LogicLUT="570" SRL="35"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log0_lut_table_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud">
+    <Resources FF="109" LUT="109" LogicLUT="109"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12_6_64_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi">
+    <Resources FF="90" LUT="84" LogicLUT="84"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17_6_64_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17g8j">
+    <Resources FF="76" LUT="71" LogicLUT="71"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22_6_64_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22hbi">
+    <Resources FF="61" LUT="56" LogicLUT="56"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27_6_64_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27ibs">
+    <Resources FF="41" LUT="81" LogicLUT="81"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32_6_64_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32jbC">
+    <Resources FF="31" LUT="26" LogicLUT="26"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_4_16_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe">
+    <Resources FF="105" LUT="157" LogicLUT="157"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_6_64_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg">
+    <Resources FF="100" LUT="182" LogicLUT="182"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arkbM">
+    <Resources BRAM="2" RAMB36="1"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_array_U" DEPTH="3" FILE_NAME="SABR_pow_generic_double_s.v" ORIG_REF_NAME="SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_arralbW">
+    <Resources FF="33" LUT="145" LogicLUT="145"/>
+  </RtlModule>
+</RtlModules>
+<TimingPaths>
+  <TPATH DATAPATH_DELAY="11.558" DATAPATH_LOGIC_DELAY="6.251" DATAPATH_NET_DELAY="5.307" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[29]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.532" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_254" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_176" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_172" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_169" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_79" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_29" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[19]_i_11" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[30]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.506" DATAPATH_LOGIC_DELAY="6.023" DATAPATH_NET_DELAY="5.483" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.480" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[19]__0_i_177" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]__0_i_133" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]__0_i_156" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_161" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_159" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]__0_i_108" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[35]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[39]_i_8" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[43]_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.503" DATAPATH_LOGIC_DELAY="6.196" DATAPATH_NET_DELAY="5.307" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[30]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.477" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_254" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_176" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_172" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_169" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_79" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_29" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[19]_i_11" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[30]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[30]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.498" DATAPATH_LOGIC_DELAY="6.015" DATAPATH_NET_DELAY="5.483" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[45]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.472" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[19]__0_i_177" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]__0_i_133" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]__0_i_156" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_161" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_159" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]__0_i_108" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[35]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[39]_i_8" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[43]_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[45]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.478" DATAPATH_LOGIC_DELAY="6.171" DATAPATH_NET_DELAY="5.307" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[28]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.452" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_254" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_176" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_172" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_169" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_79" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_29" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[19]_i_11" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[30]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[28]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.466" DATAPATH_LOGIC_DELAY="6.159" DATAPATH_NET_DELAY="5.307" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]/D" LOGIC_LEVELS="19" MAX_FANOUT="102" SLACK="-3.440" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_254" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_176" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_172" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_169" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_79" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_29" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[19]_i_11" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[23]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.458" DATAPATH_LOGIC_DELAY="6.151" DATAPATH_NET_DELAY="5.307" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[25]/D" LOGIC_LEVELS="19" MAX_FANOUT="102" SLACK="-3.432" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_254" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_176" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_172" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_169" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_79" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_29" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[19]_i_11" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[23]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[25]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.443" DATAPATH_LOGIC_DELAY="5.960" DATAPATH_NET_DELAY="5.483" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[46]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.417" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[19]__0_i_177" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]__0_i_133" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]__0_i_156" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_161" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_159" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]__0_i_108" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[35]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[39]_i_8" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[43]_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[46]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.418" DATAPATH_LOGIC_DELAY="5.935" DATAPATH_NET_DELAY="5.483" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[44]/D" LOGIC_LEVELS="20" MAX_FANOUT="102" SLACK="-3.392" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[19]__0_i_177" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]__0_i_133" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]__0_i_156" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_161" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_159" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[27]__0_i_108" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[31]_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[31]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[35]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[39]_i_8" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[39]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[43]_i_3" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[44]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+  <TPATH DATAPATH_DELAY="11.403" DATAPATH_LOGIC_DELAY="6.096" DATAPATH_NET_DELAY="5.307" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[26]/D" LOGIC_LEVELS="19" MAX_FANOUT="102" SLACK="-3.377" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/exp_Z1_reg_3675_pp0_iter74_reg_reg[49]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_40ns_40ns_79_2_0.v" LINE_NUMBER="5"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_254" PRIMITIVE_TYPE="LUT.others.LUT6" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_176" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_172" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_169" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[16]_i_79" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[16]_i_29" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_52" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_54" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[11]__0_i_26" PRIMITIVE_TYPE="LUT.others.LUT5" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[11]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[15]__0_i_7" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[19]_i_11" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0[23]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/mul_50ns_50ns_99_3_0_U11/buff0_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="52"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194/grp_pow_generic_double_s_fu_920/mul_50ns_50ns_99_3_0_U11/buff0_reg[26]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="SABR_mul_50ns_50ns_99_3_0.v" LINE_NUMBER="63"/>
+  </TPATH>
+</TimingPaths>
+<VivadoReportFiles>
+  <ReportFile TYPE="design_analysis" PATH="verilog/report/SABR_design_analysis_synth.rpt"/>
+  <ReportFile TYPE="failfast" PATH="verilog/report/SABR_failfast_synth.rpt"/>
+  <ReportFile TYPE="power" PATH="verilog/report/SABR_power_synth.rpt"/>
+  <ReportFile TYPE="timing" PATH="verilog/report/SABR_timing_synth.rpt"/>
+  <ReportFile TYPE="timing_paths" PATH="verilog/report/SABR_timing_paths_synth.rpt"/>
+  <ReportFile TYPE="utilization" PATH="verilog/report/SABR_utilization_synth.rpt"/>
+  <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/SABR_utilization_hierarchical_synth.rpt"/>
+</VivadoReportFiles>
+</profile>

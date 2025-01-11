@@ -1,0 +1,80 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Thu Jan  9 21:41:59 2025",
+ "timestampMillis": "1736476919460",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Thu Jan  9 21:41:59 2025",
+ "timestampMillis": "1736476919461",
+ "buildStep": {
+  "cmdId": "76f4cba1-cefc-11ef-bc42-f8fe5e40e17d",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Jan  9 21:41:59 2025",
+ "timestampMillis": "1736476919462",
+ "status": {
+  "cmdId": "76f4cba1-cefc-11ef-bc42-f8fe5e40e17d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Thu Jan  9 21:41:59 2025",
+ "timestampMillis": "1736476919539",
+ "status": {
+  "cmdId": "76f4cba1-cefc-11ef-bc42-f8fe5e40e17d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Thu Jan  9 21:41:59 2025",
+ "timestampMillis": "1736476919539",
+ "report": {
+  "path": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "VCXX_CODE_ANALYZER",
+  "cmdId": "76f4cba1-cefc-11ef-bc42-f8fe5e40e17d"
+ }
+}
+</ENTRY>

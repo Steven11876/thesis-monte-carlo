@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------------
+# Created on Thu Jan 09 23:24:51 -0500 2025 with report_failfast (2023.09.14)
+# ---------------------------------------------------------------------------------
+
+#  +------------------------------------------------------------------------------------------+
+#  | Design Summary                                                                           |
+#  | design_1                                                                                 |
+#  | xc7s15cpga196-2                                                                          |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | Criteria                                                  | Guideline | Actual  | Status |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | LUT                                                       | 70%       | 908.70% | REVIEW |
+#  | FD                                                        | 50%       | 348.28% | REVIEW |
+#  | LUTRAM+SRL                                                | 25%       | 107.42% | REVIEW |
+#  | MUXF7                                                     | 15%       | 21.05%  | REVIEW |
+#  | LUT Combining                                             | 20%       | 23.73%  | REVIEW |
+#  | DSP                                                       | 80%       | 395.00% | REVIEW |
+#  | RAMB/FIFO                                                 | 80%       | 100.00% | REVIEW |
+#  | DSP+RAMB+URAM (Avg)                                       | 70%       | 247.50% | REVIEW |
+#  | BUFGCE* + BUFGCTRL                                        | 24        | 0       | OK     |
+#  | DONT_TOUCH (cells/nets)                                   | 0         | 0       | OK     |
+#  | MARK_DEBUG (nets)                                         | 0         | 0       | OK     |
+#  | Control Sets                                              | 150       | 326     | REVIEW |
+#  | Average Fanout for modules > 100k cells                   | 4         | 2.87    | OK     |
+#  | Max Average Fanout for modules > 100k cells               | 4         | 3.27    | OK     |
+#  | Non-FD high fanout nets > 10k loads                       | 0         | 0       | OK     |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | TIMING-6 (No common primary clock between related clocks) | 0         | 0       | OK     |
+#  | TIMING-7 (No common node between related clocks)          | 0         | 0       | OK     |
+#  | TIMING-8 (No common period between related clocks)        | 0         | 0       | OK     |
+#  | TIMING-14 (LUT on the clock tree)                         | 0         | 0       | OK     |
+#  | TIMING-35 (No common node in paths with the same clock)   | 0         | 0       | OK     |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+#  | Number of paths above max LUT budgeting (0.500ns)         | 0         | 0       | OK     |
+#  | Number of paths above max Net budgeting (0.350ns)         | 0         | 58      | REVIEW |
+#  +-----------------------------------------------------------+-----------+---------+--------+
+

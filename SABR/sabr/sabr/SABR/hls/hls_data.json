@@ -1,0 +1,1658 @@
+{
+  "Top": "SABR",
+  "RtlTop": "SABR",
+  "RtlPrefix": "",
+  "RtlSubPrefix": "SABR_",
+  "SourceLanguage": "c",
+  "HostMachineBits": "64",
+  "FunctionProtocol": "ap_ctrl_chain",
+  "ResetStyle": "control",
+  "Target": {
+    "Family": "spartan7",
+    "Device": "xc7s15",
+    "Package": "-cpga196",
+    "Speed": "-2",
+    "Triple": "fpga64-xilinx-none"
+  },
+  "Args": {
+    "S": {
+      "index": "0",
+      "direction": "inout",
+      "srcType": "double*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "interface",
+          "interface": "m_axi_gmem",
+          "name": "",
+          "usage": "data",
+          "direction": "inout"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "S_1",
+          "usage": "address",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "S_2",
+          "usage": "address",
+          "direction": "in"
+        }
+      ]
+    },
+    "V": {
+      "index": "1",
+      "direction": "inout",
+      "srcType": "double*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "interface",
+          "interface": "m_axi_gmem",
+          "name": "",
+          "usage": "data",
+          "direction": "inout"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "V_1",
+          "usage": "address",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "V_2",
+          "usage": "address",
+          "direction": "in"
+        }
+      ]
+    },
+    "S0": {
+      "index": "2",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "S0_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "S0_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "r": {
+      "index": "3",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "r_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "r_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "sigma_init": {
+      "index": "4",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "sigma_init_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "sigma_init_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "alpha": {
+      "index": "5",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "alpha_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "alpha_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "beta": {
+      "index": "6",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "beta_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "beta_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "rho": {
+      "index": "7",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "rho_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "rho_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "T": {
+      "index": "8",
+      "direction": "in",
+      "srcType": "double",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "T_1",
+          "usage": "data",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "T_2",
+          "usage": "data",
+          "direction": "in"
+        }
+      ]
+    },
+    "random_increments": {
+      "index": "9",
+      "direction": "inout",
+      "srcType": "double*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "interface",
+          "interface": "m_axi_gmem",
+          "name": "",
+          "usage": "data",
+          "direction": "inout"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "random_increments_1",
+          "usage": "address",
+          "direction": "in"
+        },
+        {
+          "type": "register",
+          "interface": "s_axi_control",
+          "name": "random_increments_2",
+          "usage": "address",
+          "direction": "in"
+        }
+      ]
+    }
+  },
+  "HlsSolution": {
+    "FlowTarget": "vitis",
+    "ConfigTcl": [
+      "config_interface -m_axi_latency=64",
+      "config_interface -m_axi_alignment_byte_size=64",
+      "config_interface -m_axi_max_widen_bitwidth=512",
+      "config_interface -default_interface=kernel",
+      "config_rtl -register_reset_num=3",
+      "config_cosim -enable_dataflow_profiling=1",
+      "config_cosim -enable_fifo_sizing=1",
+      "config_csim -code_analyzer=1",
+      "config_export -output=\/User\/steve\/thesis-monte-carlo\/SABR\/sabr\/output.xo",
+      "config_export -format=xo",
+      "config_export -flow=impl",
+      "config_unroll -tripcount_threshold=5"
+    ],
+    "ProfileOption": "0",
+    "ProfileType": "none",
+    "KernelName": "SABR"
+  },
+  "ClockInfo": {
+    "ClockName": "ap_clk",
+    "ClockPeriod": "8",
+    "Uncertainty": "0.96",
+    "IsCombinational": "0",
+    "II": "494962",
+    "Latency": "494961"
+  },
+  "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 8.000 [get_ports ap_clk]"]},
+  "Ipx": {
+    "Vendor": "xilinx.com",
+    "Library": "hls",
+    "Name": "SABR",
+    "Version": "1.0",
+    "DisplayName": "Sabr",
+    "Revision": "2113903488",
+    "Description": "An IP generated by Vitis HLS",
+    "Taxonomy": "\/VITIS_HLS_IP",
+    "AutoFamilySupport": "",
+    "ZipFile": "xilinx_com_hls_SABR_1_0.zip"
+  },
+  "Files": {
+    "CSource": ["..\/..\/..\/..\/test.c"],
+    "TestBench": [
+      "..\/..\/..\/..\/in.dat",
+      "..\/..\/..\/..\/out.golden.dat",
+      "..\/..\/..\/..\/test_func.c"
+    ],
+    "Vhdl": [
+      "impl\/vhdl\/SABR_bitselect_1ns_52ns_32s_1_1_0.vhd",
+      "impl\/vhdl\/SABR_control_s_axi.vhd",
+      "impl\/vhdl\/SABR_dadd_64ns_64ns_64_6_full_dsp_1.vhd",
+      "impl\/vhdl\/SABR_dadddsub_64ns_64ns_64_6_full_dsp_1.vhd",
+      "impl\/vhdl\/SABR_ddiv_64ns_64ns_64_31_no_dsp_1.vhd",
+      "impl\/vhdl\/SABR_dexp_64ns_64ns_64_18_full_dsp_1.vhd",
+      "impl\/vhdl\/SABR_dmul_64ns_64ns_64_6_max_dsp_1.vhd",
+      "impl\/vhdl\/SABR_dsqrt_64ns_64ns_64_57_no_dsp_1.vhd",
+      "impl\/vhdl\/SABR_flow_control_loop_pipe_sequential_init.vhd",
+      "impl\/vhdl\/SABR_gmem_m_axi.vhd",
+      "impl\/vhdl\/SABR_mac_muladd_16s_15ns_19s_31_4_0.vhd",
+      "impl\/vhdl\/SABR_mul_12s_80ns_90_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_13s_71s_71_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_40ns_40ns_79_2_0.vhd",
+      "impl\/vhdl\/SABR_mul_43ns_36ns_79_2_0.vhd",
+      "impl\/vhdl\/SABR_mul_49ns_44ns_93_3_0.vhd",
+      "impl\/vhdl\/SABR_mul_50ns_50ns_99_3_0.vhd",
+      "impl\/vhdl\/SABR_mul_54s_6ns_54_3_0.vhd",
+      "impl\/vhdl\/SABR_mul_71ns_4ns_75_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_73ns_6ns_79_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_77ns_6ns_82_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_78s_54s_131_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_82ns_6ns_87_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_83ns_6ns_89_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_87ns_6ns_92_5_0.vhd",
+      "impl\/vhdl\/SABR_mul_92ns_6ns_97_5_0.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17g8j.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22hbi.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27ibs.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32jbC.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arkbM.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arramb6.vhd",
+      "impl\/vhdl\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_arralbW.vhd",
+      "impl\/vhdl\/SABR_SABR_Pipeline_VITIS_LOOP_12_1.vhd",
+      "impl\/vhdl\/SABR_SABR_Pipeline_VITIS_LOOP_17_2.vhd",
+      "impl\/vhdl\/SABR_sparsemux_7_2_1_1_0.vhd",
+      "impl\/vhdl\/SABR_sparsemux_19_8_64_1_0.vhd",
+      "impl\/vhdl\/SABR.vhd"
+    ],
+    "Verilog": [
+      "impl\/verilog\/SABR_bitselect_1ns_52ns_32s_1_1_0.v",
+      "impl\/verilog\/SABR_control_s_axi.v",
+      "impl\/verilog\/SABR_dadd_64ns_64ns_64_6_full_dsp_1.v",
+      "impl\/verilog\/SABR_dadddsub_64ns_64ns_64_6_full_dsp_1.v",
+      "impl\/verilog\/SABR_ddiv_64ns_64ns_64_31_no_dsp_1.v",
+      "impl\/verilog\/SABR_dexp_64ns_64ns_64_18_full_dsp_1.v",
+      "impl\/verilog\/SABR_dmul_64ns_64ns_64_6_max_dsp_1.v",
+      "impl\/verilog\/SABR_dsqrt_64ns_64ns_64_57_no_dsp_1.v",
+      "impl\/verilog\/SABR_flow_control_loop_pipe_sequential_init.v",
+      "impl\/verilog\/SABR_gmem_m_axi.v",
+      "impl\/verilog\/SABR_mac_muladd_16s_15ns_19s_31_4_0.v",
+      "impl\/verilog\/SABR_mul_12s_80ns_90_5_0.v",
+      "impl\/verilog\/SABR_mul_13s_71s_71_5_0.v",
+      "impl\/verilog\/SABR_mul_40ns_40ns_79_2_0.v",
+      "impl\/verilog\/SABR_mul_43ns_36ns_79_2_0.v",
+      "impl\/verilog\/SABR_mul_49ns_44ns_93_3_0.v",
+      "impl\/verilog\/SABR_mul_50ns_50ns_99_3_0.v",
+      "impl\/verilog\/SABR_mul_54s_6ns_54_3_0.v",
+      "impl\/verilog\/SABR_mul_71ns_4ns_75_5_0.v",
+      "impl\/verilog\/SABR_mul_73ns_6ns_79_5_0.v",
+      "impl\/verilog\/SABR_mul_77ns_6ns_82_5_0.v",
+      "impl\/verilog\/SABR_mul_78s_54s_131_5_0.v",
+      "impl\/verilog\/SABR_mul_82ns_6ns_87_5_0.v",
+      "impl\/verilog\/SABR_mul_83ns_6ns_89_5_0.v",
+      "impl\/verilog\/SABR_mul_87ns_6ns_92_5_0.v",
+      "impl\/verilog\/SABR_mul_92ns_6ns_97_5_0.v",
+      "impl\/verilog\/SABR_pow_generic_double_s.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17g8j.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17g8j.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22hbi.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22hbi.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27ibs.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27ibs.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32jbC.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32jbC.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arkbM.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arkbM.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arramb6.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arramb6.v",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_arralbW.dat",
+      "impl\/verilog\/SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_arralbW.v",
+      "impl\/verilog\/SABR_SABR_Pipeline_VITIS_LOOP_12_1.v",
+      "impl\/verilog\/SABR_SABR_Pipeline_VITIS_LOOP_17_2.v",
+      "impl\/verilog\/SABR_sparsemux_7_2_1_1_0.v",
+      "impl\/verilog\/SABR_sparsemux_19_8_64_1_0.v",
+      "impl\/verilog\/SABR.v"
+    ],
+    "SwDriver": [
+      "impl\/misc\/drivers\/SABR_v1_0\/data\/SABR.mdd",
+      "impl\/misc\/drivers\/SABR_v1_0\/data\/SABR.tcl",
+      "impl\/misc\/drivers\/SABR_v1_0\/data\/SABR.yaml",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/CMakeLists.txt",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/Makefile",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/xsabr.c",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/xsabr.h",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/xsabr_hw.h",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/xsabr_linux.c",
+      "impl\/misc\/drivers\/SABR_v1_0\/src\/xsabr_sinit.c"
+    ],
+    "IpMisc": ["impl\/misc\/logo.png"],
+    "Subcore": [
+      "impl\/misc\/SABR_dadd_64ns_64ns_64_6_full_dsp_1_ip.tcl",
+      "impl\/misc\/SABR_dadddsub_64ns_64ns_64_6_full_dsp_1_ip.tcl",
+      "impl\/misc\/SABR_ddiv_64ns_64ns_64_31_no_dsp_1_ip.tcl",
+      "impl\/misc\/SABR_dexp_64ns_64ns_64_18_full_dsp_1_ip.tcl",
+      "impl\/misc\/SABR_dmul_64ns_64ns_64_6_max_dsp_1_ip.tcl",
+      "impl\/misc\/SABR_dsqrt_64ns_64ns_64_57_no_dsp_1_ip.tcl"
+    ],
+    "CsynthXml": "syn\/report\/csynth.xml",
+    "DebugDir": ".debug",
+    "KernelXml": "kernel.xml",
+    "Xo": "..\/..\/..\/..\/..\/..\/..\/..\/User\/steve\/thesis-monte-carlo\/SABR\/sabr\/output.xo",
+    "XoHlsDir": "impl\/misc\/hls_files",
+    "ProtoInst": [".debug\/SABR.protoinst"]
+  },
+  "SubcoreInfo": {
+    "HasXpmMemory": false,
+    "HasClockedDsp": false,
+    "Ip": [
+      {
+        "Name": "SABR_dadd_64ns_64ns_64_6_full_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Add CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 4 CONFIG.c_mult_usage Full_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name SABR_dadd_64ns_64ns_64_6_full_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Add_Subtract CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      },
+      {
+        "Name": "SABR_dadddsub_64ns_64ns_64_6_full_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 4 CONFIG.c_mult_usage Full_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name SABR_dadddsub_64ns_64ns_64_6_full_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Add_Subtract CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      },
+      {
+        "Name": "SABR_ddiv_64ns_64ns_64_31_no_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 29 CONFIG.c_mult_usage No_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name SABR_ddiv_64ns_64ns_64_31_no_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Divide CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      },
+      {
+        "Name": "SABR_dexp_64ns_64ns_64_18_full_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 16 CONFIG.c_mult_usage Full_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name SABR_dexp_64ns_64ns_64_18_full_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Exponential CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      },
+      {
+        "Name": "SABR_dmul_64ns_64ns_64_6_max_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 4 CONFIG.c_mult_usage Max_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name SABR_dmul_64ns_64ns_64_6_max_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Multiply CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      },
+      {
+        "Name": "SABR_dsqrt_64ns_64ns_64_57_no_dsp_1_ip",
+        "Vlnv": "xilinx.com:ip:floating_point:7.1",
+        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 55 CONFIG.c_mult_usage No_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name SABR_dsqrt_64ns_64ns_64_57_no_dsp_1_ip CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Square_Root CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
+      }
+    ]
+  },
+  "Interfaces": {
+    "s_axi_control": {
+      "type": "axi4lite",
+      "busTypeName": "aximm",
+      "mode": "slave",
+      "dataWidth": "32",
+      "addrWidth": "8",
+      "portPrefix": "s_axi_control_",
+      "paramPrefix": "C_S_AXI_CONTROL_",
+      "offsetMasterName": "m_axi_gmem",
+      "ports": [
+        "s_axi_control_ARADDR",
+        "s_axi_control_ARREADY",
+        "s_axi_control_ARVALID",
+        "s_axi_control_AWADDR",
+        "s_axi_control_AWREADY",
+        "s_axi_control_AWVALID",
+        "s_axi_control_BREADY",
+        "s_axi_control_BRESP",
+        "s_axi_control_BVALID",
+        "s_axi_control_RDATA",
+        "s_axi_control_RREADY",
+        "s_axi_control_RRESP",
+        "s_axi_control_RVALID",
+        "s_axi_control_WDATA",
+        "s_axi_control_WREADY",
+        "s_axi_control_WSTRB",
+        "s_axi_control_WVALID"
+      ],
+      "registers": [
+        {
+          "offset": "0x00",
+          "name": "CTRL",
+          "access": "RW",
+          "description": "Control signals",
+          "range": "32",
+          "fields": [
+            {
+              "offset": "0",
+              "width": "1",
+              "name": "AP_START",
+              "access": "RW",
+              "description": "Control signal Register for 'ap_start'."
+            },
+            {
+              "offset": "1",
+              "width": "1",
+              "name": "AP_DONE",
+              "access": "R",
+              "description": "Control signal Register for 'ap_done'."
+            },
+            {
+              "offset": "2",
+              "width": "1",
+              "name": "AP_IDLE",
+              "access": "R",
+              "description": "Control signal Register for 'ap_idle'."
+            },
+            {
+              "offset": "3",
+              "width": "1",
+              "name": "AP_READY",
+              "access": "R",
+              "description": "Control signal Register for 'ap_ready'."
+            },
+            {
+              "offset": "4",
+              "width": "1",
+              "name": "AP_CONTINUE",
+              "access": "R",
+              "description": "Control signal Register for 'ap_continue'."
+            },
+            {
+              "offset": "5",
+              "width": "2",
+              "name": "RESERVED_1",
+              "access": "R",
+              "description": "Reserved.  0s on read."
+            },
+            {
+              "offset": "7",
+              "width": "1",
+              "name": "AUTO_RESTART",
+              "access": "RW",
+              "description": "Control signal Register for 'auto_restart'."
+            },
+            {
+              "offset": "8",
+              "width": "1",
+              "name": "RESERVED_2",
+              "access": "R",
+              "description": "Reserved.  0s on read."
+            },
+            {
+              "offset": "9",
+              "width": "1",
+              "name": "INTERRUPT",
+              "access": "R",
+              "description": "Control signal Register for 'interrupt'."
+            },
+            {
+              "offset": "10",
+              "width": "22",
+              "name": "RESERVED_3",
+              "access": "R",
+              "description": "Reserved.  0s on read."
+            }
+          ]
+        },
+        {
+          "offset": "0x04",
+          "name": "GIER",
+          "access": "RW",
+          "description": "Global Interrupt Enable Register",
+          "range": "32",
+          "fields": [
+            {
+              "offset": "0",
+              "width": "1",
+              "name": "Enable",
+              "access": "RW",
+              "description": "Master enable for the device interrupt output to the system interrupt controller: 0 = Disabled, 1 = Enabled"
+            },
+            {
+              "offset": "1",
+              "width": "31",
+              "name": "RESERVED",
+              "access": "R",
+              "description": "Reserved.  0s on read."
+            }
+          ]
+        },
+        {
+          "offset": "0x08",
+          "name": "IP_IER",
+          "access": "RW",
+          "description": "IP Interrupt Enable Register",
+          "range": "32",
+          "fields": [
+            {
+              "offset": "0",
+              "width": "1",
+              "name": "CHAN0_INT_EN",
+              "access": "RW",
+              "description": "Enable Channel 0 (ap_done) Interrupt.  0 = Disabled, 1 = Enabled."
+            },
+            {
+              "offset": "1",
+              "width": "1",
+              "name": "CHAN1_INT_EN",
+              "access": "RW",
+              "description": "Enable Channel 1 (ap_ready) Interrupt.  0 = Disabled, 1 = Enabled."
+            },
+            {
+              "offset": "2",
+              "width": "30",
+              "name": "RESERVED_0",
+              "access": "R",
+              "description": "Reserved.  0s on read."
+            }
+          ]
+        },
+        {
+          "offset": "0x0c",
+          "name": "IP_ISR",
+          "access": "RW",
+          "description": "IP Interrupt Status Register",
+          "range": "32",
+          "fields": [
+            {
+              "offset": "0",
+              "width": "1",
+              "name": "CHAN0_INT_ST",
+              "access": "RTOW",
+              "description": "Channel 0 (ap_done) Interrupt Status. 0 = No Channel 0 interrupt, 1 = Channel 0 interrupt."
+            },
+            {
+              "offset": "1",
+              "width": "1",
+              "name": "CHAN1_INT_ST",
+              "access": "RTOW",
+              "description": "Channel 1 (ap_ready) Interrupt Status. 0 = No Channel 1 interrupt, 1 = Channel 1 interrupt."
+            },
+            {
+              "offset": "2",
+              "width": "30",
+              "name": "RESERVED_0",
+              "access": "R",
+              "description": "Reserved.  0s on read."
+            }
+          ]
+        },
+        {
+          "offset": "0x10",
+          "name": "S_1",
+          "access": "W",
+          "description": "Data signal of S",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "S",
+              "access": "W",
+              "description": "Bit 31 to 0 of S"
+            }]
+        },
+        {
+          "offset": "0x14",
+          "name": "S_2",
+          "access": "W",
+          "description": "Data signal of S",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "S",
+              "access": "W",
+              "description": "Bit 63 to 32 of S"
+            }]
+        },
+        {
+          "offset": "0x1c",
+          "name": "V_1",
+          "access": "W",
+          "description": "Data signal of V",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "V",
+              "access": "W",
+              "description": "Bit 31 to 0 of V"
+            }]
+        },
+        {
+          "offset": "0x20",
+          "name": "V_2",
+          "access": "W",
+          "description": "Data signal of V",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "V",
+              "access": "W",
+              "description": "Bit 63 to 32 of V"
+            }]
+        },
+        {
+          "offset": "0x28",
+          "name": "S0_1",
+          "access": "W",
+          "description": "Data signal of S0",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "S0",
+              "access": "W",
+              "description": "Bit 31 to 0 of S0"
+            }]
+        },
+        {
+          "offset": "0x2c",
+          "name": "S0_2",
+          "access": "W",
+          "description": "Data signal of S0",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "S0",
+              "access": "W",
+              "description": "Bit 63 to 32 of S0"
+            }]
+        },
+        {
+          "offset": "0x34",
+          "name": "r_1",
+          "access": "W",
+          "description": "Data signal of r",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "r",
+              "access": "W",
+              "description": "Bit 31 to 0 of r"
+            }]
+        },
+        {
+          "offset": "0x38",
+          "name": "r_2",
+          "access": "W",
+          "description": "Data signal of r",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "r",
+              "access": "W",
+              "description": "Bit 63 to 32 of r"
+            }]
+        },
+        {
+          "offset": "0x40",
+          "name": "sigma_init_1",
+          "access": "W",
+          "description": "Data signal of sigma_init",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "sigma_init",
+              "access": "W",
+              "description": "Bit 31 to 0 of sigma_init"
+            }]
+        },
+        {
+          "offset": "0x44",
+          "name": "sigma_init_2",
+          "access": "W",
+          "description": "Data signal of sigma_init",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "sigma_init",
+              "access": "W",
+              "description": "Bit 63 to 32 of sigma_init"
+            }]
+        },
+        {
+          "offset": "0x4c",
+          "name": "alpha_1",
+          "access": "W",
+          "description": "Data signal of alpha",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "alpha",
+              "access": "W",
+              "description": "Bit 31 to 0 of alpha"
+            }]
+        },
+        {
+          "offset": "0x50",
+          "name": "alpha_2",
+          "access": "W",
+          "description": "Data signal of alpha",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "alpha",
+              "access": "W",
+              "description": "Bit 63 to 32 of alpha"
+            }]
+        },
+        {
+          "offset": "0x58",
+          "name": "beta_1",
+          "access": "W",
+          "description": "Data signal of beta",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "beta",
+              "access": "W",
+              "description": "Bit 31 to 0 of beta"
+            }]
+        },
+        {
+          "offset": "0x5c",
+          "name": "beta_2",
+          "access": "W",
+          "description": "Data signal of beta",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "beta",
+              "access": "W",
+              "description": "Bit 63 to 32 of beta"
+            }]
+        },
+        {
+          "offset": "0x64",
+          "name": "rho_1",
+          "access": "W",
+          "description": "Data signal of rho",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "rho",
+              "access": "W",
+              "description": "Bit 31 to 0 of rho"
+            }]
+        },
+        {
+          "offset": "0x68",
+          "name": "rho_2",
+          "access": "W",
+          "description": "Data signal of rho",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "rho",
+              "access": "W",
+              "description": "Bit 63 to 32 of rho"
+            }]
+        },
+        {
+          "offset": "0x70",
+          "name": "T_1",
+          "access": "W",
+          "description": "Data signal of T",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "T",
+              "access": "W",
+              "description": "Bit 31 to 0 of T"
+            }]
+        },
+        {
+          "offset": "0x74",
+          "name": "T_2",
+          "access": "W",
+          "description": "Data signal of T",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "T",
+              "access": "W",
+              "description": "Bit 63 to 32 of T"
+            }]
+        },
+        {
+          "offset": "0x7c",
+          "name": "random_increments_1",
+          "access": "W",
+          "description": "Data signal of random_increments",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "random_increments",
+              "access": "W",
+              "description": "Bit 31 to 0 of random_increments"
+            }]
+        },
+        {
+          "offset": "0x80",
+          "name": "random_increments_2",
+          "access": "W",
+          "description": "Data signal of random_increments",
+          "range": "32",
+          "fields": [{
+              "offset": "0",
+              "width": "32",
+              "name": "random_increments",
+              "access": "W",
+              "description": "Bit 63 to 32 of random_increments"
+            }]
+        }
+      ],
+      "constraints": [
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "16",
+          "argName": "S"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "28",
+          "argName": "V"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "40",
+          "argName": "S0"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "52",
+          "argName": "r"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "64",
+          "argName": "sigma_init"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "76",
+          "argName": "alpha"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "88",
+          "argName": "beta"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "100",
+          "argName": "rho"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "112",
+          "argName": "T"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "s_axilite",
+          "register_option": "0",
+          "offset": "124",
+          "argName": "random_increments"
+        }
+      ]
+    },
+    "ap_clk": {
+      "type": "clock",
+      "busTypeName": "clock",
+      "mode": "slave",
+      "busParams": {
+        "ASSOCIATED_BUSIF": "s_axi_control:m_axi_gmem",
+        "ASSOCIATED_RESET": "ap_rst_n"
+      },
+      "portMap": {"ap_clk": "CLK"},
+      "ports": ["ap_clk"]
+    },
+    "ap_rst_n": {
+      "type": "reset",
+      "busTypeName": "reset",
+      "mode": "slave",
+      "busParams": {"POLARITY": "ACTIVE_LOW"},
+      "portMap": {"ap_rst_n": "RST"},
+      "ports": ["ap_rst_n"]
+    },
+    "interrupt": {
+      "type": "interrupt",
+      "busTypeName": "interrupt",
+      "mode": "master",
+      "dataWidth": "1",
+      "busParams": {"SENSITIVITY": "LEVEL_HIGH"},
+      "portMap": {"interrupt": "INTERRUPT"},
+      "ports": ["interrupt"]
+    },
+    "m_axi_gmem": {
+      "type": "axi4full",
+      "busTypeName": "aximm",
+      "mode": "master",
+      "dataWidth": "256",
+      "addrWidth": "64",
+      "portPrefix": "m_axi_gmem_",
+      "paramPrefix": "C_M_AXI_GMEM_",
+      "offsetSlaveName": "s_axi_control",
+      "preferredUsageValue": "MEMORY",
+      "busParams": {
+        "NUM_READ_OUTSTANDING": "16",
+        "NUM_WRITE_OUTSTANDING": "16",
+        "MAX_READ_BURST_LENGTH": "16",
+        "MAX_WRITE_BURST_LENGTH": "16",
+        "MAX_BURST_LENGTH": "256",
+        "PROTOCOL": "AXI4",
+        "READ_WRITE_MODE": "READ_WRITE",
+        "HAS_BURST": "0",
+        "SUPPORTS_NARROW_BURST": "0"
+      },
+      "ports": [
+        "m_axi_gmem_ARADDR",
+        "m_axi_gmem_ARBURST",
+        "m_axi_gmem_ARCACHE",
+        "m_axi_gmem_ARID",
+        "m_axi_gmem_ARLEN",
+        "m_axi_gmem_ARLOCK",
+        "m_axi_gmem_ARPROT",
+        "m_axi_gmem_ARQOS",
+        "m_axi_gmem_ARREADY",
+        "m_axi_gmem_ARREGION",
+        "m_axi_gmem_ARSIZE",
+        "m_axi_gmem_ARUSER",
+        "m_axi_gmem_ARVALID",
+        "m_axi_gmem_AWADDR",
+        "m_axi_gmem_AWBURST",
+        "m_axi_gmem_AWCACHE",
+        "m_axi_gmem_AWID",
+        "m_axi_gmem_AWLEN",
+        "m_axi_gmem_AWLOCK",
+        "m_axi_gmem_AWPROT",
+        "m_axi_gmem_AWQOS",
+        "m_axi_gmem_AWREADY",
+        "m_axi_gmem_AWREGION",
+        "m_axi_gmem_AWSIZE",
+        "m_axi_gmem_AWUSER",
+        "m_axi_gmem_AWVALID",
+        "m_axi_gmem_BID",
+        "m_axi_gmem_BREADY",
+        "m_axi_gmem_BRESP",
+        "m_axi_gmem_BUSER",
+        "m_axi_gmem_BVALID",
+        "m_axi_gmem_RDATA",
+        "m_axi_gmem_RID",
+        "m_axi_gmem_RLAST",
+        "m_axi_gmem_RREADY",
+        "m_axi_gmem_RRESP",
+        "m_axi_gmem_RUSER",
+        "m_axi_gmem_RVALID",
+        "m_axi_gmem_WDATA",
+        "m_axi_gmem_WID",
+        "m_axi_gmem_WLAST",
+        "m_axi_gmem_WREADY",
+        "m_axi_gmem_WSTRB",
+        "m_axi_gmem_WUSER",
+        "m_axi_gmem_WVALID"
+      ],
+      "constraints": [
+        {
+          "constraint_type": "pragma interface",
+          "mode": "m_axi",
+          "register_option": "0",
+          "offset": "slave",
+          "latency": "64",
+          "num_read_outstanding": "16",
+          "num_write_outstanding": "16",
+          "max_read_burst_length": "16",
+          "max_write_burst_length": "16",
+          "max_widen_bitwidth": "512",
+          "channel_id": "0",
+          "argName": "S"
+        },
+        {
+          "constraint_type": "bitwidth",
+          "orig_bitwidth": "64",
+          "final_bitwidth": "256",
+          "argName": "S"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "m_axi",
+          "register_option": "0",
+          "offset": "slave",
+          "latency": "64",
+          "num_read_outstanding": "16",
+          "num_write_outstanding": "16",
+          "max_read_burst_length": "16",
+          "max_write_burst_length": "16",
+          "max_widen_bitwidth": "512",
+          "channel_id": "0",
+          "argName": "V"
+        },
+        {
+          "constraint_type": "bitwidth",
+          "orig_bitwidth": "64",
+          "final_bitwidth": "256",
+          "argName": "V"
+        },
+        {
+          "constraint_type": "pragma interface",
+          "mode": "m_axi",
+          "register_option": "0",
+          "offset": "slave",
+          "latency": "64",
+          "num_read_outstanding": "16",
+          "num_write_outstanding": "16",
+          "max_read_burst_length": "16",
+          "max_write_burst_length": "16",
+          "max_widen_bitwidth": "512",
+          "channel_id": "0",
+          "argName": "random_increments"
+        },
+        {
+          "constraint_type": "bitwidth",
+          "orig_bitwidth": "64",
+          "final_bitwidth": "256",
+          "argName": "random_increments"
+        }
+      ]
+    }
+  },
+  "RtlPorts": {
+    "s_axi_control_AWVALID": {
+      "dir": "in",
+      "width": "1"
+    },
+    "s_axi_control_AWREADY": {
+      "dir": "out",
+      "width": "1"
+    },
+    "s_axi_control_AWADDR": {
+      "dir": "in",
+      "width": "8"
+    },
+    "s_axi_control_WVALID": {
+      "dir": "in",
+      "width": "1"
+    },
+    "s_axi_control_WREADY": {
+      "dir": "out",
+      "width": "1"
+    },
+    "s_axi_control_WDATA": {
+      "dir": "in",
+      "width": "32"
+    },
+    "s_axi_control_WSTRB": {
+      "dir": "in",
+      "width": "4"
+    },
+    "s_axi_control_ARVALID": {
+      "dir": "in",
+      "width": "1"
+    },
+    "s_axi_control_ARREADY": {
+      "dir": "out",
+      "width": "1"
+    },
+    "s_axi_control_ARADDR": {
+      "dir": "in",
+      "width": "8"
+    },
+    "s_axi_control_RVALID": {
+      "dir": "out",
+      "width": "1"
+    },
+    "s_axi_control_RREADY": {
+      "dir": "in",
+      "width": "1"
+    },
+    "s_axi_control_RDATA": {
+      "dir": "out",
+      "width": "32"
+    },
+    "s_axi_control_RRESP": {
+      "dir": "out",
+      "width": "2"
+    },
+    "s_axi_control_BVALID": {
+      "dir": "out",
+      "width": "1"
+    },
+    "s_axi_control_BREADY": {
+      "dir": "in",
+      "width": "1"
+    },
+    "s_axi_control_BRESP": {
+      "dir": "out",
+      "width": "2"
+    },
+    "ap_clk": {
+      "dir": "in",
+      "width": "1"
+    },
+    "ap_rst_n": {
+      "dir": "in",
+      "width": "1"
+    },
+    "interrupt": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_AWVALID": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_AWREADY": {
+      "dir": "in",
+      "width": "1"
+    },
+    "m_axi_gmem_AWADDR": {
+      "dir": "out",
+      "width": "64"
+    },
+    "m_axi_gmem_AWID": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_AWLEN": {
+      "dir": "out",
+      "width": "8"
+    },
+    "m_axi_gmem_AWSIZE": {
+      "dir": "out",
+      "width": "3"
+    },
+    "m_axi_gmem_AWBURST": {
+      "dir": "out",
+      "width": "2"
+    },
+    "m_axi_gmem_AWLOCK": {
+      "dir": "out",
+      "width": "2"
+    },
+    "m_axi_gmem_AWCACHE": {
+      "dir": "out",
+      "width": "4"
+    },
+    "m_axi_gmem_AWPROT": {
+      "dir": "out",
+      "width": "3"
+    },
+    "m_axi_gmem_AWQOS": {
+      "dir": "out",
+      "width": "4"
+    },
+    "m_axi_gmem_AWREGION": {
+      "dir": "out",
+      "width": "4"
+    },
+    "m_axi_gmem_AWUSER": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_WVALID": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_WREADY": {
+      "dir": "in",
+      "width": "1"
+    },
+    "m_axi_gmem_WDATA": {
+      "dir": "out",
+      "width": "256"
+    },
+    "m_axi_gmem_WSTRB": {
+      "dir": "out",
+      "width": "32"
+    },
+    "m_axi_gmem_WLAST": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_WID": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_WUSER": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_ARVALID": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_ARREADY": {
+      "dir": "in",
+      "width": "1"
+    },
+    "m_axi_gmem_ARADDR": {
+      "dir": "out",
+      "width": "64"
+    },
+    "m_axi_gmem_ARID": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_ARLEN": {
+      "dir": "out",
+      "width": "8"
+    },
+    "m_axi_gmem_ARSIZE": {
+      "dir": "out",
+      "width": "3"
+    },
+    "m_axi_gmem_ARBURST": {
+      "dir": "out",
+      "width": "2"
+    },
+    "m_axi_gmem_ARLOCK": {
+      "dir": "out",
+      "width": "2"
+    },
+    "m_axi_gmem_ARCACHE": {
+      "dir": "out",
+      "width": "4"
+    },
+    "m_axi_gmem_ARPROT": {
+      "dir": "out",
+      "width": "3"
+    },
+    "m_axi_gmem_ARQOS": {
+      "dir": "out",
+      "width": "4"
+    },
+    "m_axi_gmem_ARREGION": {
+      "dir": "out",
+      "width": "4"
+    },
+    "m_axi_gmem_ARUSER": {
+      "dir": "out",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_RVALID": {
+      "dir": "in",
+      "width": "1"
+    },
+    "m_axi_gmem_RREADY": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_RDATA": {
+      "dir": "in",
+      "width": "256"
+    },
+    "m_axi_gmem_RLAST": {
+      "dir": "in",
+      "width": "1"
+    },
+    "m_axi_gmem_RID": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_RUSER": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_RRESP": {
+      "dir": "in",
+      "width": "2"
+    },
+    "m_axi_gmem_BVALID": {
+      "dir": "in",
+      "width": "1"
+    },
+    "m_axi_gmem_BREADY": {
+      "dir": "out",
+      "width": "1"
+    },
+    "m_axi_gmem_BRESP": {
+      "dir": "in",
+      "width": "2"
+    },
+    "m_axi_gmem_BID": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "m_axi_gmem_BUSER": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    }
+  },
+  "ModuleInfo": {
+    "Hierarchy": {
+      "ModuleName": "SABR",
+      "BindInstances": "ddiv_64ns_64ns_64_31_no_dsp_1_U84 dsqrt_64ns_64ns_64_57_no_dsp_1_U85 dmul_64ns_64ns_64_6_max_dsp_1_U82 dadddsub_64ns_64ns_64_6_full_dsp_1_U81 dsqrt_64ns_64ns_64_57_no_dsp_1_U86 dmul_64ns_64ns_64_6_max_dsp_1_U82 dadddsub_64ns_64ns_64_6_full_dsp_1_U81 dmul_64ns_64ns_64_6_max_dsp_1_U82 dmul_64ns_64ns_64_6_max_dsp_1_U83 dmul_64ns_64ns_64_6_max_dsp_1_U82 control_s_axi_U gmem_m_axi_U",
+      "Instances": [
+        {
+          "ModuleName": "SABR_Pipeline_VITIS_LOOP_12_1",
+          "InstanceName": "grp_SABR_Pipeline_VITIS_LOOP_12_1_fu_184",
+          "BindInstances": "icmp_ln12_fu_178_p2 add_ln12_fu_184_p2 icmp_ln13_fu_208_p2 select_ln13_fu_252_p3 add_ln13_fu_214_p2 add_ln14_fu_220_p2 select_ln14_fu_315_p3"
+        },
+        {
+          "ModuleName": "SABR_Pipeline_VITIS_LOOP_17_2",
+          "InstanceName": "grp_SABR_Pipeline_VITIS_LOOP_17_2_fu_194",
+          "BindInstances": "icmp_ln17_fu_1114_p2 add_ln17_fu_1120_p2 empty_fu_1138_p2 empty_317_fu_1143_p2 lshr_ln24_fu_1202_p2 lshr_ln24_1_fu_1284_p2 add_ln21_97_fu_1229_p2 add_ln21_fu_1239_p2 lshr_ln21_fu_1308_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_1_fu_1335_p2 add_ln21_2_fu_1344_p2 lshr_ln21_1_fu_1384_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_3_fu_1411_p2 add_ln21_4_fu_1420_p2 lshr_ln21_2_fu_1460_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_5_fu_1487_p2 add_ln21_6_fu_1496_p2 lshr_ln21_3_fu_1536_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_7_fu_1563_p2 add_ln21_8_fu_1572_p2 lshr_ln21_4_fu_1612_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_9_fu_1639_p2 add_ln21_10_fu_1648_p2 lshr_ln21_5_fu_1688_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_11_fu_1715_p2 add_ln21_12_fu_1724_p2 lshr_ln21_6_fu_1764_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_13_fu_1791_p2 add_ln21_14_fu_1800_p2 lshr_ln21_7_fu_1840_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_15_fu_1867_p2 add_ln21_16_fu_1876_p2 lshr_ln21_8_fu_1916_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_17_fu_1943_p2 add_ln21_18_fu_1952_p2 lshr_ln21_9_fu_1992_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_19_fu_2019_p2 add_ln21_20_fu_2028_p2 lshr_ln21_10_fu_2068_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_21_fu_2095_p2 add_ln21_22_fu_2104_p2 lshr_ln21_11_fu_2144_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_23_fu_2171_p2 add_ln21_24_fu_2180_p2 lshr_ln21_12_fu_2220_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_25_fu_2247_p2 add_ln21_26_fu_2256_p2 lshr_ln21_13_fu_2296_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_27_fu_2323_p2 add_ln21_28_fu_2332_p2 lshr_ln21_14_fu_2372_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_29_fu_2399_p2 add_ln21_30_fu_2408_p2 lshr_ln21_15_fu_2448_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_31_fu_2475_p2 add_ln21_32_fu_2484_p2 lshr_ln21_16_fu_2524_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_33_fu_2551_p2 add_ln21_34_fu_2560_p2 lshr_ln21_17_fu_2600_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_35_fu_2627_p2 add_ln21_36_fu_2636_p2 lshr_ln21_18_fu_2676_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_37_fu_2703_p2 add_ln21_38_fu_2712_p2 lshr_ln21_19_fu_2752_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_39_fu_2779_p2 add_ln21_40_fu_2788_p2 lshr_ln21_20_fu_2828_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_41_fu_2855_p2 add_ln21_42_fu_2864_p2 lshr_ln21_21_fu_2904_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_43_fu_2931_p2 add_ln21_44_fu_2940_p2 lshr_ln21_22_fu_2980_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_45_fu_3007_p2 add_ln21_46_fu_3016_p2 lshr_ln21_23_fu_3056_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_47_fu_3083_p2 add_ln21_48_fu_3092_p2 lshr_ln21_24_fu_3132_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_49_fu_3159_p2 add_ln21_50_fu_3168_p2 lshr_ln21_25_fu_3208_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_51_fu_3235_p2 add_ln21_52_fu_3244_p2 lshr_ln21_26_fu_3284_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_53_fu_3311_p2 add_ln21_54_fu_3320_p2 lshr_ln21_27_fu_3360_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_55_fu_3387_p2 add_ln21_56_fu_3396_p2 lshr_ln21_28_fu_3436_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_57_fu_3463_p2 add_ln21_58_fu_3472_p2 lshr_ln21_29_fu_3512_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_59_fu_3539_p2 add_ln21_60_fu_3548_p2 lshr_ln21_30_fu_3588_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_61_fu_3615_p2 add_ln21_62_fu_3624_p2 lshr_ln21_31_fu_3664_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_63_fu_3691_p2 add_ln21_64_fu_3700_p2 lshr_ln21_32_fu_3740_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_65_fu_3767_p2 add_ln21_66_fu_3776_p2 lshr_ln21_33_fu_3816_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_67_fu_3843_p2 add_ln21_68_fu_3852_p2 lshr_ln21_34_fu_3892_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_69_fu_3919_p2 add_ln21_70_fu_3928_p2 lshr_ln21_35_fu_3968_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_71_fu_3995_p2 add_ln21_72_fu_4004_p2 lshr_ln21_36_fu_4044_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_73_fu_4071_p2 add_ln21_74_fu_4080_p2 lshr_ln21_37_fu_4120_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_75_fu_4147_p2 add_ln21_76_fu_4156_p2 lshr_ln21_38_fu_4196_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_77_fu_4223_p2 add_ln21_78_fu_4232_p2 lshr_ln21_39_fu_4272_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_79_fu_4299_p2 add_ln21_80_fu_4308_p2 lshr_ln21_40_fu_4348_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_81_fu_4375_p2 add_ln21_82_fu_4384_p2 lshr_ln21_41_fu_4424_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_83_fu_4451_p2 add_ln21_84_fu_4460_p2 lshr_ln21_42_fu_4500_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_85_fu_4527_p2 add_ln21_86_fu_4536_p2 lshr_ln21_43_fu_4576_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_87_fu_4603_p2 add_ln21_88_fu_4612_p2 lshr_ln21_44_fu_4804_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_89_fu_4641_p2 add_ln21_90_fu_4650_p2 lshr_ln21_45_fu_4842_p2 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_91_fu_4679_p2 add_ln21_92_fu_4688_p2 lshr_ln21_46_fu_4880_p2 dexp_64ns_64ns_64_18_full_dsp_1_U66 dmul_64ns_64ns_64_6_max_dsp_1_U64 add_ln21_93_fu_4717_p2 add_ln21_94_fu_4726_p2 lshr_ln21_47_fu_4918_p2 dadd_64ns_64ns_64_6_full_dsp_1_U60 dexp_64ns_64ns_64_18_full_dsp_1_U66 add_ln21_95_fu_4745_p2 add_ln21_96_fu_4754_p2 lshr_ln21_48_fu_4948_p2 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U64 dmul_64ns_64ns_64_6_max_dsp_1_U65 dmul_64ns_64ns_64_6_max_dsp_1_U65 dadd_64ns_64ns_64_6_full_dsp_1_U60 dadd_64ns_64ns_64_6_full_dsp_1_U61 dexp_64ns_64ns_64_18_full_dsp_1_U66 shl_ln24_fu_5007_p2 shl_ln24_2_fu_5013_p2 shl_ln24_3_fu_5021_p2 shl_ln24_4_fu_4991_p2",
+          "Instances": [{
+              "ModuleName": "pow_generic_double_s",
+              "InstanceName": "grp_pow_generic_double_s_fu_920",
+              "BindInstances": "b_exp_fu_1323_p2 m_exp_fu_1922_p2 y_is_0_fu_1616_p2 icmp_ln340_fu_1329_p2 icmp_ln340_1_fu_709_p2 x_is_1_fu_1335_p2 xor_ln341_fu_1622_p2 x_is_p1_fu_1627_p2 x_is_n1_fu_1632_p2 icmp_ln18_fu_1636_p2 icmp_ln18_1_fu_1642_p2 y_is_inf_fu_1648_p2 icmp_ln18_2_fu_1654_p2 y_is_NaN_fu_1927_p2 icmp_ln18_3_fu_1340_p2 icmp_ln18_4_fu_714_p2 x_is_NaN_fu_1931_p2 x_is_0_fu_1345_p2 x_is_inf_fu_1660_p2 or_ln357_fu_1664_p2 xor_ln357_fu_1669_p2 x_is_neg_fu_1675_p2 icmp_ln372_fu_1935_p2 add_ln373_fu_1690_p2 lshr_ln373_fu_1700_p2 and_ln373_1_fu_1706_p2 icmp_ln373_fu_1712_p2 or_ln373_fu_1949_p2 xor_ln373_fu_1955_p2 sparsemux_7_2_1_1_0_U22 and_ln378_fu_1718_p2 or_ln378_fu_1724_p2 or_ln378_1_fu_1730_p2 or_ln386_fu_1988_p2 xor_ln386_fu_1993_p2 and_ln386_fu_1999_p2 or_ln386_1_fu_2004_p2 or_ln386_2_fu_2010_p2 y_is_pos_fu_1736_p2 y_is_pinf_fu_1742_p2 y_is_ninf_fu_1748_p2 x_abs_greater_1_fu_1754_p2 icmp_ln421_fu_2056_p2 icmp_ln422_fu_2061_p2 icmp_ln422_1_fu_2066_p2 sub_ln422_fu_1759_p2 bitselect_1ns_52ns_32s_1_1_0_U21 xor_ln421_fu_2071_p2 and_ln422_fu_2077_p2 and_ln422_1_fu_2083_p2 sparsemux_7_2_1_1_0_U23 r_sign_fu_2116_p2 and_ln431_fu_1777_p2 and_ln431_1_fu_1783_p2 and_ln431_2_fu_1788_p2 and_ln431_3_fu_1794_p2 or_ln431_fu_1799_p2 or_ln431_1_fu_1805_p2 or_ln431_2_fu_1811_p2 xor_ln431_fu_2691_p2 and_ln438_fu_1817_p2 and_ln438_1_fu_1822_p2 and_ln438_2_fu_1828_p2 and_ln438_3_fu_1833_p2 or_ln438_fu_1839_p2 or_ln438_1_fu_1845_p2 or_ln438_2_fu_1851_p2 xor_ln438_fu_2696_p2 b_exp_1_fu_1358_p2 b_frac_2_fu_739_p3 b_exp_2_fu_1364_p3 mul_12s_80ns_90_5_0_U6 mul_54s_6ns_54_3_0_U12 select_ln42_fu_814_p3 mul_71ns_4ns_75_5_0_U20 mul_73ns_6ns_79_5_0_U13 mul_83ns_6ns_89_5_0_U17 mul_92ns_6ns_97_5_0_U19 mul_87ns_6ns_92_5_0_U18 mul_82ns_6ns_87_5_0_U16 mul_77ns_6ns_82_5_0_U14 add_ln209_fu_1509_p2 add_ln209_1_fu_1515_p2 add_ln209_4_fu_1480_p2 mul_40ns_40ns_79_2_0_U8 sub_ln522_fu_1573_p2 e_frac_1_fu_1908_p2 e_frac_2_fu_1914_p3 mul_78s_54s_131_5_0_U15 sub_ln545_fu_2024_p2 select_ln545_fu_2121_p3 ashr_ln545_fu_2134_p2 shl_ln545_fu_2139_p2 m_fix_l_fu_2152_p3 shl_ln546_fu_2245_p2 ashr_ln546_fu_2250_p2 m_fix_back_fu_2255_p3 shl_ln552_fu_2166_p2 select_ln553_fu_2041_p3 shl_ln553_fu_2178_p2 ashr_ln553_fu_2183_p2 select_ln553_1_fu_2188_p3 m_fix_0_in_in_v_v_fu_2195_p3 mac_muladd_16s_15ns_19s_31_4_0_U25 mac_muladd_16s_15ns_19s_31_4_0_U25 icmp_ln563_fu_2299_p2 add_ln563_1_fu_2305_p2 select_ln563_fu_2311_p3 r_exp_fu_2319_p3 mul_13s_71s_71_5_0_U7 sub_ln574_fu_2341_p2 exp_Z4_m_1_fu_2416_p2 mul_43ns_36ns_79_2_0_U9 add_ln261_fu_2459_p2 exp_Z2P_m_1_fu_2468_p2 mul_49ns_44ns_93_3_0_U10 add_ln280_fu_2532_p2 exp_Z1P_m_1_l_fu_2541_p2 add_ln616_fu_2575_p2 mul_50ns_50ns_99_3_0_U11 add_ln616_1_fu_2590_p2 r_exp_1_fu_2604_p2 r_exp_2_fu_2609_p3 icmp_ln628_fu_2275_p2 and_ln628_fu_2616_p2 icmp_ln628_1_fu_2630_p2 or_ln628_fu_2636_p2 icmp_ln645_fu_2642_p2 out_sig_fu_2668_p3 out_exp_fu_2723_p2 or_ln386_3_fu_2740_p2 xor_ln386_1_fu_2744_p2 and_ln342_fu_2750_p2 xor_ln386_2_fu_2755_p2 and_ln386_1_fu_2760_p2 xor_ln342_fu_2765_p2 and_ln342_1_fu_2770_p2 and_ln431_4_fu_2776_p2 and_ln431_5_fu_2781_p2 and_ln438_4_fu_2787_p2 and_ln438_5_fu_2792_p2 and_ln628_1_fu_2798_p2 and_ln629_fu_2803_p2 xor_ln629_fu_2808_p2 and_ln629_1_fu_2813_p2 xor_ln628_fu_2819_p2 and_ln645_fu_2824_p2 and_ln645_1_fu_2829_p2 sparsemux_19_8_64_1_0_U24 pow_reduce_anonymous_namespace_log_inverse_lut_table_pow_0_5_64_array_U pow_reduce_anonymous_namespace_log0_lut_table_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_4_16_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27_6_64_array_U pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32_6_64_array_U pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_array_U pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_array_U pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_array_U"
+            }]
+        }
+      ]
+    },
+    "Info": {
+      "SABR_Pipeline_VITIS_LOOP_12_1": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "pow_generic_double_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "SABR_Pipeline_VITIS_LOOP_17_2": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "SABR": {
+        "FunctionProtocol": "ap_ctrl_chain",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      }
+    },
+    "Metrics": {
+      "SABR_Pipeline_VITIS_LOOP_12_1": {
+        "Latency": {
+          "LatencyBest": "271",
+          "LatencyAvg": "271",
+          "LatencyWorst": "271",
+          "PipelineII": "202",
+          "PipelineDepth": "",
+          "PipelineType": "loop auto-rewind stp (delay=0 clock cycles(s))"
+        },
+        "Timing": {
+          "Target": "8.00",
+          "Uncertainty": "0.96",
+          "Estimate": "7.040"
+        },
+        "Loops": [{
+            "Name": "VITIS_LOOP_12_1",
+            "TripCount": "100",
+            "Latency": "269",
+            "PipelineII": "2",
+            "PipelineDepth": "72"
+          }],
+        "Area": {
+          "FF": "657",
+          "AVAIL_FF": "16000",
+          "UTIL_FF": "4",
+          "LUT": "833",
+          "AVAIL_LUT": "8000",
+          "UTIL_LUT": "10",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "20",
+          "UTIL_BRAM": "0",
+          "DSP": "0",
+          "AVAIL_DSP": "20",
+          "UTIL_DSP": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "pow_generic_double_s": {
+        "Latency": {
+          "LatencyBest": "78",
+          "LatencyAvg": "78",
+          "LatencyWorst": "78",
+          "PipelineII": "1",
+          "PipelineDepth": "79",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "8.00",
+          "Uncertainty": "0.96",
+          "Estimate": "7.014"
+        },
+        "Area": {
+          "BRAM_18K": "30",
+          "AVAIL_BRAM": "20",
+          "UTIL_BRAM": "150",
+          "DSP": "85",
+          "AVAIL_DSP": "20",
+          "UTIL_DSP": "425",
+          "FF": "14067",
+          "AVAIL_FF": "16000",
+          "UTIL_FF": "87",
+          "LUT": "13220",
+          "AVAIL_LUT": "8000",
+          "UTIL_LUT": "165",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "SABR_Pipeline_VITIS_LOOP_17_2": {
+        "Latency": {
+          "LatencyBest": "494601",
+          "LatencyAvg": "494601",
+          "LatencyWorst": "494601",
+          "PipelineII": "494601",
+          "PipelineDepth": "",
+          "PipelineType": "no"
+        },
+        "Timing": {
+          "Target": "8.00",
+          "Uncertainty": "0.96",
+          "Estimate": "9.052"
+        },
+        "Loops": [{
+            "Name": "VITIS_LOOP_17_2",
+            "TripCount": "100",
+            "Latency": "494600",
+            "PipelineII": "",
+            "PipelineDepth": "4946"
+          }],
+        "Area": {
+          "BRAM_18K": "30",
+          "AVAIL_BRAM": "20",
+          "UTIL_BRAM": "150",
+          "DSP": "139",
+          "AVAIL_DSP": "20",
+          "UTIL_DSP": "695",
+          "FF": "47034",
+          "AVAIL_FF": "16000",
+          "UTIL_FF": "293",
+          "LUT": "77078",
+          "AVAIL_LUT": "8000",
+          "UTIL_LUT": "963",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "SABR": {
+        "Latency": {
+          "LatencyBest": "494961",
+          "LatencyAvg": "494961",
+          "LatencyWorst": "494961",
+          "PipelineII": "494962",
+          "PipelineDepth": "",
+          "PipelineType": "no"
+        },
+        "Timing": {
+          "Target": "8.00",
+          "Uncertainty": "0.96",
+          "Estimate": "9.052"
+        },
+        "Area": {
+          "BRAM_18K": "60",
+          "AVAIL_BRAM": "20",
+          "UTIL_BRAM": "300",
+          "DSP": "164",
+          "AVAIL_DSP": "20",
+          "UTIL_DSP": "820",
+          "FF": "52065",
+          "AVAIL_FF": "16000",
+          "UTIL_FF": "325",
+          "LUT": "82434",
+          "AVAIL_LUT": "8000",
+          "UTIL_LUT": "1030",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      }
+    }
+  },
+  "GenerateBdFiles": "0",
+  "GenData": {
+    "DataVersion": "0.2",
+    "Time": "2025-01-09 22:48:43 -0500",
+    "ToolName": "vitis_hls",
+    "ToolVersion": "2024.2"
+  }
+}

@@ -1,0 +1,268 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\SABR.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/09/25 22:48:36",
+ "timestampMillis": "1736480916913",
+ "buildStep": {
+  "cmdId": "858e1f3c-a245-4cc9-ba0d-5b0597b712b5",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\logs\\SABR.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\hls_config.cfg --work_dir SABR ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\hls_config.cfg",
+   "--work_dir",
+   "SABR"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 22:48:36",
+ "timestampMillis": "1736480916914",
+ "status": {
+  "cmdId": "858e1f3c-a245-4cc9-ba0d-5b0597b712b5",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922617",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "SABR",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\steve\\thesis-monte-carlo\\SABR\\test.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922618",
+ "buildStep": {
+  "cmdId": "ad9022bf-8137-40f3-a520-750cd5c8f3ee",
+  "name": "",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922618",
+ "status": {
+  "cmdId": "ad9022bf-8137-40f3-a520-750cd5c8f3ee",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922619",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922620",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922620",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922621",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922621",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 22:48:42",
+ "timestampMillis": "1736480922621",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 23:26:38",
+ "timestampMillis": "1736483198913",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 23:26:38",
+ "timestampMillis": "1736483198923",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\sabr\\sabr\\SABR\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 23:26:38",
+ "timestampMillis": "1736483198924",
+ "status": {
+  "cmdId": "ad9022bf-8137-40f3-a520-750cd5c8f3ee",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/09/25 23:26:39",
+ "timestampMillis": "1736483199865",
+ "status": {
+  "cmdId": "858e1f3c-a245-4cc9-ba0d-5b0597b712b5",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 23:26:39",
+ "timestampMillis": "1736483199869",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/09/25 23:26:39",
+ "timestampMillis": "1736483199870",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

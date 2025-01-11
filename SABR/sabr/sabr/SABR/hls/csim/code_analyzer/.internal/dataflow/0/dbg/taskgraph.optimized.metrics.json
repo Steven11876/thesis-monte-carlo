@@ -1,0 +1,1309 @@
+[
+    {
+        "name": "SABR",
+        "df_function": "%F211",
+        "df_type": "Function",
+        "project": "SLX",
+        "processes": {
+            "1": {
+                "id": "1",
+                "name": "Artificial<Start>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 9,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 29,
+                        "column": 1
+                    }
+                },
+                "display_name": "<START>",
+                "kind": "start"
+            },
+            "2": {
+                "id": "2",
+                "name": "Artificial<End>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 9,
+                        "column": 1
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 29,
+                        "column": 1
+                    }
+                },
+                "display_name": "<END>",
+                "kind": "end"
+            },
+            "3": {
+                "id": "3",
+                "name": "Region<OutlineCall(R2 SABR) BB 'codeRepl' [Atomic] 'Outline_T3_F211_R2_Atomic'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 11,
+                        "column": 23
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 11,
+                        "column": 23
+                    }
+                },
+                "display_name": "Process 1",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 11,
+                                    "column": 0
+                                },
+                                "id": "VId_39_!c?(?,?)",
+                                "name": "deltat",
+                                "display_name": "double deltat"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_35_!c?(?,?)",
+                                "name": "T",
+                                "display_name": "double T"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 8
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 59
+                },
+                "subregions": [
+                    {
+                        "id": "%F212_R1",
+                        "description": "<function entry>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 11,
+                                "column": 23
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 11,
+                                "column": 23
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "4": {
+                "id": "4",
+                "name": "Region<OutlineCall(R3 SABR) BB 'codeRepl1' [Atomic,Loop,Atomic] 'Outline_T4_F211_R3_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 12,
+                        "column": 5
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 15,
+                        "column": 5
+                    }
+                },
+                "display_name": "Process 2",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_27_[?(?,64)]dc",
+                                "name": "S[*]",
+                                "display_name": "double S[100]"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 800,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 13,
+                                        "column": 14
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 100
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_28_[?(?,64)]dc",
+                                "name": "V[*]",
+                                "display_name": "double V[100]"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 800,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 14,
+                                        "column": 14
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 100
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_29_!c?(?,?)",
+                                "name": "S0",
+                                "display_name": "double S0"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 2
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_31_!c?(?,?)",
+                                "name": "sigma_init",
+                                "display_name": "double sigma_init"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 4
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 102
+                },
+                "subregions": [
+                    {
+                        "id": "%F213_R1",
+                        "description": "<function entry>"
+                    },
+                    {
+                        "id": "%F213_R2",
+                        "description": "<loop 'for.body'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 12,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 15,
+                                "column": 5
+                            }
+                        }
+                    },
+                    {
+                        "id": "%F213_R4",
+                        "description": "<function exit>"
+                    }
+                ],
+                "subdataflow": [],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 100,
+                            "max": 100
+                        },
+                        "ii": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "effective_tc": {
+                            "min": 100,
+                            "max": 100
+                        },
+                        "tc": {
+                            "min": 100,
+                            "max": 100
+                        },
+                        "ureg_id": "%L5",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 12,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 15,
+                                "column": 5
+                            }
+                        },
+                        "details": []
+                    }
+                ]
+            },
+            "5": {
+                "id": "5",
+                "name": "Region<OutlineCall(R4 SABR) BB 'codeRepl2' [Atomic,Loop,Atomic] 'Outline_T5_F211_R15_Loop'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 17,
+                        "column": 5
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                        "line": 27,
+                        "column": 5
+                    }
+                },
+                "display_name": "Process 3",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 11,
+                                    "column": 0
+                                },
+                                "id": "VId_39_!c?(?,?)",
+                                "name": "deltat",
+                                "display_name": "double deltat"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 8,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_36_[?(?,64)]dc",
+                                "name": "random_increments[*]",
+                                "display_name": "double random_increments[9800]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 78392,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 21,
+                                        "column": 25
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 4900
+                                },
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 8,
+                                                "end": 78400,
+                                                "is_exact": false
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 22,
+                                        "column": 52
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 4900
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 9
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_27_[?(?,64)]dc",
+                                "name": "S[*]",
+                                "display_name": "double S[100]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 800,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 100
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 800,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 0,
+                                        "column": 0
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 100
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 0
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_28_[?(?,64)]dc",
+                                "name": "V[*]",
+                                "display_name": "double V[100]"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 800,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "load",
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 100
+                                }
+                            ],
+                            "writes": [
+                                {
+                                    "access_kind": "Ptr",
+                                    "range": {
+                                        "ranges": [
+                                            {
+                                                "start": 0,
+                                                "end": 800,
+                                                "is_exact": true
+                                            }
+                                        ]
+                                    },
+                                    "instr": "store",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 0,
+                                        "column": 0
+                                    },
+                                    "access_type": "double",
+                                    "access_bit_width": 64,
+                                    "exec_count": 100
+                                }
+                            ],
+                            "kind": "Ptr",
+                            "has_alias": false,
+                            "arg_idx": 1
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_34_!c?(?,?)",
+                                "name": "rho",
+                                "display_name": "double rho"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 7
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_30_!c?(?,?)",
+                                "name": "r",
+                                "display_name": "double r"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 3
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_33_!c?(?,?)",
+                                "name": "beta",
+                                "display_name": "double beta"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 6
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                    "line": 10,
+                                    "column": 0
+                                },
+                                "id": "VId_32_!c?(?,?)",
+                                "name": "alpha",
+                                "display_name": "double alpha"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                        "line": 4294967295,
+                                        "column": 0
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 5
+                        }
+                    ]
+                },
+                "metrics": {
+                    "initiation_interval": 593382
+                },
+                "subregions": [
+                    {
+                        "id": "%F214_R1",
+                        "description": "<function entry>"
+                    },
+                    {
+                        "id": "%F214_R2",
+                        "description": "<loop 'for.body6'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 17,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 27,
+                                "column": 5
+                            }
+                        }
+                    },
+                    {
+                        "id": "%F214_R7",
+                        "description": "<function exit>"
+                    }
+                ],
+                "subdataflow": [],
+                "guidance": [
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 593300,
+                            "max": 593300
+                        },
+                        "ii": {
+                            "min": 5933,
+                            "max": 5933
+                        },
+                        "effective_tc": {
+                            "min": 100,
+                            "max": 100
+                        },
+                        "tc": {
+                            "min": 100,
+                            "max": 100
+                        },
+                        "ureg_id": "%L3",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 17,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 27,
+                                "column": 5
+                            }
+                        },
+                        "details": []
+                    },
+                    {
+                        "type": "LoopGuidance",
+                        "ti": {
+                            "min": 5929,
+                            "max": 5929
+                        },
+                        "ii": {
+                            "min": 121,
+                            "max": 121
+                        },
+                        "effective_tc": {
+                            "min": 49,
+                            "max": 49
+                        },
+                        "tc": {
+                            "min": 49,
+                            "max": 49
+                        },
+                        "ureg_id": "%L4",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 19,
+                                "column": 9
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                "line": 26,
+                                "column": 9
+                            }
+                        },
+                        "details": [
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 9,
+                                    "max": 9
+                                },
+                                "variables": [
+                                    {
+                                        "name": "i522 [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "mul48 [fmul]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 25,
+                                            "column": 18
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "CyclicDependence",
+                                "ii_lower_bound": {
+                                    "min": 115,
+                                    "max": 115
+                                },
+                                "variables": [
+                                    {
+                                        "name": "add381 [phi]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 0,
+                                            "column": 0
+                                        }
+                                    },
+                                    {
+                                        "name": "mul31 [fmul]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 24,
+                                            "column": 24
+                                        }
+                                    },
+                                    {
+                                        "name": "i40 = llvm.pow.f64(add381, beta, llvm.pow.f64, )",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 24,
+                                            "column": 43
+                                        }
+                                    },
+                                    {
+                                        "name": "mul36 [fmul]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 24,
+                                            "column": 42
+                                        }
+                                    },
+                                    {
+                                        "name": "mul37 [fmul]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 24,
+                                            "column": 57
+                                        }
+                                    },
+                                    {
+                                        "name": "add38 [fadd]",
+                                        "id": "<unknown>",
+                                        "location": {
+                                            "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                                            "line": 24,
+                                            "column": 37
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "channels": {
+            "T_RAW_1_3_#0": {
+                "name": "T_RAW_1_3_#0",
+                "variable_id": "VId_35_!c?(?,?)",
+                "variable_name": "T",
+                "declaration": "double T",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "3"
+            },
+            "S0_RAW_1_4_#1": {
+                "name": "S0_RAW_1_4_#1",
+                "variable_id": "VId_29_!c?(?,?)",
+                "variable_name": "S0",
+                "declaration": "double S0",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "sigma_init_RAW_1_4_#2": {
+                "name": "sigma_init_RAW_1_4_#2",
+                "variable_id": "VId_31_!c?(?,?)",
+                "variable_name": "sigma_init",
+                "declaration": "double sigma_init",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "S[*]_WAW_1_4_#3": {
+                "name": "S[*]_WAW_1_4_#3",
+                "variable_id": "VId_27_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "V[*]_WAW_1_4_#4": {
+                "name": "V[*]_WAW_1_4_#4",
+                "variable_id": "VId_28_[?(?,64)]dc",
+                "variable_name": "V[*]",
+                "declaration": "double V[100]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "4"
+            },
+            "S[*]_RAW_4_5_#5": {
+                "name": "S[*]_RAW_4_5_#5",
+                "variable_id": "VId_27_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 6400,
+                    "channel_rate": 1.078563218971927E-2
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "V[*]_RAW_4_5_#6": {
+                "name": "V[*]_RAW_4_5_#6",
+                "variable_id": "VId_28_[?(?,64)]dc",
+                "variable_name": "V[*]",
+                "declaration": "double V[100]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 6400,
+                    "channel_rate": 1.078563218971927E-2
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "r_RAW_1_5_#7": {
+                "name": "r_RAW_1_5_#7",
+                "variable_id": "VId_30_!c?(?,?)",
+                "variable_name": "r",
+                "declaration": "double r",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "alpha_RAW_1_5_#8": {
+                "name": "alpha_RAW_1_5_#8",
+                "variable_id": "VId_32_!c?(?,?)",
+                "variable_name": "alpha",
+                "declaration": "double alpha",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "beta_RAW_1_5_#9": {
+                "name": "beta_RAW_1_5_#9",
+                "variable_id": "VId_33_!c?(?,?)",
+                "variable_name": "beta",
+                "declaration": "double beta",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "rho_RAW_1_5_#10": {
+                "name": "rho_RAW_1_5_#10",
+                "variable_id": "VId_34_!c?(?,?)",
+                "variable_name": "rho",
+                "declaration": "double rho",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "random_increments[*]_RAW_1_5_#11": {
+                "name": "random_increments[*]_RAW_1_5_#11",
+                "variable_id": "VId_36_[?(?,64)]dc",
+                "variable_name": "random_increments[*]",
+                "declaration": "double random_increments[9800]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 627200,
+                    "channel_rate": 1.0569919545924884E0
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "deltat_RAW_3_5_#12": {
+                "name": "deltat_RAW_3_5_#12",
+                "variable_id": "VId_39_!c?(?,?)",
+                "variable_name": "deltat",
+                "declaration": "double deltat",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 11,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 64,
+                    "channel_rate": 1.078563218971927E-4
+                },
+                "source": "3",
+                "sink": "5"
+            },
+            "S[*]_WAW_4_5_#13": {
+                "name": "S[*]_WAW_4_5_#13",
+                "variable_id": "VId_27_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "V[*]_WAW_4_5_#14": {
+                "name": "V[*]_WAW_4_5_#14",
+                "variable_id": "VId_28_[?(?,64)]dc",
+                "variable_name": "V[*]",
+                "declaration": "double V[100]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "S[*]_RAW_5_2_#15": {
+                "name": "S[*]_RAW_5_2_#15",
+                "variable_id": "VId_27_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 6400,
+                    "channel_rate": 1.078563218971927E-2
+                },
+                "source": "5",
+                "sink": "2"
+            },
+            "V[*]_RAW_5_2_#16": {
+                "name": "V[*]_RAW_5_2_#16",
+                "variable_id": "VId_28_[?(?,64)]dc",
+                "variable_name": "V[*]",
+                "declaration": "double V[100]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "metrics": {
+                    "volume": 6400,
+                    "channel_rate": 1.078563218971927E-2
+                },
+                "source": "5",
+                "sink": "2"
+            },
+            "S[*]_RAR_5_2_#17": {
+                "name": "S[*]_RAR_5_2_#17",
+                "variable_id": "VId_27_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "RAR",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "5",
+                "sink": "2"
+            },
+            "V[*]_RAR_5_2_#18": {
+                "name": "V[*]_RAR_5_2_#18",
+                "variable_id": "VId_28_[?(?,64)]dc",
+                "variable_name": "V[*]",
+                "declaration": "double V[100]",
+                "kind": "Ptr",
+                "dependence": "RAR",
+                "channel_width": 64,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c",
+                    "line": 10,
+                    "column": 0
+                },
+                "source": "5",
+                "sink": "2"
+            }
+        },
+        "control": [
+            {
+                "source": "3",
+                "sink": "4"
+            },
+            {
+                "source": "4",
+                "sink": "5"
+            },
+            {
+                "source": "1",
+                "sink": "3"
+            },
+            {
+                "source": "5",
+                "sink": "2"
+            }
+        ]
+    }
+]

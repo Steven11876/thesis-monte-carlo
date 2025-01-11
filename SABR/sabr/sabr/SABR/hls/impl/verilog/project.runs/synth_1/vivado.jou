@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Jan  9 23:22:29 2025
+# Process ID         : 12484
+# Current directory  : C:/Users/steve/thesis-monte-carlo/SABR/sabr/sabr/SABR/hls/impl/verilog/project.runs/synth_1
+# Command line       : vivado.exe -log bd_0_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_wrapper.tcl
+# Log file           : C:/Users/steve/thesis-monte-carlo/SABR/sabr/sabr/SABR/hls/impl/verilog/project.runs/synth_1/bd_0_wrapper.vds
+# Journal file       : C:/Users/steve/thesis-monte-carlo/SABR/sabr/sabr/SABR/hls/impl/verilog/project.runs/synth_1\vivado.jou
+# Running On         : Steven
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33775 MB
+# Swap memory        : 13827 MB
+# Total Virtual      : 47602 MB
+# Available Virtual  : 23814 MB
+#-----------------------------------------------------------
+source bd_0_wrapper.tcl -notrace
