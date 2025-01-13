@@ -8,21 +8,21 @@
 #define STOCKS 100
 #define NUM_RUNS 1000  // Number of times to run the benchmark
 
-void SABR(double S[STOCKS], double V[STOCKS], double S0, double r, double sigma_init, double alpha, double beta, double rho, double T, double random_increments[2*STOCKS * (STEPS-1)]) {
+void SABR(double S[STOCKS], double S0, double r, double sigma_init, double alpha, double beta, double rho, double T, double random_increments[2*STOCKS * (STEPS-1)]) {
     double deltat = T / STEPS;
     for (int m = 0; m < STOCKS; m++) {
         S[m] = S0;       // Set the first column to the initial stock price S0
-        V[m] = sigma_init;
     }
     
     for (int m = 0; m < STOCKS; m++) {
+        double V = sigma_init;
         for (int j = 0; j < (STEPS-1); j++) {
             // Update stock prices
             double z1 = random_increments[2*m * (STEPS-1) + 2*j]* sqrt(deltat);
             double z2 = rho*z1 + sqrt(1-rho*rho) * random_increments[2*m * (STEPS-1) + 2*j+1]* sqrt(deltat);
 
-            S[m] = S[m]*(1+r*deltat)+V[m]*pow(S[m],beta)*z1;
-            V[m] *= exp(-0.5 * alpha * alpha * deltat + alpha * z2);
+            S[m] = S[m]*(1+r*deltat)+V*pow(S[m],beta)*z1;
+            V *= exp(-0.5 * alpha * alpha * deltat + alpha * z2);
         }
     }
 }
@@ -40,7 +40,6 @@ int main() {
     // Allocate memory for inputs and outputs
     double* random_increments = (double*)malloc(2*STOCKS * (STEPS-1) * sizeof(double));
     double* S = (double*)malloc(STOCKS * sizeof(double));
-    double* V = (double*)malloc(STOCKS * sizeof(double));
     
     uint64_t total_cycles = 0;
     uint64_t min_cycles = UINT64_MAX;
@@ -60,14 +59,14 @@ int main() {
 
     // // Warm up the CPU and caches
     // for (int i = 0; i < 10; i++) {
-    //     SABR(S, V, S0, r, sigma_init, alpha, beta, rho, T, random_increments);
+    //     SABR(S, S0, r, sigma_init, alpha, beta, rho, T, random_increments);
     // }
 
     // Benchmark runs
     printf("Running benchmark for %d iterations...\n", NUM_RUNS);
     for (int run = 0; run < NUM_RUNS; run++) {
         uint64_t start = mach_absolute_time();
-        SABR(S, V, S0, r, sigma_init, alpha, beta, rho, T, random_increments);
+        SABR(S, S0, r, sigma_init, alpha, beta, rho, T, random_increments);
         uint64_t end = mach_absolute_time();
         
         uint64_t cycles = end - start;
@@ -106,6 +105,5 @@ int main() {
 
     free(random_increments);
     free(S);
-    free(V);
     return retval;
 }

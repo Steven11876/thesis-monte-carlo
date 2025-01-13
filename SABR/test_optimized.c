@@ -1,11 +1,10 @@
 #include <math.h>    // For sqrt
 #include "test.h"
 
-void SABR(double S[STOCKS], double V[STOCKS], double S0, double r, double sigma_init, double alpha, double beta, double rho, double T, double random_increments[2*STOCKS * (STEPS-1)]) {
+void SABR(double S[STOCKS], double S0, double r, double sigma_init, double alpha, double beta, double rho, double T, double random_increments[2*STOCKS * (STEPS-1)]) {
     
     // Partition arrays for parallel access
     #pragma HLS ARRAY_PARTITION variable=S complete
-    #pragma HLS ARRAY_PARTITION variable=V complete
     #pragma HLS ARRAY_PARTITION variable=random_increments block factor=100
     
     double deltat = T / STEPS;
@@ -17,17 +16,18 @@ void SABR(double S[STOCKS], double V[STOCKS], double S0, double r, double sigma_
     double r_deltat = r * deltat;
     double one_plus_r_deltat = 1 + r_deltat;
     
-    // Initialize all stock prices and volatilities in parallel
+    // Initialize stock prices
     for (int m = 0; m < STOCKS; m++) {
         #pragma HLS UNROLL factor=STOCKS
         S[m] = S0;
-        V[m] = sigma_init;
     }
     
     // Process all stocks in parallel
     for (int m = 0; m < STOCKS; m++) {
         #pragma HLS UNROLL factor=STOCKS
-        // Pipeline the time steps
+        double vol = sigma_init;
+        
+        // Time steps for each stock
         for (int j = 0; j < (STEPS-1); j++) {
             
             // Pre-compute array indices
@@ -41,12 +41,12 @@ void SABR(double S[STOCKS], double V[STOCKS], double S0, double r, double sigma_
             
             // Update stock price
             double stock_beta = pow(S[m], beta);
-            double vol_term = V[m] * stock_beta * z1;
+            double vol_term = vol * stock_beta * z1;
             S[m] = S[m] * one_plus_r_deltat + vol_term;
             
             // Update volatility
             double vol_exponent = neg_half_alpha_sq_dt + alpha * z2;
-            V[m] *= exp(vol_exponent);
+            vol *= exp(vol_exponent);
         }
     }
 }

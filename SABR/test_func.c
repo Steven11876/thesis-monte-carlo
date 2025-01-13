@@ -26,9 +26,8 @@ int main() {
     fclose(fp);  // Close the file
 
     double* S = (double*)malloc(STOCKS * sizeof(double)); //output
-    double* V = (double*)malloc(STOCKS * sizeof(double));
 
-    SABR(S, V, S0, r, sigma_init, alpha, beta, rho, T, random_increments);
+    SABR(S, S0, r, sigma_init, alpha, beta, rho, T, random_increments);
     // fp = fopen("out.golden.dat", "w");
 
     // for (int m = 0; m < STOCKS; m++) {

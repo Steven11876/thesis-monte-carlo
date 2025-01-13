@@ -6,7 +6,7 @@
 #include <limits.h>  // For LLONG_MAX
 
 #define STEPS 50
-#define STOCKS 0
+#define STOCKS 100
 #define NUM_RUNS 1000  // Number of times to run the benchmark
 
 void GBM(double S[STOCKS], double S0, double r, double sigma, double T, double random_increments[STOCKS * (STEPS-1)]) {
