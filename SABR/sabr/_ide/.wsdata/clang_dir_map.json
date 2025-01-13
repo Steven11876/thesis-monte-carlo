@@ -1,7 +1,0 @@
-{
-  "workspaceRoot": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\sabr",
-  "mapping": {
-    "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test.c": "sabr",
-    "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\test_func.c": "sabr"
-  }
-}

@@ -1,7 +1,0 @@
-Running: xsim.dir/SABR/xsimk.exe -simmode gui -wdb SABR.wdb -simrunnum 0 -socket 56692
-Design successfully loaded
-Design Loading Memory Usage: 67036 KB (Peak: 67036 KB)
-Design Loading CPU Usage: 608 ms
-Simulation completed
-Simulation Memory Usage: 160516 KB (Peak: 160516 KB)
-Simulation CPU Usage: 1540593 ms

@@ -1,6 +1,0 @@
-
-This result is generated under the condition there is no block from testbench side.
-So in real working environment, the suggested depth may need some margin.
-
-After FIFO sizing, module total executing time has no change.(still 514135 cycles)
-The detailed FIFO info are listed below.

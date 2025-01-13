@@ -1,6 +1,0 @@
-
-Family       : spartan7
-Device       : xc7s15
-Package      : -cpga196
-Speed Grade  : -2
-Clock Period : 8
