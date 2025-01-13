@@ -61,7 +61,7 @@ IFLAG += -D__SIM_FPO__
 IFLAG += -D__SIM_FFT__
 IFLAG += -D__SIM_FIR__
 IFLAG += -D__SIM_DDS__
-IFLAG += -D__DSP48E1__
+IFLAG += -D__DSP48E2__
 WFLAG += -DUSE_BINARY_TV_FILE
 IFLAG += -DNT
 LFLAG += -Wl,--stack,0x40000000
@@ -88,6 +88,6 @@ $(ObjDir)/test_func.c_pre.c.tb.o : test_func.c_pre.c.tb.c $(ObjDir)/.dir
 	$(Echo) "   Compiling test_func.c_pre.c.tb.c" $(AVE_DIR_DLOG)
 	$(Verb) $(CC) ${CCFLAG} ${TOOLCHAIN} -fno-builtin-isinf -fno-builtin-isnan -c -Wno-unknown-pragmas -Wno-unknown-pragmas $(IFLAG) $(DFLAG) $< -o $@; \
 
-$(ObjDir)/test.c_pre.c.tb.o : test.c_pre.c.tb.c $(ObjDir)/.dir
-	$(Echo) "   Compiling test.c_pre.c.tb.c" $(AVE_DIR_DLOG)
+$(ObjDir)/test_optimized.c_pre.c.tb.o : test_optimized.c_pre.c.tb.c $(ObjDir)/.dir
+	$(Echo) "   Compiling test_optimized.c_pre.c.tb.c" $(AVE_DIR_DLOG)
 	$(Verb) $(CC) ${CCFLAG} ${TOOLCHAIN} -fno-builtin-isinf -fno-builtin-isnan -c  $(IFLAG) $(DFLAG) $< -o $@; \

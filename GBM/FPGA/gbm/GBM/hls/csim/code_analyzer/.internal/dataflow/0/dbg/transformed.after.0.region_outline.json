@@ -10,13 +10,13 @@
                 "name": "Artificial<Start>",
                 "src_range": {
                     "start_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 7,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 4,
                         "column": 1
                     },
                     "end_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 23,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 34,
                         "column": 1
                     }
                 },
@@ -28,13 +28,13 @@
                 "name": "Artificial<End>",
                 "src_range": {
                     "start_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 7,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 4,
                         "column": 1
                     },
                     "end_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 23,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 34,
                         "column": 1
                     }
                 },
@@ -46,14 +46,14 @@
                 "name": "Region<Atomic(R2 GBM) BB 'entry_iso0'>",
                 "src_range": {
                     "start_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 9,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 10,
                         "column": 5
                     },
                     "end_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 9,
-                        "column": 30
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 11,
+                        "column": 47
                     }
                 },
                 "display_name": "Process 1",
@@ -63,8 +63,8 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
                                     "column": 0
                                 },
                                 "id": "VId_27_!c?(?,?)",
@@ -80,8 +80,8 @@
                                     },
                                     "instr": "fdiv",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 9,
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 10,
                                         "column": 23
                                     },
                                     "exec_count": 1
@@ -95,11 +95,11 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 9,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 10,
                                     "column": 23
                                 },
-                                "id": "V_0x0x1fdd0c9cb70_!c?(?,?)",
+                                "id": "V_0x0x1d9e6904a70_!c?(?,?)",
                                 "name": "div",
                                 "display_name": "double div"
                             },
@@ -113,9 +113,86 @@
                                     },
                                     "instr": "fdiv",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 9,
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 10,
                                         "column": 23
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "SSA",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
+                                    "column": 0
+                                },
+                                "id": "VId_26_!c?(?,?)",
+                                "name": "sigma",
+                                "display_name": "double sigma"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fmul",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 11,
+                                        "column": 32
+                                    },
+                                    "exec_count": 1
+                                },
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fmul",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 11,
+                                        "column": 40
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 3
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 11,
+                                    "column": 40
+                                },
+                                "id": "V_0x0x1d9e6904b90_!c?(?,?)",
+                                "name": "mul1",
+                                "display_name": "double mul1"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fmul",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 11,
+                                        "column": 40
                                     },
                                     "exec_count": 1
                                 }
@@ -131,14 +208,14 @@
                         "description": "<atomic 'entry_iso0'>",
                         "src_range": {
                             "start_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 9,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 10,
                                 "column": 5
                             },
                             "end_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 9,
-                                "column": 30
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 11,
+                                "column": 47
                             }
                         }
                     }
@@ -147,17 +224,17 @@
             },
             "4": {
                 "id": "4",
-                "name": "Region<Loop(R3 GBM) Name 'for.cond'>",
+                "name": "Region<Atomic(R3 GBM) BB 'entry_iso1'>",
                 "src_range": {
                     "start_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 11,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 12,
                         "column": 5
                     },
                     "end_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 13,
-                        "column": 5
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 12,
+                        "column": 38
                     }
                 },
                 "display_name": "Process 2",
@@ -167,8 +244,277 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 10,
+                                    "column": 23
+                                },
+                                "id": "V_0x0x1d9e6904a70_!c?(?,?)",
+                                "name": "div",
+                                "display_name": "double div"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 12,
+                                        "column": 26
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 12,
+                                    "column": 26
+                                },
+                                "id": "V_0x0x1d9e693f730_!c?(?,?)",
+                                "name": "i4",
+                                "display_name": "double i4"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "call",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 12,
+                                        "column": 26
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "SSA",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F211_R3",
+                        "description": "<atomic 'entry_iso1'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 12,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 12,
+                                "column": 38
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "5": {
+                "id": "5",
+                "name": "Region<Atomic(R4 GBM) BB 'entry_iso2'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 13,
+                        "column": 5
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 13,
+                        "column": 48
+                    }
+                },
+                "display_name": "Process 3",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
+                                    "column": 0
+                                },
+                                "id": "VId_25_!c?(?,?)",
+                                "name": "r",
+                                "display_name": "double r"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fsub",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 13,
+                                        "column": 23
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false,
+                            "arg_idx": 2
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 11,
+                                    "column": 40
+                                },
+                                "id": "V_0x0x1d9e6904b90_!c?(?,?)",
+                                "name": "mul1",
+                                "display_name": "double mul1"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fsub",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 13,
+                                        "column": 23
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 10,
+                                    "column": 23
+                                },
+                                "id": "V_0x0x1d9e6904a70_!c?(?,?)",
+                                "name": "div",
+                                "display_name": "double div"
+                            },
+                            "reads": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fmul",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 13,
+                                        "column": 40
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 13,
+                                    "column": 40
+                                },
+                                "id": "V_0x0x1d9e6904f80_!c?(?,?)",
+                                "name": "mul2",
+                                "display_name": "double mul2"
+                            },
+                            "reads": [],
+                            "writes": [
+                                {
+                                    "access_kind": "SSA",
+                                    "range": {
+                                        "is_exact": true,
+                                        "is_empty": false
+                                    },
+                                    "instr": "fmul",
+                                    "src_loc": {
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 13,
+                                        "column": 40
+                                    },
+                                    "exec_count": 1
+                                }
+                            ],
+                            "kind": "SSA",
+                            "has_alias": false
+                        }
+                    ]
+                },
+                "subregions": [
+                    {
+                        "id": "%F211_R4",
+                        "description": "<atomic 'entry_iso2'>",
+                        "src_range": {
+                            "start_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 13,
+                                "column": 5
+                            },
+                            "end_loc": {
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 13,
+                                "column": 48
+                            }
+                        }
+                    }
+                ],
+                "subdataflow": []
+            },
+            "6": {
+                "id": "6",
+                "name": "Region<Loop(R5 GBM) Name 'for.cond'>",
+                "src_range": {
+                    "start_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 17,
+                        "column": 5
+                    },
+                    "end_loc": {
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 20,
+                        "column": 5
+                    }
+                },
+                "display_name": "Process 4",
+                "io_signatures": {
+                    "has_unresolved_accesses": false,
+                    "accesses": [
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
                                     "column": 0
                                 },
                                 "id": "VId_23_[?(?,64)]dc",
@@ -190,8 +536,8 @@
                                     },
                                     "instr": "store",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 12,
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 19,
                                         "column": 14
                                     },
                                     "access_type": "double",
@@ -206,8 +552,8 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
                                     "column": 0
                                 },
                                 "id": "VId_24_!c?(?,?)",
@@ -223,8 +569,8 @@
                                     },
                                     "instr": "store",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 12,
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 19,
                                         "column": 14
                                     },
                                     "exec_count": 100
@@ -239,17 +585,17 @@
                 },
                 "subregions": [
                     {
-                        "id": "%F211_R3",
+                        "id": "%F211_R5",
                         "description": "<loop 'for.cond'>",
                         "src_range": {
                             "start_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 11,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 17,
                                 "column": 5
                             },
                             "end_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 13,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 20,
                                 "column": 5
                             }
                         }
@@ -257,30 +603,30 @@
                 ],
                 "subdataflow": []
             },
-            "5": {
-                "id": "5",
-                "name": "Region<Loop(R15 GBM) Name 'for.cond2'>",
+            "7": {
+                "id": "7",
+                "name": "Region<Loop(R17 GBM) Name 'for.cond4'>",
                 "src_range": {
                     "start_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 15,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 24,
                         "column": 5
                     },
                     "end_loc": {
-                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                        "line": 21,
+                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                        "line": 33,
                         "column": 5
                     }
                 },
-                "display_name": "Process 3",
+                "display_name": "Process 5",
                 "io_signatures": {
                     "has_unresolved_accesses": false,
                     "accesses": [
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
                                     "column": 0
                                 },
                                 "id": "VId_28_[?(?,64)]dc",
@@ -301,9 +647,9 @@
                                     },
                                     "instr": "load",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 72
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 29,
+                                        "column": 33
                                     },
                                     "access_type": "double",
                                     "access_bit_width": 64,
@@ -318,8 +664,8 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
                                     "column": 0
                                 },
                                 "id": "VId_23_[?(?,64)]dc",
@@ -340,8 +686,8 @@
                                     },
                                     "instr": "load",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 31,
                                         "column": 18
                                     },
                                     "access_type": "double",
@@ -363,8 +709,8 @@
                                     },
                                     "instr": "store",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 31,
                                         "column": 18
                                     },
                                     "access_type": "double",
@@ -379,8 +725,8 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 4,
                                     "column": 0
                                 },
                                 "id": "VId_26_!c?(?,?)",
@@ -396,37 +742,9 @@
                                     },
                                     "instr": "fmul",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 35
-                                    },
-                                    "exec_count": 4900
-                                },
-                                {
-                                    "access_kind": "SSA",
-                                    "range": {
-                                        "is_exact": true,
-                                        "is_empty": false
-                                    },
-                                    "instr": "fmul",
-                                    "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 43
-                                    },
-                                    "exec_count": 4900
-                                },
-                                {
-                                    "access_kind": "SSA",
-                                    "range": {
-                                        "is_exact": true,
-                                        "is_empty": false
-                                    },
-                                    "instr": "fmul",
-                                    "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 70
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 30,
+                                        "column": 45
                                     },
                                     "exec_count": 4900
                                 }
@@ -439,45 +757,13 @@
                         {
                             "variable": {
                                 "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 8,
-                                    "column": 0
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 12,
+                                    "column": 26
                                 },
-                                "id": "VId_25_!c?(?,?)",
-                                "name": "r",
-                                "display_name": "double r"
-                            },
-                            "reads": [
-                                {
-                                    "access_kind": "SSA",
-                                    "range": {
-                                        "is_exact": true,
-                                        "is_empty": false
-                                    },
-                                    "instr": "fsub",
-                                    "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 28
-                                    },
-                                    "exec_count": 4900
-                                }
-                            ],
-                            "writes": [],
-                            "kind": "SSA",
-                            "has_alias": false,
-                            "arg_idx": 2
-                        },
-                        {
-                            "variable": {
-                                "location": {
-                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                    "line": 9,
-                                    "column": 23
-                                },
-                                "id": "V_0x0x1fdd0c9cb70_!c?(?,?)",
-                                "name": "div",
-                                "display_name": "double div"
+                                "id": "V_0x0x1d9e693f730_!c?(?,?)",
+                                "name": "i4",
+                                "display_name": "double i4"
                             },
                             "reads": [
                                 {
@@ -488,23 +774,40 @@
                                     },
                                     "instr": "fmul",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 53
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 30,
+                                        "column": 58
                                     },
                                     "exec_count": 4900
+                                }
+                            ],
+                            "writes": [],
+                            "kind": "SSA",
+                            "has_alias": false
+                        },
+                        {
+                            "variable": {
+                                "location": {
+                                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                    "line": 13,
+                                    "column": 40
                                 },
+                                "id": "V_0x0x1d9e6904f80_!c?(?,?)",
+                                "name": "mul2",
+                                "display_name": "double mul2"
+                            },
+                            "reads": [
                                 {
                                     "access_kind": "SSA",
                                     "range": {
                                         "is_exact": true,
                                         "is_empty": false
                                     },
-                                    "instr": "call",
+                                    "instr": "fadd",
                                     "src_loc": {
-                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                        "line": 19,
-                                        "column": 111
+                                        "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                        "line": 30,
+                                        "column": 37
                                     },
                                     "exec_count": 4900
                                 }
@@ -517,17 +820,17 @@
                 },
                 "subregions": [
                     {
-                        "id": "%F211_R15",
-                        "description": "<loop 'for.cond2'>",
+                        "id": "%F211_R17",
+                        "description": "<loop 'for.cond4'>",
                         "src_range": {
                             "start_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 15,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 24,
                                 "column": 5
                             },
                             "end_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 21,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 33,
                                 "column": 5
                             }
                         }
@@ -539,13 +842,13 @@
                         "region_type": "Loop",
                         "src_range": {
                             "start_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 17,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 28,
                                 "column": 9
                             },
                             "end_loc": {
-                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                                "line": 20,
+                                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                                "line": 32,
                                 "column": 9
                             }
                         }
@@ -554,88 +857,8 @@
             }
         },
         "channels": {
-            "T_RAW_1_3_#0": {
-                "name": "T_RAW_1_3_#0",
-                "variable_id": "VId_27_!c?(?,?)",
-                "variable_name": "T",
-                "declaration": "double T",
-                "kind": "SSA",
-                "dependence": "RAW",
-                "channel_width": 0,
-                "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
-                    "column": 0
-                },
-                "source": "1",
-                "sink": "3"
-            },
-            "S0_RAW_1_4_#1": {
-                "name": "S0_RAW_1_4_#1",
-                "variable_id": "VId_24_!c?(?,?)",
-                "variable_name": "S0",
-                "declaration": "double S0",
-                "kind": "SSA",
-                "dependence": "RAW",
-                "channel_width": 0,
-                "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
-                    "column": 0
-                },
-                "source": "1",
-                "sink": "4"
-            },
-            "S[*]_WAW_1_4_#2": {
-                "name": "S[*]_WAW_1_4_#2",
-                "variable_id": "VId_23_[?(?,64)]dc",
-                "variable_name": "S[*]",
-                "declaration": "double S[100]",
-                "kind": "Ptr",
-                "dependence": "WAW",
-                "channel_width": 0,
-                "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
-                    "column": 0
-                },
-                "source": "1",
-                "sink": "4"
-            },
-            "S[*]_RAW_4_5_#3": {
-                "name": "S[*]_RAW_4_5_#3",
-                "variable_id": "VId_23_[?(?,64)]dc",
-                "variable_name": "S[*]",
-                "declaration": "double S[100]",
-                "kind": "Ptr",
-                "dependence": "RAW",
-                "channel_width": 0,
-                "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
-                    "column": 0
-                },
-                "source": "4",
-                "sink": "5"
-            },
-            "r_RAW_1_5_#4": {
-                "name": "r_RAW_1_5_#4",
-                "variable_id": "VId_25_!c?(?,?)",
-                "variable_name": "r",
-                "declaration": "double r",
-                "kind": "SSA",
-                "dependence": "RAW",
-                "channel_width": 0,
-                "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
-                    "column": 0
-                },
-                "source": "1",
-                "sink": "5"
-            },
-            "sigma_RAW_1_5_#5": {
-                "name": "sigma_RAW_1_5_#5",
+            "sigma_RAW_1_3_#0": {
+                "name": "sigma_RAW_1_3_#0",
                 "variable_id": "VId_26_!c?(?,?)",
                 "variable_name": "sigma",
                 "declaration": "double sigma",
@@ -643,47 +866,111 @@
                 "dependence": "RAW",
                 "channel_width": 0,
                 "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
                     "column": 0
                 },
                 "source": "1",
-                "sink": "5"
+                "sink": "3"
             },
-            "random_increments[*]_RAW_1_5_#6": {
-                "name": "random_increments[*]_RAW_1_5_#6",
-                "variable_id": "VId_28_[?(?,64)]dc",
-                "variable_name": "random_increments[*]",
-                "declaration": "double random_increments[4900]",
-                "kind": "Ptr",
+            "T_RAW_1_3_#1": {
+                "name": "T_RAW_1_3_#1",
+                "variable_id": "VId_27_!c?(?,?)",
+                "variable_name": "T",
+                "declaration": "double T",
+                "kind": "SSA",
                 "dependence": "RAW",
                 "channel_width": 0,
                 "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
                     "column": 0
                 },
                 "source": "1",
-                "sink": "5"
+                "sink": "3"
             },
-            "div_RAW_3_5_#7": {
-                "name": "div_RAW_3_5_#7",
-                "variable_id": "V_0x0x1fdd0c9cb70_!c?(?,?)",
+            "div_RAW_3_4_#2": {
+                "name": "div_RAW_3_4_#2",
+                "variable_id": "V_0x0x1d9e6904a70_!c?(?,?)",
                 "variable_name": "div",
                 "declaration": "double div",
                 "kind": "SSA",
                 "dependence": "RAW",
                 "channel_width": 0,
                 "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 9,
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 10,
                     "column": 23
+                },
+                "source": "3",
+                "sink": "4"
+            },
+            "r_RAW_1_5_#3": {
+                "name": "r_RAW_1_5_#3",
+                "variable_id": "VId_25_!c?(?,?)",
+                "variable_name": "r",
+                "declaration": "double r",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "5"
+            },
+            "mul1_RAW_3_5_#4": {
+                "name": "mul1_RAW_3_5_#4",
+                "variable_id": "V_0x0x1d9e6904b90_!c?(?,?)",
+                "variable_name": "mul1",
+                "declaration": "double mul1",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 11,
+                    "column": 40
                 },
                 "source": "3",
                 "sink": "5"
             },
-            "S[*]_WAW_4_5_#8": {
-                "name": "S[*]_WAW_4_5_#8",
+            "div_RAR_4_5_#5": {
+                "name": "div_RAR_4_5_#5",
+                "variable_id": "V_0x0x1d9e6904a70_!c?(?,?)",
+                "variable_name": "div",
+                "declaration": "double div",
+                "kind": "SSA",
+                "dependence": "RAR",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 10,
+                    "column": 23
+                },
+                "source": "4",
+                "sink": "5"
+            },
+            "S0_RAW_1_6_#6": {
+                "name": "S0_RAW_1_6_#6",
+                "variable_id": "VId_24_!c?(?,?)",
+                "variable_name": "S0",
+                "declaration": "double S0",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "6"
+            },
+            "S[*]_WAW_1_6_#7": {
+                "name": "S[*]_WAW_1_6_#7",
                 "variable_id": "VId_23_[?(?,64)]dc",
                 "variable_name": "S[*]",
                 "declaration": "double S[100]",
@@ -691,15 +978,15 @@
                 "dependence": "WAW",
                 "channel_width": 0,
                 "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
                     "column": 0
                 },
-                "source": "4",
-                "sink": "5"
+                "source": "1",
+                "sink": "6"
             },
-            "S[*]_RAW_5_2_#9": {
-                "name": "S[*]_RAW_5_2_#9",
+            "S[*]_RAW_6_7_#8": {
+                "name": "S[*]_RAW_6_7_#8",
                 "variable_id": "VId_23_[?(?,64)]dc",
                 "variable_name": "S[*]",
                 "declaration": "double S[100]",
@@ -707,15 +994,111 @@
                 "dependence": "RAW",
                 "channel_width": 0,
                 "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
                     "column": 0
                 },
+                "source": "6",
+                "sink": "7"
+            },
+            "random_increments[*]_RAW_1_7_#9": {
+                "name": "random_increments[*]_RAW_1_7_#9",
+                "variable_id": "VId_28_[?(?,64)]dc",
+                "variable_name": "random_increments[*]",
+                "declaration": "double random_increments[4900]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
+                    "column": 0
+                },
+                "source": "1",
+                "sink": "7"
+            },
+            "i4_RAW_4_7_#10": {
+                "name": "i4_RAW_4_7_#10",
+                "variable_id": "V_0x0x1d9e693f730_!c?(?,?)",
+                "variable_name": "i4",
+                "declaration": "double i4",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 12,
+                    "column": 26
+                },
+                "source": "4",
+                "sink": "7"
+            },
+            "mul2_RAW_5_7_#11": {
+                "name": "mul2_RAW_5_7_#11",
+                "variable_id": "V_0x0x1d9e6904f80_!c?(?,?)",
+                "variable_name": "mul2",
+                "declaration": "double mul2",
+                "kind": "SSA",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 13,
+                    "column": 40
+                },
                 "source": "5",
+                "sink": "7"
+            },
+            "S[*]_WAW_6_7_#12": {
+                "name": "S[*]_WAW_6_7_#12",
+                "variable_id": "VId_23_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "WAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
+                    "column": 0
+                },
+                "source": "6",
+                "sink": "7"
+            },
+            "sigma_RAR_3_7_#13": {
+                "name": "sigma_RAR_3_7_#13",
+                "variable_id": "VId_26_!c?(?,?)",
+                "variable_name": "sigma",
+                "declaration": "double sigma",
+                "kind": "SSA",
+                "dependence": "RAR",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
+                    "column": 0
+                },
+                "source": "3",
+                "sink": "7"
+            },
+            "S[*]_RAW_7_2_#14": {
+                "name": "S[*]_RAW_7_2_#14",
+                "variable_id": "VId_23_[?(?,64)]dc",
+                "variable_name": "S[*]",
+                "declaration": "double S[100]",
+                "kind": "Ptr",
+                "dependence": "RAW",
+                "channel_width": 0,
+                "src_loc": {
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
+                    "column": 0
+                },
+                "source": "7",
                 "sink": "2"
             },
-            "S[*]_RAR_5_2_#10": {
-                "name": "S[*]_RAR_5_2_#10",
+            "S[*]_RAR_7_2_#15": {
+                "name": "S[*]_RAR_7_2_#15",
                 "variable_id": "VId_23_[?(?,64)]dc",
                 "variable_name": "S[*]",
                 "declaration": "double S[100]",
@@ -723,11 +1106,11 @@
                 "dependence": "RAR",
                 "channel_width": 0,
                 "src_loc": {
-                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                    "line": 8,
+                    "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                    "line": 4,
                     "column": 0
                 },
-                "source": "5",
+                "source": "7",
                 "sink": "2"
             }
         },
@@ -741,11 +1124,19 @@
                 "sink": "5"
             },
             {
+                "source": "5",
+                "sink": "6"
+            },
+            {
+                "source": "6",
+                "sink": "7"
+            },
+            {
                 "source": "1",
                 "sink": "3"
             },
             {
-                "source": "5",
+                "source": "7",
                 "sink": "2"
             }
         ]

@@ -42,11 +42,11 @@ set ExportMCPathFlag 0
 set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
-set TargetInfo xc7s15:-cpga196:-2
-set SourceFiles {sc {} c C:/Users/steve/thesis-monte-carlo/test.c}
+set TargetInfo xcku5p:-ffva676:-3-e
+set SourceFiles {sc {} c C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {verilog {C:/Users/steve/thesis-monte-carlo/test_func.c C:/Users/steve/thesis-monte-carlo/out.golden.dat C:/Users/steve/thesis-monte-carlo/in.dat} bc {C:/Users/steve/thesis-monte-carlo/test_func.c C:/Users/steve/thesis-monte-carlo/out.golden.dat C:/Users/steve/thesis-monte-carlo/in.dat} vhdl {C:/Users/steve/thesis-monte-carlo/test_func.c C:/Users/steve/thesis-monte-carlo/out.golden.dat C:/Users/steve/thesis-monte-carlo/in.dat} sc {C:/Users/steve/thesis-monte-carlo/test_func.c C:/Users/steve/thesis-monte-carlo/out.golden.dat C:/Users/steve/thesis-monte-carlo/in.dat} cas {C:/Users/steve/thesis-monte-carlo/test_func.c C:/Users/steve/thesis-monte-carlo/out.golden.dat C:/Users/steve/thesis-monte-carlo/in.dat} c {}}
+set TBFiles {verilog {C:/Users/steve/thesis-monte-carlo/GBM/test_func.c C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat C:/Users/steve/thesis-monte-carlo/GBM/in.dat} bc {C:/Users/steve/thesis-monte-carlo/GBM/test_func.c C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat C:/Users/steve/thesis-monte-carlo/GBM/in.dat} vhdl {C:/Users/steve/thesis-monte-carlo/GBM/test_func.c C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat C:/Users/steve/thesis-monte-carlo/GBM/in.dat} sc {C:/Users/steve/thesis-monte-carlo/GBM/test_func.c C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat C:/Users/steve/thesis-monte-carlo/GBM/in.dat} cas {C:/Users/steve/thesis-monte-carlo/GBM/test_func.c C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat C:/Users/steve/thesis-monte-carlo/GBM/in.dat} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
@@ -62,5 +62,5 @@ set DefaultPlatform DefaultPlatform
 set multiClockList {}
 set SCPortClockMap {}
 set intNbAccess 0
-set PlatformFiles {{DefaultPlatform {xilinx/spartan7/spartan7}}}
+set PlatformFiles {{DefaultPlatform {xilinx/kintexuplus/kintexuplus}}}
 set HPFPO 0

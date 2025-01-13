@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls\\csim\\code_analyzer\\app.csim_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,8 +9,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "Thu Jan  9 03:45:54 2025",
- "timestampMillis": "1736412354462",
+ "dateTimestamp": "Sun Jan 12 21:04:08 2025",
+ "timestampMillis": "1736733848185",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -27,10 +27,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "Thu Jan  9 03:45:54 2025",
- "timestampMillis": "1736412354462",
+ "dateTimestamp": "Sun Jan 12 21:04:08 2025",
+ "timestampMillis": "1736733848185",
  "buildStep": {
-  "cmdId": "2337bb6f-ce66-11ef-aa9a-f8fe5e40e17d",
+  "cmdId": "ac68e256-d152-11ef-9810-f8fe5e40e17d",
   "name": "vitis_c++",
   "logFile": "",
   "commandLine": "vitis_c++ code_analyzer",
@@ -45,10 +45,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Thu Jan  9 03:45:54 2025",
- "timestampMillis": "1736412354462",
+ "dateTimestamp": "Sun Jan 12 21:04:08 2025",
+ "timestampMillis": "1736733848187",
  "status": {
-  "cmdId": "2337bb6f-ce66-11ef-aa9a-f8fe5e40e17d",
+  "cmdId": "ac68e256-d152-11ef-9810-f8fe5e40e17d",
   "state": "CS_RUNNING"
  }
 }
@@ -56,10 +56,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "Thu Jan  9 03:46:01 2025",
- "timestampMillis": "1736412361773",
+ "dateTimestamp": "Sun Jan 12 21:04:13 2025",
+ "timestampMillis": "1736733853011",
  "status": {
-  "cmdId": "2337bb6f-ce66-11ef-aa9a-f8fe5e40e17d",
+  "cmdId": "ac68e256-d152-11ef-9810-f8fe5e40e17d",
   "state": "CS_PASSED"
  }
 }
@@ -67,14 +67,14 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "Thu Jan  9 03:46:01 2025",
- "timestampMillis": "1736412361773",
+ "dateTimestamp": "Sun Jan 12 21:04:13 2025",
+ "timestampMillis": "1736733853011",
  "report": {
-  "path": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm",
+  "path": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm",
   "name": "",
   "fileType": "DIR",
   "reportType": "VCXX_CODE_ANALYZER",
-  "cmdId": "2337bb6f-ce66-11ef-aa9a-f8fe5e40e17d"
+  "cmdId": "ac68e256-d152-11ef-9810-f8fe5e40e17d"
  }
 }
 </ENTRY>

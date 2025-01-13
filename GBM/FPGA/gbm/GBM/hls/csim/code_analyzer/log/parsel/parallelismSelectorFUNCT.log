@@ -1,0 +1,4 @@
+parallelismSelector::WARNG: WARNING: [SIM 211-206] Code Analyzer does not display the impact of the partition pragma for dataflow channels (C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\test_optimized.c:7:5)
+parallelismSelector::WARNG: WARNING: [SIM 211-206] Code Analyzer does not display the impact of the partition pragma for dataflow channels (C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\test_optimized.c:8:5)
+parallelismSelector::WARNG: WARNING: [SIM 211-203] Code Analyzer does not display the impact of the unroll pragma for tasks (C:\Users\steve\thesis-monte-carlo\GBM\test_optimized.c:25:9)
+parallelismSelector::WARNG: WARNING: [SIM 211-203] Code Analyzer does not display the impact of the unroll pragma for tasks (C:\Users\steve\thesis-monte-carlo\GBM\test_optimized.c:18:9)

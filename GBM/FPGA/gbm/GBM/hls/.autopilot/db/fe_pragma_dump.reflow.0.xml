@@ -1,2 +1,6 @@
 <pragmas>
+<pragma file="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c" line="25" pragmaType="unroll" parentfunction="GBM" factor="100" skip_exit_check="0"/>
+<pragma file="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c" line="18" pragmaType="unroll" parentfunction="GBM" factor="100" skip_exit_check="0"/>
+<pragma file="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c" line="7" pragmaType="array_partition" parentfunction="GBM" dim="1" factor="0" mode="complete" dynamic="0" variable="S"/>
+<pragma file="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c" line="8" pragmaType="array_partition" parentfunction="GBM" dim="1" factor="100" mode="block" dynamic="0" variable="random_increments"/>
 </pragmas>

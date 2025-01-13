@@ -1,5 +1,5 @@
-C:\Users\steve\thesis-monte-carlo\GBM\gbm\GBM\hls\csim\code_analyzer\.internal\build\test_func.c.0.o: \
-  C:/Users/steve/thesis-monte-carlo/test_func.c \
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\csim\code_analyzer\.internal\build\test_func.c.0.o: \
+  C:/Users/steve/thesis-monte-carlo/GBM/test_func.c \
   C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/assert.h \
   C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/corecrt.h \
@@ -21,4 +21,4 @@ C:\Users\steve\thesis-monte-carlo\GBM\gbm\GBM\hls\csim\code_analyzer\.internal\b
   C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/swprintf.inl \
   C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/steve/thesis-monte-carlo/test.h
+  C:/Users/steve/thesis-monte-carlo/GBM/test.h

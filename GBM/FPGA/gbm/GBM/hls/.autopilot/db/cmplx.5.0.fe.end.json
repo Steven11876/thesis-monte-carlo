@@ -1,14 +1,1706 @@
 {
     "1": {
-        "name": "GBM_Pipeline_VITIS_LOOP_15_2",
-        "file": "C:\/Users\/steve\/thesis-monte-carlo\/test.c",
-        "fileloc": "15",
-        "instructions": "977",
-        "total_instructions": "977",
+        "name": "GBM_Pipeline_VITIS_LOOP_28_328",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
         "calls": "",
         "basicblocks": "4",
         "loads": {
-            "L": "2"
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "2": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_346",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_320",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_370",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_33",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "6": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_325",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_371",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "8": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_398",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "9": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_342",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "10": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_330",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "11": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_399",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "12": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_321",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "13": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_39",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "14": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_318",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "15": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_339",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "16": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_3",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "17": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_363",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "18": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_38",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "19": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_336",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "20": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_326",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "21": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_364",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "22": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_394",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "23": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_367",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "24": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_357",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "25": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_389",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "26": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_315",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "27": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_383",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "28": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_382",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "29": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_368",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "30": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_348",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "31": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_384",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "32": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_349",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "33": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_332",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "34": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_381",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "35": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_352",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "36": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_314",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "37": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_31",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "38": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_361",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "39": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_351",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "40": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_316",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "41": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_34",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "42": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_334",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "43": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_395",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "44": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_344",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "45": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_350",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "46": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_322",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "47": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_310",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "48": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_355",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "49": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_397",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "50": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_333",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "51": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_338",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "52": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_323",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "53": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_32",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "54": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_311",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "55": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_393",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "56": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_375",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "57": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_354",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "58": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_360",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "59": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_387",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "60": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_386",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "61": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_343",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "62": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_378",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "63": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_353",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "64": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_317",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "65": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_313",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "66": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_392",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "67": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_324",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "68": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_347",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "69": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_366",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "70": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_376",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "71": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_374",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "72": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_365",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "73": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_337",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "74": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_358",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "75": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_388",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "76": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_335",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "77": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_327",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "78": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_312",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "79": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_379",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "80": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_373",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "81": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_396",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "82": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_345",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "83": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_385",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "84": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_331",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "85": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_329",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "86": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_377",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "87": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_340",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "88": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_36",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "89": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_380",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "90": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_341",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "91": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_356",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "92": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_390",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "93": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_362",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "94": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_35",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "95": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_319",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
         },
         "stores": {
             "L": "4"
@@ -19,21 +1711,96 @@
     },
     "0": {
         "name": "GBM",
-        "file": "test.c",
-        "fileloc": "8",
-        "instructions": "42",
-        "total_instructions": "1052",
-        "calls": "2 1",
-        "basicblocks": "1"
+        "file": "test_optimized.c",
+        "fileloc": "4",
+        "instructions": "2527",
+        "total_instructions": "6027",
+        "calls": "16 37 53 5 41 94 88 98 18 13 47 54 78 65 36 26 40 64 14 95 3 12 46 52 67 6 20 77 1 85 10 84 33 50 42 76 19 73 51 15 87 90 9 61 44 82 2 68 30 32 45 39 35 63 57 48 91 24 74 100 58 38 93 17 21 72 69 23 29 97 4 7 99 80 71 56 70 86 62 79 89 34 28 27 31 83 60 59 75 25 92 96 66 55 22 43 81 49 8 11",
+        "basicblocks": "1",
+        "loads": {
+            "L": "100"
+        }
     },
-    "2": {
-        "name": "GBM_Pipeline_VITIS_LOOP_11_1",
-        "file": "C:\/Users\/steve\/thesis-monte-carlo\/test.c",
-        "fileloc": "11",
-        "instructions": "33",
-        "total_instructions": "33",
+    "96": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_391",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
         "calls": "",
-        "basicblocks": "6",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "97": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_369",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "98": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_37",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "99": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_372",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "L": "4"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "100": {
+        "name": "GBM_Pipeline_VITIS_LOOP_28_359",
+        "file": "C:\/Users\/steve\/thesis-monte-carlo\/GBM\/test_optimized.c",
+        "fileloc": "28",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
         "loads": {
             "L": "3"
         },

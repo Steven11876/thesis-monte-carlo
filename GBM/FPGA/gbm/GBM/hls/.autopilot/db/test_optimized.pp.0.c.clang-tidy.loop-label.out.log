@@ -1,0 +1,15 @@
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c:795:5: warning: Added loop label VITIS_LOOP_17_1:   [xilinx-label-all-loops]
+    for (int m = 0; m < 100; m++) {
+    ^~~
+    VITIS_LOOP_17_1: 
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c:795:5: note: FIX-IT applied suggested code changes
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c:802:5: warning: Added loop label VITIS_LOOP_24_2:   [xilinx-label-all-loops]
+    for (int m = 0; m < 100; m++) {
+    ^~~
+    VITIS_LOOP_24_2: 
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c:802:5: note: FIX-IT applied suggested code changes
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c:806:2: warning: Added loop label VITIS_LOOP_28_3:   [xilinx-label-all-loops]
+ for (int j = 0; j < (50 -1); j++) {
+ ^~~
+ VITIS_LOOP_28_3: 
+C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c:806:2: note: FIX-IT applied suggested code changes

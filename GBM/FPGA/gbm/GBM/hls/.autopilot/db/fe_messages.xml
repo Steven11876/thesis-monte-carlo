@@ -2,17 +2,335 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="GBM" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=GBM" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:8:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'S' since this interface mode only supports scalar types">
-        <args Name="S"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="GBM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=S complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:8:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments' since this interface mode only supports scalar types">
-        <args Name="random_increments"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="GBM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=random_increments block factor=100" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:17:26" msg_body="Loop 'VITIS_LOOP_17_3' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_17_3"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="GBM" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=100" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/test.c:8:0" msg_body="Unrolling loop 'VITIS_LOOP_17_3' (C:/Users/steve/thesis-monte-carlo/test.c:17:26) in function 'GBM' completely with a factor of 49">
-        <args Factor="49" LoopLoc="C:/Users/steve/thesis-monte-carlo/test.c:17:26" LoopName="VITIS_LOOP_17_3"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:25:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="GBM" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=100" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_99' since this interface mode only supports scalar types">
+        <args Name="random_increments_99"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_98' since this interface mode only supports scalar types">
+        <args Name="random_increments_98"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_97' since this interface mode only supports scalar types">
+        <args Name="random_increments_97"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_96' since this interface mode only supports scalar types">
+        <args Name="random_increments_96"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_95' since this interface mode only supports scalar types">
+        <args Name="random_increments_95"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_94' since this interface mode only supports scalar types">
+        <args Name="random_increments_94"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_93' since this interface mode only supports scalar types">
+        <args Name="random_increments_93"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_92' since this interface mode only supports scalar types">
+        <args Name="random_increments_92"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_91' since this interface mode only supports scalar types">
+        <args Name="random_increments_91"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_90' since this interface mode only supports scalar types">
+        <args Name="random_increments_90"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_89' since this interface mode only supports scalar types">
+        <args Name="random_increments_89"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_88' since this interface mode only supports scalar types">
+        <args Name="random_increments_88"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_87' since this interface mode only supports scalar types">
+        <args Name="random_increments_87"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_86' since this interface mode only supports scalar types">
+        <args Name="random_increments_86"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_85' since this interface mode only supports scalar types">
+        <args Name="random_increments_85"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_84' since this interface mode only supports scalar types">
+        <args Name="random_increments_84"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_83' since this interface mode only supports scalar types">
+        <args Name="random_increments_83"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_82' since this interface mode only supports scalar types">
+        <args Name="random_increments_82"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_81' since this interface mode only supports scalar types">
+        <args Name="random_increments_81"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_80' since this interface mode only supports scalar types">
+        <args Name="random_increments_80"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_79' since this interface mode only supports scalar types">
+        <args Name="random_increments_79"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_78' since this interface mode only supports scalar types">
+        <args Name="random_increments_78"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_77' since this interface mode only supports scalar types">
+        <args Name="random_increments_77"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_76' since this interface mode only supports scalar types">
+        <args Name="random_increments_76"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_75' since this interface mode only supports scalar types">
+        <args Name="random_increments_75"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_74' since this interface mode only supports scalar types">
+        <args Name="random_increments_74"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_73' since this interface mode only supports scalar types">
+        <args Name="random_increments_73"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_72' since this interface mode only supports scalar types">
+        <args Name="random_increments_72"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_71' since this interface mode only supports scalar types">
+        <args Name="random_increments_71"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_70' since this interface mode only supports scalar types">
+        <args Name="random_increments_70"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_69' since this interface mode only supports scalar types">
+        <args Name="random_increments_69"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_68' since this interface mode only supports scalar types">
+        <args Name="random_increments_68"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_67' since this interface mode only supports scalar types">
+        <args Name="random_increments_67"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_66' since this interface mode only supports scalar types">
+        <args Name="random_increments_66"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_65' since this interface mode only supports scalar types">
+        <args Name="random_increments_65"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_64' since this interface mode only supports scalar types">
+        <args Name="random_increments_64"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_63' since this interface mode only supports scalar types">
+        <args Name="random_increments_63"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_62' since this interface mode only supports scalar types">
+        <args Name="random_increments_62"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_61' since this interface mode only supports scalar types">
+        <args Name="random_increments_61"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_60' since this interface mode only supports scalar types">
+        <args Name="random_increments_60"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_59' since this interface mode only supports scalar types">
+        <args Name="random_increments_59"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_58' since this interface mode only supports scalar types">
+        <args Name="random_increments_58"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_57' since this interface mode only supports scalar types">
+        <args Name="random_increments_57"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_56' since this interface mode only supports scalar types">
+        <args Name="random_increments_56"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_55' since this interface mode only supports scalar types">
+        <args Name="random_increments_55"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_54' since this interface mode only supports scalar types">
+        <args Name="random_increments_54"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_53' since this interface mode only supports scalar types">
+        <args Name="random_increments_53"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_52' since this interface mode only supports scalar types">
+        <args Name="random_increments_52"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_51' since this interface mode only supports scalar types">
+        <args Name="random_increments_51"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_50' since this interface mode only supports scalar types">
+        <args Name="random_increments_50"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_49' since this interface mode only supports scalar types">
+        <args Name="random_increments_49"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_48' since this interface mode only supports scalar types">
+        <args Name="random_increments_48"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_47' since this interface mode only supports scalar types">
+        <args Name="random_increments_47"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_46' since this interface mode only supports scalar types">
+        <args Name="random_increments_46"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_45' since this interface mode only supports scalar types">
+        <args Name="random_increments_45"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_44' since this interface mode only supports scalar types">
+        <args Name="random_increments_44"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_43' since this interface mode only supports scalar types">
+        <args Name="random_increments_43"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_42' since this interface mode only supports scalar types">
+        <args Name="random_increments_42"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_41' since this interface mode only supports scalar types">
+        <args Name="random_increments_41"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_40' since this interface mode only supports scalar types">
+        <args Name="random_increments_40"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_39' since this interface mode only supports scalar types">
+        <args Name="random_increments_39"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_38' since this interface mode only supports scalar types">
+        <args Name="random_increments_38"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_37' since this interface mode only supports scalar types">
+        <args Name="random_increments_37"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_36' since this interface mode only supports scalar types">
+        <args Name="random_increments_36"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_35' since this interface mode only supports scalar types">
+        <args Name="random_increments_35"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_34' since this interface mode only supports scalar types">
+        <args Name="random_increments_34"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_33' since this interface mode only supports scalar types">
+        <args Name="random_increments_33"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_32' since this interface mode only supports scalar types">
+        <args Name="random_increments_32"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_31' since this interface mode only supports scalar types">
+        <args Name="random_increments_31"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_30' since this interface mode only supports scalar types">
+        <args Name="random_increments_30"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_29' since this interface mode only supports scalar types">
+        <args Name="random_increments_29"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_28' since this interface mode only supports scalar types">
+        <args Name="random_increments_28"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_27' since this interface mode only supports scalar types">
+        <args Name="random_increments_27"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_26' since this interface mode only supports scalar types">
+        <args Name="random_increments_26"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_25' since this interface mode only supports scalar types">
+        <args Name="random_increments_25"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_24' since this interface mode only supports scalar types">
+        <args Name="random_increments_24"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_23' since this interface mode only supports scalar types">
+        <args Name="random_increments_23"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_22' since this interface mode only supports scalar types">
+        <args Name="random_increments_22"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_21' since this interface mode only supports scalar types">
+        <args Name="random_increments_21"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_20' since this interface mode only supports scalar types">
+        <args Name="random_increments_20"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_19' since this interface mode only supports scalar types">
+        <args Name="random_increments_19"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_18' since this interface mode only supports scalar types">
+        <args Name="random_increments_18"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_17' since this interface mode only supports scalar types">
+        <args Name="random_increments_17"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_16' since this interface mode only supports scalar types">
+        <args Name="random_increments_16"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_15' since this interface mode only supports scalar types">
+        <args Name="random_increments_15"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_14' since this interface mode only supports scalar types">
+        <args Name="random_increments_14"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_13' since this interface mode only supports scalar types">
+        <args Name="random_increments_13"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_12' since this interface mode only supports scalar types">
+        <args Name="random_increments_12"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_11' since this interface mode only supports scalar types">
+        <args Name="random_increments_11"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_10' since this interface mode only supports scalar types">
+        <args Name="random_increments_10"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_9' since this interface mode only supports scalar types">
+        <args Name="random_increments_9"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_8' since this interface mode only supports scalar types">
+        <args Name="random_increments_8"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_7' since this interface mode only supports scalar types">
+        <args Name="random_increments_7"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_6' since this interface mode only supports scalar types">
+        <args Name="random_increments_6"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_5' since this interface mode only supports scalar types">
+        <args Name="random_increments_5"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_4' since this interface mode only supports scalar types">
+        <args Name="random_increments_4"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_3' since this interface mode only supports scalar types">
+        <args Name="random_increments_3"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_2' since this interface mode only supports scalar types">
+        <args Name="random_increments_2"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_1' since this interface mode only supports scalar types">
+        <args Name="random_increments_1"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_0' since this interface mode only supports scalar types">
+        <args Name="random_increments_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_24_2' (C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:24:22) in function 'GBM': changing partial unrolling into complete unrolling since the unrolling factor (=100) is no less than the loop trip count (=100).">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:24:22" LoopName="VITIS_LOOP_24_2" TripCount="100"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_24_2' (C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:24:22) in function 'GBM' completely with a factor of 100">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:24:22" LoopName="VITIS_LOOP_24_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_17_1' (C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:17:22) in function 'GBM': changing partial unrolling into complete unrolling since the unrolling factor (=100) is no less than the loop trip count (=100).">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:17:22" LoopName="VITIS_LOOP_17_1" TripCount="100"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_17_1' (C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:17:22) in function 'GBM' completely with a factor of 100">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:17:22" LoopName="VITIS_LOOP_17_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Applying array_partition to 'S': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="S"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c:4:0" msg_body="Applying array_partition to 'random_increments': Block partitioning with factor 100 on dimension 1.">
+        <args Dim="1" Factor="100" Mode="Block" UOName="random_increments"/>
     </msg>
 </xilinx:hls_fe_msgs>
 

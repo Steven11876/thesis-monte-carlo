@@ -1,11 +1,11 @@
 {
   "0": {
-    "basicblocks": 7,
+    "basicblocks": 201,
     "calls": "",
-    "file": "test.c",
-    "fileloc": 8,
-    "instructions": 856,
+    "file": "test_optimized.c",
+    "fileloc": 4,
+    "instructions": 2822,
     "name": "GBM",
-    "total_instructions": 856
+    "total_instructions": 2822
   }
 }

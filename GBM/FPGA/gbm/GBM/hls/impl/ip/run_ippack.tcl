@@ -6,8 +6,8 @@
 # 
 # ==============================================================
 source -notrace "C:/Xilinx/Vitis/2024.2/common/scripts/ipxhls.tcl"
-set ip_dir "C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/impl/ip"
-set data_file "C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/hls_data.json"
+set ip_dir "C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM/hls/impl/ip"
+set data_file "C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM/hls/hls_data.json"
 set ip_types "vitis sysgen"
 if { [catch {::ipx::utils::package_hls_ip $ip_dir $data_file $ip_types } res] } {
   puts "Caught error:\n$::errorInfo"

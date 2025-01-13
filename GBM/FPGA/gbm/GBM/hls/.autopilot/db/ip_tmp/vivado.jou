@@ -3,12 +3,12 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Thu Jan  9 03:50:30 2025
-# Process ID         : 8352
-# Current directory  : C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/.autopilot/db/ip_tmp
+# Start of session at: Sun Jan 12 21:26:46 2025
+# Process ID         : 20832
+# Current directory  : C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM/hls/.autopilot/db/ip_tmp
 # Command line       : vivado.exe -notrace -log vivado.log -mode batch -source run_vivado_gen_ip.tcl
-# Log file           : C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/.autopilot/db/ip_tmp/vivado.log
-# Journal file       : C:/Users/steve/thesis-monte-carlo/GBM/gbm/GBM/hls/.autopilot/db/ip_tmp\vivado.jou
+# Log file           : C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM/hls/.autopilot/db/ip_tmp/vivado.log
+# Journal file       : C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM/hls/.autopilot/db/ip_tmp\vivado.jou
 # Running On         : Steven
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26100
@@ -17,8 +17,8 @@
 # CPU Physical cores : 16
 # CPU Logical cores  : 22
 # Host memory        : 33775 MB
-# Swap memory        : 5368 MB
-# Total Virtual      : 39144 MB
-# Available Virtual  : 15019 MB
+# Swap memory        : 59568 MB
+# Total Virtual      : 93343 MB
+# Available Virtual  : 69760 MB
 #-----------------------------------------------------------
 source run_vivado_gen_ip.tcl -notrace

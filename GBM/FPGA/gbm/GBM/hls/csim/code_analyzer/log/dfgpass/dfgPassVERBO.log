@@ -1,4 +1,4 @@
-dfgPass::INFOR: DFG Pass going to run on Module: C:\Users\steve\thesis-monte-carlo\GBM\gbm\GBM\hls\csim\code_analyzer\.internal\instrument\app_0\project.symbols.bc
+dfgPass::INFOR: DFG Pass going to run on Module: C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\csim\code_analyzer\.internal\instrument\app_0\project.symbols.bc
 dfgPass::INFOR:     Parsing the provided input trace files...
 dfgPass::INFOR:     Initializing InstructionCounter...
 dfgPass::VERBO:     +0 is not a loop
@@ -28,20 +28,21 @@ dfgPass::VERBO:     +0 is not a loop
 dfgPass::VERBO:     +0 is not a loop
 dfgPass::VERBO:     +1 is not an innermost loop
 dfgPass::VERBO:       - BEFORE BREAK
-dfgPass::VERBO:       - for.cond5
+dfgPass::VERBO:       - for.cond7
 dfgPass::VERBO:         - memlocal of :j:0
 dfgPass::VERBO:         - LCV conditional branch 6:48
 dfgPass::VERBO:       - AFTER BREAK
-dfgPass::VERBO:       - for.body7
-dfgPass::VERBO:         - memlocal of :r:0
-dfgPass::VERBO:         - memlocal of :sigma:0
-dfgPass::VERBO:         - memlocal of :sigma:0
-dfgPass::VERBO:         - memlocal of :deltat:0
-dfgPass::VERBO:         - memlocal of :sigma:0
+dfgPass::VERBO:       - for.body9
 dfgPass::VERBO:         - memlocal of :random_increments:0
 dfgPass::VERBO:         - memlocal of :m:0
 dfgPass::VERBO:         - memlocal of :j:0
-dfgPass::VERBO:         - memlocal of :deltat:0
+dfgPass::VERBO:         - memlocal of :random_val:1
+dfgPass::VERBO:         - memlocal of :drift:0
+dfgPass::VERBO:         - memlocal of :sigma:0
+dfgPass::VERBO:         - memlocal of :random_val:0
+dfgPass::VERBO:         - memlocal of :sqrt_deltat:0
+dfgPass::VERBO:         - memlocal of :exponent:1
+dfgPass::VERBO:         - memlocal of :exponent:0
 dfgPass::VERBO:         - invalid TR:4:0
 dfgPass::VERBO:       - BEFORE BREAK
 dfgPass::VERBO:       - for.cond

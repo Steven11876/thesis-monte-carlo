@@ -22,7 +22,7 @@ instrumenter::VERBO: [Instrumenter - IRBuilder] Instruction has no debug informa
 instrumenter::VERBO: [Instrumenter - IRBuilder] Instruction has no debug information, defaulting to function/basic block info
 instrumenter::VERBO: [Instrumenter - IRBuilder] Instruction has no debug information, defaulting to function/basic block info
 instrumenter::INFOR: [Instrumenter - Initialization] Finished adding static information
-instrumenter::VERBO: [Instrumenter - Finalize] Dumping static data to .... "C:\Users\steve\thesis-monte-carlo\GBM\gbm\GBM\hls\csim\code_analyzer/.internal/instrument/app_0\static.xml"
+instrumenter::VERBO: [Instrumenter - Finalize] Dumping static data to .... "C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\csim\code_analyzer/.internal/instrument/app_0\static.xml"
 instrumenter::VERBO: [Instrumenter - GV] Global Variables Instrumentation
 instrumenter::VERBO: [Instrumenter - WARNING] Global value .str is not instrumentable
 instrumenter::VERBO: [Instrumenter - WARNING] Global value .str.1 is not instrumentable
@@ -53,6 +53,7 @@ instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: __mingw_vfp
 instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: llvm.va_end
 instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: __mingw_vfscanf
 instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: GBM
+instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: llvm.sideeffect
 instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: llvm.sqrt.f64
 instrumenter::VERBO: [Instrumenter - BB] Instrumenting the function: llvm.exp.f64
 instrumenter::VERBO: [Instrumenter - BB] Skipping Function llvm.dbg.value

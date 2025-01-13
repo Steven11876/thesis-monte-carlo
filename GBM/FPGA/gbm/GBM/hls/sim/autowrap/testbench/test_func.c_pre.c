@@ -1,10 +1,10 @@
-# 1 "C:/Users/steve/thesis-monte-carlo/test_func.c"
+# 1 "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 378 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "C:/Users/steve/thesis-monte-carlo/test_func.c" 2
+# 1 "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c" 2
 # 1 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/assert.h" 1 3
 # 15 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/assert.h" 3
 # 1 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/crtdefs.h" 1 3
@@ -191,7 +191,7 @@ typedef struct threadlocaleinfostruct {
 
 __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wassert(const wchar_t *_Message,const wchar_t *_File,unsigned _Line);
 __attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _assert (const char *_Message, const char *_File, unsigned _Line);
-# 2 "C:/Users/steve/thesis-monte-carlo/test_func.c" 2
+# 2 "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c" 2
 # 1 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdlib.h" 1 3
 # 10 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdlib.h" 3
 # 1 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/corecrt_wstdlib.h" 1 3
@@ -867,7 +867,7 @@ _mm_free(void *__p)
 # 185 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/malloc.h" 3
 #pragma pack(pop)
 # 767 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdlib.h" 2 3
-# 3 "C:/Users/steve/thesis-monte-carlo/test_func.c" 2
+# 3 "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c" 2
 # 1 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdio.h" 1 3
 
 
@@ -1722,8 +1722,8 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _snwscanf_l(const wchar_t *_Src,size_t _MaxCount,const wchar_t *_Format,_locale_t _Locale,...);
   __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wscanf_l(const wchar_t *_Format,_locale_t _Locale,...);
 # 1573 "C:/Xilinx/Vitis/2024.2/tps/mingw/10.0.0/win64.o/nt/x86_64-w64-mingw32/include/stdio.h" 2 3
-# 4 "C:/Users/steve/thesis-monte-carlo/test_func.c" 2
-# 1 "C:/Users/steve/thesis-monte-carlo/test.h" 1
+# 4 "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c" 2
+# 1 "C:/Users/steve/thesis-monte-carlo/GBM/test.h" 1
 
 
 
@@ -1731,8 +1731,7 @@ void __attribute__((__cdecl__)) __mingw_str_free(void *ptr);
 
 
 void GBM(double S[100], double S0, double r, double sigma, double T, double random_increments[100 * (50 -1)] );
-# 5 "C:/Users/steve/thesis-monte-carlo/test_func.c" 2
-
+# 5 "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c" 2
 
 
 

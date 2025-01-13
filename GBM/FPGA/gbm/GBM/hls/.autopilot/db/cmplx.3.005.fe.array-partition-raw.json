@@ -1,17 +1,17 @@
 {
   "0": {
-    "basicblocks": 7,
+    "basicblocks": 201,
     "calls": "",
-    "file": "test.c",
-    "fileloc": 8,
-    "instructions": 55,
+    "file": "test_optimized.c",
+    "fileloc": 4,
+    "instructions": 12714,
     "loads": {
-      "T": 2
+      "T": 100
     },
     "name": "GBM",
     "stores": {
-      "T": 2
+      "T": 200
     },
-    "total_instructions": 55
+    "total_instructions": 12714
   }
 }

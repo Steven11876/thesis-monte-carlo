@@ -9,8 +9,8 @@
             "is_declaration": false,
             "supports_dataflow": true,
             "src_loc": {
-                "file": "C:\\Users\\steve\\thesis-monte-carlo\\test.c",
-                "line": 7,
+                "file": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c",
+                "line": 4,
                 "column": 1
             }
         }

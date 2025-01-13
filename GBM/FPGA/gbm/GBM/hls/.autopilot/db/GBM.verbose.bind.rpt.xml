@@ -1,13 +1,13 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'GBM'" level="0">
-<item name = "Date">Thu Jan  9 03:49:09 2025
+<item name = "Date">Sun Jan 12 21:08:19 2025
 </item>
 <item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
 <item name = "Project">GBM</item>
 <item name = "Solution">hls (Vitis Kernel Flow Target)</item>
-<item name = "Product family">spartan7</item>
-<item name = "Target device">xc7s15-cpga196-2</item>
+<item name = "Product family">kintexuplus</item>
+<item name = "Target device">xcku5p-ffva676-3-e</item>
 </section>
 
 <section name = "Performance Estimates" level="0">
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">8.00 ns, 9.064 ns, 0.96 ns</column>
+<column name="ap_clk">8.00 ns, 7.040 ns, 0.96 ns</column>
 </table>
 </item>
 </section>
@@ -24,15 +24,113 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">47692, 47692, 0.432 ms, 0.432 ms, 47693, 47693, no</column>
+<column name="">440, 440, 3.520 us, 3.520 us, 441, 441, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_GBM_Pipeline_VITIS_LOOP_11_1_fu_132">GBM_Pipeline_VITIS_LOOP_11_1, 102, 102, 0.816 us, 0.816 us, 101, 101, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_GBM_Pipeline_VITIS_LOOP_15_2_fu_140">GBM_Pipeline_VITIS_LOOP_15_2, 47501, 47501, 0.431 ms, 0.431 ms, 47501, 47501, no</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_3_fu_6206">GBM_Pipeline_VITIS_LOOP_28_3, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_31_fu_6218">GBM_Pipeline_VITIS_LOOP_28_31, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_32_fu_6230">GBM_Pipeline_VITIS_LOOP_28_32, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_33_fu_6242">GBM_Pipeline_VITIS_LOOP_28_33, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_34_fu_6254">GBM_Pipeline_VITIS_LOOP_28_34, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_35_fu_6266">GBM_Pipeline_VITIS_LOOP_28_35, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_36_fu_6278">GBM_Pipeline_VITIS_LOOP_28_36, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_37_fu_6290">GBM_Pipeline_VITIS_LOOP_28_37, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_38_fu_6302">GBM_Pipeline_VITIS_LOOP_28_38, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_39_fu_6314">GBM_Pipeline_VITIS_LOOP_28_39, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_310_fu_6326">GBM_Pipeline_VITIS_LOOP_28_310, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_311_fu_6338">GBM_Pipeline_VITIS_LOOP_28_311, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_312_fu_6350">GBM_Pipeline_VITIS_LOOP_28_312, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_313_fu_6362">GBM_Pipeline_VITIS_LOOP_28_313, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_314_fu_6374">GBM_Pipeline_VITIS_LOOP_28_314, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_315_fu_6386">GBM_Pipeline_VITIS_LOOP_28_315, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_316_fu_6398">GBM_Pipeline_VITIS_LOOP_28_316, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_317_fu_6410">GBM_Pipeline_VITIS_LOOP_28_317, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_318_fu_6422">GBM_Pipeline_VITIS_LOOP_28_318, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_319_fu_6434">GBM_Pipeline_VITIS_LOOP_28_319, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_320_fu_6446">GBM_Pipeline_VITIS_LOOP_28_320, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_321_fu_6458">GBM_Pipeline_VITIS_LOOP_28_321, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_322_fu_6470">GBM_Pipeline_VITIS_LOOP_28_322, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_323_fu_6482">GBM_Pipeline_VITIS_LOOP_28_323, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_324_fu_6494">GBM_Pipeline_VITIS_LOOP_28_324, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_325_fu_6506">GBM_Pipeline_VITIS_LOOP_28_325, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_326_fu_6518">GBM_Pipeline_VITIS_LOOP_28_326, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_327_fu_6530">GBM_Pipeline_VITIS_LOOP_28_327, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_328_fu_6542">GBM_Pipeline_VITIS_LOOP_28_328, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_329_fu_6554">GBM_Pipeline_VITIS_LOOP_28_329, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_330_fu_6566">GBM_Pipeline_VITIS_LOOP_28_330, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_331_fu_6578">GBM_Pipeline_VITIS_LOOP_28_331, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_332_fu_6590">GBM_Pipeline_VITIS_LOOP_28_332, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_333_fu_6602">GBM_Pipeline_VITIS_LOOP_28_333, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_334_fu_6614">GBM_Pipeline_VITIS_LOOP_28_334, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_335_fu_6626">GBM_Pipeline_VITIS_LOOP_28_335, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_336_fu_6638">GBM_Pipeline_VITIS_LOOP_28_336, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_337_fu_6650">GBM_Pipeline_VITIS_LOOP_28_337, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_338_fu_6662">GBM_Pipeline_VITIS_LOOP_28_338, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_339_fu_6674">GBM_Pipeline_VITIS_LOOP_28_339, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_340_fu_6686">GBM_Pipeline_VITIS_LOOP_28_340, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_341_fu_6698">GBM_Pipeline_VITIS_LOOP_28_341, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_342_fu_6710">GBM_Pipeline_VITIS_LOOP_28_342, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_343_fu_6722">GBM_Pipeline_VITIS_LOOP_28_343, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_344_fu_6734">GBM_Pipeline_VITIS_LOOP_28_344, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_345_fu_6746">GBM_Pipeline_VITIS_LOOP_28_345, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_346_fu_6758">GBM_Pipeline_VITIS_LOOP_28_346, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_347_fu_6770">GBM_Pipeline_VITIS_LOOP_28_347, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_348_fu_6782">GBM_Pipeline_VITIS_LOOP_28_348, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_349_fu_6794">GBM_Pipeline_VITIS_LOOP_28_349, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_350_fu_6806">GBM_Pipeline_VITIS_LOOP_28_350, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_351_fu_6818">GBM_Pipeline_VITIS_LOOP_28_351, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_352_fu_6830">GBM_Pipeline_VITIS_LOOP_28_352, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_353_fu_6842">GBM_Pipeline_VITIS_LOOP_28_353, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_354_fu_6854">GBM_Pipeline_VITIS_LOOP_28_354, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_355_fu_6866">GBM_Pipeline_VITIS_LOOP_28_355, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_356_fu_6878">GBM_Pipeline_VITIS_LOOP_28_356, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_357_fu_6890">GBM_Pipeline_VITIS_LOOP_28_357, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_358_fu_6902">GBM_Pipeline_VITIS_LOOP_28_358, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_359_fu_6914">GBM_Pipeline_VITIS_LOOP_28_359, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_360_fu_6926">GBM_Pipeline_VITIS_LOOP_28_360, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_361_fu_6938">GBM_Pipeline_VITIS_LOOP_28_361, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_362_fu_6950">GBM_Pipeline_VITIS_LOOP_28_362, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_363_fu_6962">GBM_Pipeline_VITIS_LOOP_28_363, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_364_fu_6974">GBM_Pipeline_VITIS_LOOP_28_364, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_365_fu_6986">GBM_Pipeline_VITIS_LOOP_28_365, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_366_fu_6998">GBM_Pipeline_VITIS_LOOP_28_366, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_367_fu_7010">GBM_Pipeline_VITIS_LOOP_28_367, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_368_fu_7022">GBM_Pipeline_VITIS_LOOP_28_368, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_369_fu_7034">GBM_Pipeline_VITIS_LOOP_28_369, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_370_fu_7046">GBM_Pipeline_VITIS_LOOP_28_370, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_371_fu_7058">GBM_Pipeline_VITIS_LOOP_28_371, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_372_fu_7070">GBM_Pipeline_VITIS_LOOP_28_372, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_373_fu_7082">GBM_Pipeline_VITIS_LOOP_28_373, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_374_fu_7094">GBM_Pipeline_VITIS_LOOP_28_374, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_375_fu_7106">GBM_Pipeline_VITIS_LOOP_28_375, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_376_fu_7118">GBM_Pipeline_VITIS_LOOP_28_376, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_377_fu_7130">GBM_Pipeline_VITIS_LOOP_28_377, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_378_fu_7142">GBM_Pipeline_VITIS_LOOP_28_378, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_379_fu_7154">GBM_Pipeline_VITIS_LOOP_28_379, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_380_fu_7166">GBM_Pipeline_VITIS_LOOP_28_380, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_381_fu_7178">GBM_Pipeline_VITIS_LOOP_28_381, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_382_fu_7190">GBM_Pipeline_VITIS_LOOP_28_382, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_383_fu_7202">GBM_Pipeline_VITIS_LOOP_28_383, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_384_fu_7214">GBM_Pipeline_VITIS_LOOP_28_384, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_385_fu_7226">GBM_Pipeline_VITIS_LOOP_28_385, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_386_fu_7238">GBM_Pipeline_VITIS_LOOP_28_386, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_387_fu_7250">GBM_Pipeline_VITIS_LOOP_28_387, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_388_fu_7262">GBM_Pipeline_VITIS_LOOP_28_388, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_389_fu_7274">GBM_Pipeline_VITIS_LOOP_28_389, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_390_fu_7286">GBM_Pipeline_VITIS_LOOP_28_390, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_391_fu_7298">GBM_Pipeline_VITIS_LOOP_28_391, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_392_fu_7310">GBM_Pipeline_VITIS_LOOP_28_392, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_393_fu_7322">GBM_Pipeline_VITIS_LOOP_28_393, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_394_fu_7334">GBM_Pipeline_VITIS_LOOP_28_394, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_395_fu_7346">GBM_Pipeline_VITIS_LOOP_28_395, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_396_fu_7358">GBM_Pipeline_VITIS_LOOP_28_396, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_397_fu_7370">GBM_Pipeline_VITIS_LOOP_28_397, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_398_fu_7382">GBM_Pipeline_VITIS_LOOP_28_398, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_GBM_Pipeline_VITIS_LOOP_28_399_fu_7394">GBM_Pipeline_VITIS_LOOP_28_399, 227, 227, 1.816 us, 1.816 us, 200, 200, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

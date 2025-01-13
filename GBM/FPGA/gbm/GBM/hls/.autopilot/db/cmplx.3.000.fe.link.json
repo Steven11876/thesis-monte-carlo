@@ -2,9 +2,9 @@
   "0": {
     "basicblocks": 19,
     "calls": "",
-    "file": "test.c",
-    "fileloc": 8,
-    "instructions": 51,
+    "file": "test_optimized.c",
+    "fileloc": 4,
+    "instructions": 53,
     "loads": {
       "T": 2
     },
@@ -12,6 +12,6 @@
     "stores": {
       "T": 2
     },
-    "total_instructions": 51
+    "total_instructions": 53
   }
 }

@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\GBM.hlsrun_cosim_summary",
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\GBM.hlsrun_cosim_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "01/09/25 03:50:05",
- "timestampMillis": "1736412605499",
+ "dateTimestamp": "01/12/25 21:14:16",
+ "timestampMillis": "1736734456879",
  "buildStep": {
-  "cmdId": "fbc4bfca-9cda-4394-ac6b-c396de64a183",
+  "cmdId": "cf6fb5a4-ffcb-4ffc-8b47-d6b65be47c78",
   "name": "vitis-run",
-  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\logs\\GBM.steps.log",
-  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg --work_dir GBM ",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\logs\\GBM.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\hls_config.cfg --work_dir GBM ",
   "args": [
    "--mode",
    "hls",
    "--cosim",
    "--config",
-   "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\hls_config.cfg",
+   "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\hls_config.cfg",
    "--work_dir",
    "GBM"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/09/25 03:50:05",
- "timestampMillis": "1736412605500",
+ "dateTimestamp": "01/12/25 21:14:16",
+ "timestampMillis": "1736734456879",
  "status": {
-  "cmdId": "fbc4bfca-9cda-4394-ac6b-c396de64a183",
+  "cmdId": "cf6fb5a4-ffcb-4ffc-8b47-d6b65be47c78",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614422",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463240",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -64,7 +64,7 @@
      "uuid": ""
     },
     "sources": [
-     "C:/Users\\steve\\thesis-monte-carlo\\test.c"
+     "C:/Users\\steve\\thesis-monte-carlo\\GBM\\test_optimized.c"
     ],
     "psSources": [],
     "cuNames": [],
@@ -80,26 +80,26 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614424",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463241",
  "buildStep": {
-  "cmdId": "542b1bf5-2608-4b8c-a191-00e4074dbf89",
+  "cmdId": "2e229b04-1a09-4141-a119-3dfb7a6babe6",
   "name": "",
-  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\hls.log",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls\\hls.log",
   "commandLine": "",
   "args": [],
   "iniFiles": [],
-  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm"
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614425",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463241",
  "status": {
-  "cmdId": "542b1bf5-2608-4b8c-a191-00e4074dbf89",
+  "cmdId": "2e229b04-1a09-4141-a119-3dfb7a6babe6",
   "state": "CS_RUNNING"
  }
 }
@@ -107,10 +107,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614425",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463241",
  "report": {
-  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls\\sim\\report\\GBM_cosim.rpt",
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls\\sim\\report\\GBM_cosim.rpt",
   "name": "",
   "fileType": "TEXT",
   "reportType": "HLS_COSIMULATION",
@@ -121,10 +121,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614426",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463242",
  "report": {
-  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_DATAFLOW",
@@ -135,10 +135,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614427",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463242",
  "report": {
-  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
@@ -149,10 +149,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614428",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463242",
  "report": {
-  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_TIMELINE_TRACE",
@@ -163,10 +163,10 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:50:14",
- "timestampMillis": "1736412614428",
+ "dateTimestamp": "01/12/25 21:14:23",
+ "timestampMillis": "1736734463243",
  "report": {
-  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\gbm\\GBM\\hls",
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm\\GBM\\hls",
   "name": "",
   "fileType": "DIR",
   "reportType": "HLS_WAVE",
@@ -177,10 +177,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/09/25 03:53:42",
- "timestampMillis": "1736412822577",
+ "dateTimestamp": "01/12/25 21:37:33",
+ "timestampMillis": "1736735853497",
  "status": {
-  "cmdId": "542b1bf5-2608-4b8c-a191-00e4074dbf89",
+  "cmdId": "2e229b04-1a09-4141-a119-3dfb7a6babe6",
   "state": "CS_PASSED"
  }
 }
@@ -188,10 +188,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "01/09/25 03:53:42",
- "timestampMillis": "1736412822776",
+ "dateTimestamp": "01/12/25 21:37:33",
+ "timestampMillis": "1736735853679",
  "status": {
-  "cmdId": "fbc4bfca-9cda-4394-ac6b-c396de64a183",
+  "cmdId": "cf6fb5a4-ffcb-4ffc-8b47-d6b65be47c78",
   "state": "CS_PASSED"
  }
 }
@@ -199,8 +199,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:53:42",
- "timestampMillis": "1736412822776",
+ "dateTimestamp": "01/12/25 21:37:33",
+ "timestampMillis": "1736735853680",
  "report": {
   "path": "",
   "name": "",
@@ -213,8 +213,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "01/09/25 03:53:42",
- "timestampMillis": "1736412822777",
+ "dateTimestamp": "01/12/25 21:37:33",
+ "timestampMillis": "1736735853680",
  "report": {
   "path": "",
   "name": "",

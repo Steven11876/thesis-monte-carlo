@@ -1,6 +1,6 @@
 [
   {
-    "directory": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm",
+    "directory": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm",
     "arguments": [
       "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
       "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
@@ -8,20 +8,20 @@
       "-hls-syn-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\common\\technology\\autopilot",
       "-fhlstoplevel=GBM",
       "-c",
-      "C:/Users/steve/thesis-monte-carlo/test.c"
+      "C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c"
     ],
-    "file": "C:/Users/steve/thesis-monte-carlo/test.c"
+    "file": "C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c"
   },
   {
-    "directory": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\gbm",
+    "directory": "C:\\Users\\steve\\thesis-monte-carlo\\GBM\\FPGA\\gbm",
     "arguments": [
       "C:\\Xilinx\\Vitis\\2024.2\\vcxx\\libexec\\clang++.exe",
       "--sysroot=C:\\Xilinx\\Vitis\\2024.2\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls-tb",
       "-hls-sim-headers-dir=C:\\Xilinx\\Vitis\\2024.2\\include",
       "-c",
-      "C:/Users/steve/thesis-monte-carlo/test_func.c"
+      "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c"
     ],
-    "file": "C:/Users/steve/thesis-monte-carlo/test_func.c"
+    "file": "C:/Users/steve/thesis-monte-carlo/GBM/test_func.c"
   }
 ]

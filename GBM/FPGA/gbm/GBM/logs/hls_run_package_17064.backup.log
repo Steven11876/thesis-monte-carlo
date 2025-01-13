@@ -1,0 +1,30 @@
+  **** HLS Build v2024.2 5238294
+INFO: [HLS 200-2005] Using work_dir C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM 
+INFO: [HLS 200-1611] Setting target device to 'xcku5p-ffva676-3-e'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying ini 'syn.file=C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/steve/thesis-monte-carlo/GBM/in.dat' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/steve/thesis-monte-carlo/GBM/in.dat' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat' to the project
+INFO: [HLS 200-1465] Applying ini 'tb.file=C:/Users/steve/thesis-monte-carlo/GBM/test_func.c' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'C:/Users/steve/thesis-monte-carlo/GBM/test_func.c' to the project
+INFO: [HLS 200-1465] Applying ini 'syn.top=GBM' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying ini 'flow_target=vitis' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vitis'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2024.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_latency=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_alignment_byte_size=64
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_interface -m_axi_max_widen_bitwidth=512
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vitis' configuration: config_rtl -register_reset_num=3
+INFO: [HLS 200-1465] Applying ini 'part=xcku5p-ffva676-3-e' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying ini 'clock=8ns' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(12)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 8ns.
+INFO: [HLS 200-1465] Applying ini 'clock_uncertainty=12%' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(13)
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 0.96ns.
+INFO: [HLS 200-1465] Applying ini 'csim.code_analyzer=1' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying ini 'package.output.file=/Users/steve/thesis-monte-carlo/GBM/FPGA/output.xo' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(14)
+INFO: [HLS 200-1465] Applying ini 'package.output.format=xo' from C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/hls_config.cfg(5)
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

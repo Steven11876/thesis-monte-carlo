@@ -1,0 +1,31 @@
+---
+MainSourceFile:  'C:/Users/steve/thesis-monte-carlo/GBM/FPGA/gbm/GBM/hls/.autopilot/db/test_optimized.pp.0.c'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_17_1:  '
+    FileOffset:      17
+    FilePath:        'C:\Users\steve\thesis-monte-carlo\GBM\test_optimized.c'
+    Replacements:    
+      - FilePath:        'C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c'
+        Offset:          30985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_17_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_24_2:  '
+    FileOffset:      24
+    FilePath:        'C:\Users\steve\thesis-monte-carlo\GBM\test_optimized.c'
+    Replacements:    
+      - FilePath:        'C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c'
+        Offset:          31072
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_24_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_28_3:  '
+    FileOffset:      28
+    FilePath:        'C:\Users\steve\thesis-monte-carlo\GBM\test_optimized.c'
+    Replacements:    
+      - FilePath:        'C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\GBM\hls\.autopilot\db\test_optimized.pp.0.c'
+        Offset:          31137
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_28_3: '
+...

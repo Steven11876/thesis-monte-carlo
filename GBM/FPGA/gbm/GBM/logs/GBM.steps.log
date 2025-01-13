@@ -58,7 +58,7 @@ PUBLIC=C:\Users\Public
 PYTHONPATH=;C:/Xilinx/Vitis/2024.2\cli;C:/Xilinx/Vitis/2024.2\cli\python-packages\win64;C:/Xilinx/Vitis/2024.2\cli\python-packages\site-packages;C:/Xilinx/Vitis/2024.2\cli\proto;C:/Xilinx/Vitis/2024.2\scripts\python_pkg;
 python_path=;C:/Xilinx/Vitis/2024.2\cli;C:/Xilinx/Vitis/2024.2\cli\python-packages\win64;C:/Xilinx/Vitis/2024.2\cli\python-packages\site-packages;C:/Xilinx/Vitis/2024.2\cli\proto;C:/Xilinx/Vitis/2024.2\scripts\python_pkg;
 RDI_APPROOT=C:/Xilinx/Vitis/2024.2
-RDI_ARGS= --mode hls --csim --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM
+RDI_ARGS= --mode hls --csim --config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg --work_dir GBM
 RDI_ARGS_FUNCTION=RDI_EXEC_DEFAULT
 RDI_BASEROOT=C:/Xilinx/Vitis
 RDI_BINDIR=C:/Xilinx/Vitis/2024.2/bin
@@ -81,7 +81,7 @@ RDI_PLATFORM=win64
 RDI_PREPEND_PATH=C:/Xilinx/Vitis/2024.2/bin
 RDI_PROG=C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe
 RDI_PROGNAME=vitis-run.exe
-RDI_SESSION_INFO=C:\Xilinx\Vitis\2024.2\bin:STEVEN-2025-01-09_3-41-43.47
+RDI_SESSION_INFO=C:\Xilinx\Vitis\2024.2\bin:STEVEN-2025-01-12_21-02-20.47
 RDI_SHARED_DATA=C:/Xilinx/SharedData/2024.2/data
 RDI_TPS_ROOT=C:/Xilinx/Vivado/2024.2/tps/win64
 RDI_USE_JDK11=1
@@ -90,7 +90,7 @@ RT_LIBPATH=C:/Xilinx/Vitis/2024.2/scripts/rt/data
 RT_TCL_PATH=C:/Xilinx/Vitis/2024.2/scripts/rt/base_tcl/tcl
 SDKROOT=C:\Xilinx\Vitis\2024.2\tps\win64\LOPPER~1.0-P\min_sdk\
 SESSIONNAME=Console
-session_string=C:\Users\steve\thesis-monte-carlo\GBM\gbm:STEVEN-2025-01-09_3-45-38.96
+session_string=C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm:STEVEN-2025-01-12_21-03-57.46
 SHARED_DATA_HOME="C:/Xilinx/SharedData/2024.2"
 supports_classic_ide=true
 SWIG_LIB=C:\Xilinx\Vitis\2024.2\tps\win64\LOPPER~1.0-P\min_sdk\\usr\lib\swig\4.2.1
@@ -102,7 +102,7 @@ TCMALLOC_LARGE_ALLOC_REPORT_THRESHOLD=4294967296
 TEMP=C:\Users\steve\AppData\Local\Temp
 THEIA_APP_PROJECT_PATH=C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app
 THEIA_DEFAULT_PLUGINS=local-dir:C:\Xilinx\Vitis\2024.2\ide\electron-app\win64\resources\app\plugins
-THEIA_ELECTRON_TOKEN={"value":"9947f4e9-c4f5-4509-80e4-1dd9be0da718"}
+THEIA_ELECTRON_TOKEN={"value":"7ed5bfe2-1c7d-4982-af4d-39d44d527786"}
 THEIA_ELECTRON_VERSION=15.5.7
 THEIA_PLUGINS=local-dir:C:\Users\steve\.theia\plugins
 TMP=C:\Users\steve\AppData\Local\Temp
@@ -137,122 +137,108 @@ XIL_SUPPRESS_OVERRIDE_WARNINGS=1
 XVREDIST=C:/Xilinx/Vitis/2024.2\tps\win64\xvcredist.exe
 ZES_ENABLE_SYSMAN=1
 _RDI_BINROOT=C:\Xilinx\Vitis\2024.2\bin
-_RDI_CWD=C:\Users\steve\thesis-monte-carlo\GBM\gbm
+_RDI_CWD=C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm
 _RDI_DONT_SET_XILINX_AS_PATH=True
 _RDI_VERSION_PROG=vitis-run
 _valid=False
-XILINX_CD_CONNECT_ID=60480
-XILINX_CD_SESSION=b37ea22f-72f4-45f3-8179-c5c37596125a
+XILINX_CD_CONNECT_ID=59827
+XILINX_CD_SESSION=41f4431d-2779-42ec-9705-aeb7553af5fd
 
 
 VITIS-RUN command line:
 ------------------------------------------
-C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --csim --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM 
+C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --csim --config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg --work_dir GBM 
 
 FINAL PROGRAM OPTIONS
---config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg
+--config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg
 --csim
 --hls.clock 8ns
 --hls.clock_uncertainty 12%
 --hls.csim.code_analyzer 1
 --hls.flow_target vitis
---hls.package.output.file C:\Users\steve\thesis-monte-carlo\GBM\output.xo
+--hls.package.output.file /Users/steve/thesis-monte-carlo/GBM/FPGA/output.xo
 --hls.package.output.format xo
---hls.package.output.syn 1
---hls.syn.file C:/Users/steve/thesis-monte-carlo/test.c
+--hls.package.output.syn false
+--hls.syn.file C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c
 --hls.syn.top GBM
---hls.syn.unroll.tripcount_threshold 5
---hls.tb.file C:/Users/steve/thesis-monte-carlo/in.dat
---hls.tb.file C:/Users/steve/thesis-monte-carlo/out.golden.dat
---hls.tb.file C:/Users/steve/thesis-monte-carlo/test_func.c
+--hls.tb.file C:/Users/steve/thesis-monte-carlo/GBM/in.dat
+--hls.tb.file C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat
+--hls.tb.file C:/Users/steve/thesis-monte-carlo/GBM/test_func.c
 --mode hls
---part xc7s15cpga196-2
+--part xcku5p-ffva676-3-e
 --work_dir GBM
 
 PARSED COMMAND LINE OPTIONS
 --mode hls 
 --csim 
---config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg 
+--config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg 
 --work_dir GBM 
 
 PARSED CONFIG FILE (1) OPTIONS
-file: C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg
-part xc7s15cpga196-2 
+file: C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg
+part xcku5p-ffva676-3-e 
 hls.flow_target vitis 
 hls.package.output.format xo 
-hls.package.output.syn 1 
+hls.package.output.syn false 
 hls.syn.top GBM 
-hls.syn.file C:/Users/steve/thesis-monte-carlo/test.c 
-hls.tb.file C:/Users/steve/thesis-monte-carlo/in.dat 
-hls.tb.file C:/Users/steve/thesis-monte-carlo/out.golden.dat 
-hls.tb.file C:/Users/steve/thesis-monte-carlo/test_func.c 
+hls.syn.file C:/Users/steve/thesis-monte-carlo/GBM/test_optimized.c 
+hls.tb.file C:/Users/steve/thesis-monte-carlo/GBM/in.dat 
+hls.tb.file C:/Users/steve/thesis-monte-carlo/GBM/out.golden.dat 
+hls.tb.file C:/Users/steve/thesis-monte-carlo/GBM/test_func.c 
 hls.clock 8ns 
 hls.clock_uncertainty 12% 
-hls.syn.unroll.tripcount_threshold 5 
-hls.package.output.file C:\Users\steve\thesis-monte-carlo\GBM\output.xo 
+hls.package.output.file /Users/steve/thesis-monte-carlo/GBM/FPGA/output.xo 
 hls.csim.code_analyzer 1 
 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 09 Jan 2025 03:45:43
+timestamp: 12 Jan 2025 21:04:01
 
 ------------------------------------------
 V++ command line :
 ------------------------------------------
-C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe -c --mode hls --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM 
+C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe -c --mode hls --config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg --work_dir GBM 
   Options from -O    : 
   Options from *.ini : 
   Options from Hw Platform : 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 09 Jan 2025 03:46:43
-
-------------------------------------------
-V++ command line :
-------------------------------------------
-C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/v++.exe -c --mode hls --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM 
-  Options from -O    : 
-  Options from *.ini : 
-  Options from Hw Platform : 
-
-==========================================
-new:  steps log generated by v++ for new launch 
-timestamp: 09 Jan 2025 03:48:42
+timestamp: 12 Jan 2025 21:04:24
 
 ------------------------------------------
 VITIS-RUN command line :
 ------------------------------------------
-C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --cosim --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM 
+C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --cosim --config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg --work_dir GBM 
   Options from -O    : 
   Options from *.ini : 
   Options from Hw Platform : 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 09 Jan 2025 03:50:05
+timestamp: 12 Jan 2025 21:14:17
 
 ------------------------------------------
 VITIS-RUN command line :
 ------------------------------------------
-C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --package --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM 
+C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --package --config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg --work_dir GBM 
   Options from -O    : 
   Options from *.ini : 
   Options from Hw Platform : 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 09 Jan 2025 03:53:55
+timestamp: 12 Jan 2025 21:37:46
 
 ------------------------------------------
 VITIS-RUN command line :
 ------------------------------------------
-C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --impl --config C:\Users\steve\thesis-monte-carlo\GBM\gbm\hls_config.cfg --work_dir GBM 
+C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe --mode hls --package --config C:\Users\steve\thesis-monte-carlo\GBM\FPGA\gbm\hls_config.cfg --work_dir GBM 
   Options from -O    : 
   Options from *.ini : 
   Options from Hw Platform : 
 
 ==========================================
 new:  steps log generated by v++ for new launch 
-timestamp: 09 Jan 2025 03:55:01
+timestamp: 12 Jan 2025 21:38:58

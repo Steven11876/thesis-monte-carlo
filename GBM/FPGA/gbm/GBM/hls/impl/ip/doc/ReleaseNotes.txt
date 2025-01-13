@@ -1,6 +1,6 @@
 
-Family       : spartan7
-Device       : xc7s15
-Package      : -cpga196
-Speed Grade  : -2
+Family       : kintexuplus
+Device       : xcku5p
+Package      : -ffva676
+Speed Grade  : -3-e
 Clock Period : 8
