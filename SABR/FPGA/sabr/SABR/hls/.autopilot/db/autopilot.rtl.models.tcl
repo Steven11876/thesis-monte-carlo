@@ -1,0 +1,251 @@
+set SynModuleInfo {
+  {SRCNAME pow_generic<double> MODELNAME pow_generic_double_s RTLNAME SABR_pow_generic_double_s
+    SUBMODULES {
+      {MODELNAME SABR_mul_12s_80ns_90_1_1 RTLNAME SABR_mul_12s_80ns_90_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_13s_71s_71_1_1 RTLNAME SABR_mul_13s_71s_71_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_40ns_40ns_79_1_1 RTLNAME SABR_mul_40ns_40ns_79_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_43ns_36ns_79_1_1 RTLNAME SABR_mul_43ns_36ns_79_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_49ns_44ns_93_1_1 RTLNAME SABR_mul_49ns_44ns_93_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_50ns_50ns_99_1_1 RTLNAME SABR_mul_50ns_50ns_99_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_54s_6ns_54_1_1 RTLNAME SABR_mul_54s_6ns_54_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_73ns_6ns_79_1_1 RTLNAME SABR_mul_73ns_6ns_79_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_77ns_6ns_82_1_1 RTLNAME SABR_mul_77ns_6ns_82_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_78s_54s_131_1_1 RTLNAME SABR_mul_78s_54s_131_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_82ns_6ns_87_1_1 RTLNAME SABR_mul_82ns_6ns_87_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_83ns_6ns_89_1_1 RTLNAME SABR_mul_83ns_6ns_89_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_87ns_6ns_92_1_1 RTLNAME SABR_mul_87ns_6ns_92_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_92ns_6ns_97_1_1 RTLNAME SABR_mul_92ns_6ns_97_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_mul_71ns_4ns_75_1_1 RTLNAME SABR_mul_71ns_4ns_75_1_1 BINDTYPE op TYPE mul IMPL auto LATENCY 0 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_sparsemux_7_2_1_1_1 RTLNAME SABR_sparsemux_7_2_1_1_1 BINDTYPE op TYPE sparsemux IMPL onehotencoding_realdef}
+      {MODELNAME SABR_bitselect_1ns_52ns_32s_1_1_1 RTLNAME SABR_bitselect_1ns_52ns_32s_1_1_1 BINDTYPE op TYPE bitselect IMPL auto}
+      {MODELNAME SABR_sparsemux_19_8_64_1_1 RTLNAME SABR_sparsemux_19_8_64_1_1 BINDTYPE op TYPE sparsemux IMPL onehotencoding_realdef}
+      {MODELNAME SABR_mac_muladd_16s_15ns_19s_31_4_1 RTLNAME SABR_mac_muladd_16s_15ns_19s_31_4_1 BINDTYPE op TYPE all IMPL dsp_slice LATENCY 3}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_inverse_lut_table_powbkb BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log0_lut_table_array_ROM_cud BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_4_dEe BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_7_eOg BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_12fYi BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17g8j RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_17g8j BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22hbi RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_22hbi BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27ibs RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_27ibs BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32jbC RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_log_lut_table_ap_fixed_32jbC BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arkbM RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_exp_Z1_ap_ufixed_arkbM BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_arralbW RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z3_ap_ufixed_arralbW BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arramb6 RTLNAME SABR_pow_generic_double_s_pow_reduce_anonymous_namespace_table_f_Z2_ap_ufixed_arramb6 BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_3 MODELNAME SABR_Pipeline_VITIS_LOOP_31_3 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_3
+    SUBMODULES {
+      {MODELNAME SABR_flow_control_loop_pipe_sequential_init RTLNAME SABR_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME SABR_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_31 MODELNAME SABR_Pipeline_VITIS_LOOP_31_31 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_31}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_32 MODELNAME SABR_Pipeline_VITIS_LOOP_31_32 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_32}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_33 MODELNAME SABR_Pipeline_VITIS_LOOP_31_33 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_33}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_34 MODELNAME SABR_Pipeline_VITIS_LOOP_31_34 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_34}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_35 MODELNAME SABR_Pipeline_VITIS_LOOP_31_35 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_35}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_36 MODELNAME SABR_Pipeline_VITIS_LOOP_31_36 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_36}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_37 MODELNAME SABR_Pipeline_VITIS_LOOP_31_37 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_37}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_38 MODELNAME SABR_Pipeline_VITIS_LOOP_31_38 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_38}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_39 MODELNAME SABR_Pipeline_VITIS_LOOP_31_39 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_39}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_310 MODELNAME SABR_Pipeline_VITIS_LOOP_31_310 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_310}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_311 MODELNAME SABR_Pipeline_VITIS_LOOP_31_311 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_311}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_312 MODELNAME SABR_Pipeline_VITIS_LOOP_31_312 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_312}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_313 MODELNAME SABR_Pipeline_VITIS_LOOP_31_313 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_313}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_314 MODELNAME SABR_Pipeline_VITIS_LOOP_31_314 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_314}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_315 MODELNAME SABR_Pipeline_VITIS_LOOP_31_315 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_315}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_316 MODELNAME SABR_Pipeline_VITIS_LOOP_31_316 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_316}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_317 MODELNAME SABR_Pipeline_VITIS_LOOP_31_317 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_317}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_318 MODELNAME SABR_Pipeline_VITIS_LOOP_31_318 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_318}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_319 MODELNAME SABR_Pipeline_VITIS_LOOP_31_319 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_319}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_320 MODELNAME SABR_Pipeline_VITIS_LOOP_31_320 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_320}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_321 MODELNAME SABR_Pipeline_VITIS_LOOP_31_321 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_321}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_322 MODELNAME SABR_Pipeline_VITIS_LOOP_31_322 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_322}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_323 MODELNAME SABR_Pipeline_VITIS_LOOP_31_323 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_323}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_324 MODELNAME SABR_Pipeline_VITIS_LOOP_31_324 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_324}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_325 MODELNAME SABR_Pipeline_VITIS_LOOP_31_325 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_325}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_326 MODELNAME SABR_Pipeline_VITIS_LOOP_31_326 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_326}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_327 MODELNAME SABR_Pipeline_VITIS_LOOP_31_327 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_327}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_328 MODELNAME SABR_Pipeline_VITIS_LOOP_31_328 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_328}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_329 MODELNAME SABR_Pipeline_VITIS_LOOP_31_329 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_329}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_330 MODELNAME SABR_Pipeline_VITIS_LOOP_31_330 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_330}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_331 MODELNAME SABR_Pipeline_VITIS_LOOP_31_331 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_331}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_332 MODELNAME SABR_Pipeline_VITIS_LOOP_31_332 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_332}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_333 MODELNAME SABR_Pipeline_VITIS_LOOP_31_333 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_333}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_334 MODELNAME SABR_Pipeline_VITIS_LOOP_31_334 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_334}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_335 MODELNAME SABR_Pipeline_VITIS_LOOP_31_335 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_335}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_336 MODELNAME SABR_Pipeline_VITIS_LOOP_31_336 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_336}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_337 MODELNAME SABR_Pipeline_VITIS_LOOP_31_337 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_337}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_338 MODELNAME SABR_Pipeline_VITIS_LOOP_31_338 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_338}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_339 MODELNAME SABR_Pipeline_VITIS_LOOP_31_339 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_339}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_340 MODELNAME SABR_Pipeline_VITIS_LOOP_31_340 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_340}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_341 MODELNAME SABR_Pipeline_VITIS_LOOP_31_341 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_341}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_342 MODELNAME SABR_Pipeline_VITIS_LOOP_31_342 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_342}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_343 MODELNAME SABR_Pipeline_VITIS_LOOP_31_343 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_343}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_344 MODELNAME SABR_Pipeline_VITIS_LOOP_31_344 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_344}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_345 MODELNAME SABR_Pipeline_VITIS_LOOP_31_345 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_345}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_346 MODELNAME SABR_Pipeline_VITIS_LOOP_31_346 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_346}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_347 MODELNAME SABR_Pipeline_VITIS_LOOP_31_347 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_347}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_348 MODELNAME SABR_Pipeline_VITIS_LOOP_31_348 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_348}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_349 MODELNAME SABR_Pipeline_VITIS_LOOP_31_349 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_349}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_350 MODELNAME SABR_Pipeline_VITIS_LOOP_31_350 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_350}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_351 MODELNAME SABR_Pipeline_VITIS_LOOP_31_351 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_351}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_352 MODELNAME SABR_Pipeline_VITIS_LOOP_31_352 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_352}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_353 MODELNAME SABR_Pipeline_VITIS_LOOP_31_353 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_353}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_354 MODELNAME SABR_Pipeline_VITIS_LOOP_31_354 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_354}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_355 MODELNAME SABR_Pipeline_VITIS_LOOP_31_355 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_355}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_356 MODELNAME SABR_Pipeline_VITIS_LOOP_31_356 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_356}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_357 MODELNAME SABR_Pipeline_VITIS_LOOP_31_357 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_357}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_358 MODELNAME SABR_Pipeline_VITIS_LOOP_31_358 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_358}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_359 MODELNAME SABR_Pipeline_VITIS_LOOP_31_359 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_359}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_360 MODELNAME SABR_Pipeline_VITIS_LOOP_31_360 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_360}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_361 MODELNAME SABR_Pipeline_VITIS_LOOP_31_361 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_361}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_362 MODELNAME SABR_Pipeline_VITIS_LOOP_31_362 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_362}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_363 MODELNAME SABR_Pipeline_VITIS_LOOP_31_363 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_363}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_364 MODELNAME SABR_Pipeline_VITIS_LOOP_31_364 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_364}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_365 MODELNAME SABR_Pipeline_VITIS_LOOP_31_365 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_365}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_366 MODELNAME SABR_Pipeline_VITIS_LOOP_31_366 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_366}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_367 MODELNAME SABR_Pipeline_VITIS_LOOP_31_367 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_367}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_368 MODELNAME SABR_Pipeline_VITIS_LOOP_31_368 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_368}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_369 MODELNAME SABR_Pipeline_VITIS_LOOP_31_369 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_369}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_370 MODELNAME SABR_Pipeline_VITIS_LOOP_31_370 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_370}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_371 MODELNAME SABR_Pipeline_VITIS_LOOP_31_371 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_371}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_372 MODELNAME SABR_Pipeline_VITIS_LOOP_31_372 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_372}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_373 MODELNAME SABR_Pipeline_VITIS_LOOP_31_373 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_373}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_374 MODELNAME SABR_Pipeline_VITIS_LOOP_31_374 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_374}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_375 MODELNAME SABR_Pipeline_VITIS_LOOP_31_375 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_375}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_376 MODELNAME SABR_Pipeline_VITIS_LOOP_31_376 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_376}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_377 MODELNAME SABR_Pipeline_VITIS_LOOP_31_377 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_377}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_378 MODELNAME SABR_Pipeline_VITIS_LOOP_31_378 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_378}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_379 MODELNAME SABR_Pipeline_VITIS_LOOP_31_379 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_379}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_380 MODELNAME SABR_Pipeline_VITIS_LOOP_31_380 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_380}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_381 MODELNAME SABR_Pipeline_VITIS_LOOP_31_381 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_381}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_382 MODELNAME SABR_Pipeline_VITIS_LOOP_31_382 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_382}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_383 MODELNAME SABR_Pipeline_VITIS_LOOP_31_383 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_383}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_384 MODELNAME SABR_Pipeline_VITIS_LOOP_31_384 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_384}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_385 MODELNAME SABR_Pipeline_VITIS_LOOP_31_385 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_385}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_386 MODELNAME SABR_Pipeline_VITIS_LOOP_31_386 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_386}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_387 MODELNAME SABR_Pipeline_VITIS_LOOP_31_387 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_387}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_388 MODELNAME SABR_Pipeline_VITIS_LOOP_31_388 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_388}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_389 MODELNAME SABR_Pipeline_VITIS_LOOP_31_389 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_389}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_390 MODELNAME SABR_Pipeline_VITIS_LOOP_31_390 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_390}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_391 MODELNAME SABR_Pipeline_VITIS_LOOP_31_391 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_391}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_392 MODELNAME SABR_Pipeline_VITIS_LOOP_31_392 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_392}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_393 MODELNAME SABR_Pipeline_VITIS_LOOP_31_393 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_393}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_394 MODELNAME SABR_Pipeline_VITIS_LOOP_31_394 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_394}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_395 MODELNAME SABR_Pipeline_VITIS_LOOP_31_395 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_395}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_396 MODELNAME SABR_Pipeline_VITIS_LOOP_31_396 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_396}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_397 MODELNAME SABR_Pipeline_VITIS_LOOP_31_397 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_397}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_398 MODELNAME SABR_Pipeline_VITIS_LOOP_31_398 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_398}
+  {SRCNAME SABR_Pipeline_VITIS_LOOP_31_399 MODELNAME SABR_Pipeline_VITIS_LOOP_31_399 RTLNAME SABR_SABR_Pipeline_VITIS_LOOP_31_399}
+  {SRCNAME SABR MODELNAME SABR RTLNAME SABR IS_TOP 1
+    SUBMODULES {
+      {MODELNAME SABR_dadddsub_64ns_64ns_64_5_full_dsp_1 RTLNAME SABR_dadddsub_64ns_64ns_64_5_full_dsp_1 BINDTYPE op TYPE dsub IMPL fulldsp LATENCY 4 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_dmul_64ns_64ns_64_5_max_dsp_1 RTLNAME SABR_dmul_64ns_64ns_64_5_max_dsp_1 BINDTYPE op TYPE dmul IMPL maxdsp LATENCY 4 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_ddiv_64ns_64ns_64_22_no_dsp_1 RTLNAME SABR_ddiv_64ns_64ns_64_22_no_dsp_1 BINDTYPE op TYPE ddiv IMPL fabric LATENCY 21 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_dsqrt_64ns_64ns_64_21_no_dsp_1 RTLNAME SABR_dsqrt_64ns_64ns_64_21_no_dsp_1 BINDTYPE op TYPE dsqrt IMPL fabric LATENCY 20 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_dexp_64ns_64ns_64_12_full_dsp_1 RTLNAME SABR_dexp_64ns_64ns_64_12_full_dsp_1 BINDTYPE op TYPE dexp IMPL fulldsp LATENCY 11 ALLOW_PRAGMA 1}
+      {MODELNAME SABR_gmem_0_m_axi RTLNAME SABR_gmem_0_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_1_m_axi RTLNAME SABR_gmem_1_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_2_m_axi RTLNAME SABR_gmem_2_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_3_m_axi RTLNAME SABR_gmem_3_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_4_m_axi RTLNAME SABR_gmem_4_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_5_m_axi RTLNAME SABR_gmem_5_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_6_m_axi RTLNAME SABR_gmem_6_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_7_m_axi RTLNAME SABR_gmem_7_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_8_m_axi RTLNAME SABR_gmem_8_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_9_m_axi RTLNAME SABR_gmem_9_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_10_m_axi RTLNAME SABR_gmem_10_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_11_m_axi RTLNAME SABR_gmem_11_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_12_m_axi RTLNAME SABR_gmem_12_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_13_m_axi RTLNAME SABR_gmem_13_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_14_m_axi RTLNAME SABR_gmem_14_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_15_m_axi RTLNAME SABR_gmem_15_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_16_m_axi RTLNAME SABR_gmem_16_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_17_m_axi RTLNAME SABR_gmem_17_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_18_m_axi RTLNAME SABR_gmem_18_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_19_m_axi RTLNAME SABR_gmem_19_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_20_m_axi RTLNAME SABR_gmem_20_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_21_m_axi RTLNAME SABR_gmem_21_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_22_m_axi RTLNAME SABR_gmem_22_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_23_m_axi RTLNAME SABR_gmem_23_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_24_m_axi RTLNAME SABR_gmem_24_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_25_m_axi RTLNAME SABR_gmem_25_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_26_m_axi RTLNAME SABR_gmem_26_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_27_m_axi RTLNAME SABR_gmem_27_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_28_m_axi RTLNAME SABR_gmem_28_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_29_m_axi RTLNAME SABR_gmem_29_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_30_m_axi RTLNAME SABR_gmem_30_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_31_m_axi RTLNAME SABR_gmem_31_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_32_m_axi RTLNAME SABR_gmem_32_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_33_m_axi RTLNAME SABR_gmem_33_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_34_m_axi RTLNAME SABR_gmem_34_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_35_m_axi RTLNAME SABR_gmem_35_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_36_m_axi RTLNAME SABR_gmem_36_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_37_m_axi RTLNAME SABR_gmem_37_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_38_m_axi RTLNAME SABR_gmem_38_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_39_m_axi RTLNAME SABR_gmem_39_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_40_m_axi RTLNAME SABR_gmem_40_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_41_m_axi RTLNAME SABR_gmem_41_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_42_m_axi RTLNAME SABR_gmem_42_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_43_m_axi RTLNAME SABR_gmem_43_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_44_m_axi RTLNAME SABR_gmem_44_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_45_m_axi RTLNAME SABR_gmem_45_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_46_m_axi RTLNAME SABR_gmem_46_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_47_m_axi RTLNAME SABR_gmem_47_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_48_m_axi RTLNAME SABR_gmem_48_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_49_m_axi RTLNAME SABR_gmem_49_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_50_m_axi RTLNAME SABR_gmem_50_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_51_m_axi RTLNAME SABR_gmem_51_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_52_m_axi RTLNAME SABR_gmem_52_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_53_m_axi RTLNAME SABR_gmem_53_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_54_m_axi RTLNAME SABR_gmem_54_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_55_m_axi RTLNAME SABR_gmem_55_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_56_m_axi RTLNAME SABR_gmem_56_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_57_m_axi RTLNAME SABR_gmem_57_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_58_m_axi RTLNAME SABR_gmem_58_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_59_m_axi RTLNAME SABR_gmem_59_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_60_m_axi RTLNAME SABR_gmem_60_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_61_m_axi RTLNAME SABR_gmem_61_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_62_m_axi RTLNAME SABR_gmem_62_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_63_m_axi RTLNAME SABR_gmem_63_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_64_m_axi RTLNAME SABR_gmem_64_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_65_m_axi RTLNAME SABR_gmem_65_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_66_m_axi RTLNAME SABR_gmem_66_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_67_m_axi RTLNAME SABR_gmem_67_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_68_m_axi RTLNAME SABR_gmem_68_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_69_m_axi RTLNAME SABR_gmem_69_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_70_m_axi RTLNAME SABR_gmem_70_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_71_m_axi RTLNAME SABR_gmem_71_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_72_m_axi RTLNAME SABR_gmem_72_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_73_m_axi RTLNAME SABR_gmem_73_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_74_m_axi RTLNAME SABR_gmem_74_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_75_m_axi RTLNAME SABR_gmem_75_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_76_m_axi RTLNAME SABR_gmem_76_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_77_m_axi RTLNAME SABR_gmem_77_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_78_m_axi RTLNAME SABR_gmem_78_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_79_m_axi RTLNAME SABR_gmem_79_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_80_m_axi RTLNAME SABR_gmem_80_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_81_m_axi RTLNAME SABR_gmem_81_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_82_m_axi RTLNAME SABR_gmem_82_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_83_m_axi RTLNAME SABR_gmem_83_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_84_m_axi RTLNAME SABR_gmem_84_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_85_m_axi RTLNAME SABR_gmem_85_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_86_m_axi RTLNAME SABR_gmem_86_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_87_m_axi RTLNAME SABR_gmem_87_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_88_m_axi RTLNAME SABR_gmem_88_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_89_m_axi RTLNAME SABR_gmem_89_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_90_m_axi RTLNAME SABR_gmem_90_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_91_m_axi RTLNAME SABR_gmem_91_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_92_m_axi RTLNAME SABR_gmem_92_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_93_m_axi RTLNAME SABR_gmem_93_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_94_m_axi RTLNAME SABR_gmem_94_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_95_m_axi RTLNAME SABR_gmem_95_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_96_m_axi RTLNAME SABR_gmem_96_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_97_m_axi RTLNAME SABR_gmem_97_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_98_m_axi RTLNAME SABR_gmem_98_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_gmem_99_m_axi RTLNAME SABR_gmem_99_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
+      {MODELNAME SABR_control_s_axi RTLNAME SABR_control_s_axi BINDTYPE interface TYPE interface_s_axilite}
+    }
+  }
+}

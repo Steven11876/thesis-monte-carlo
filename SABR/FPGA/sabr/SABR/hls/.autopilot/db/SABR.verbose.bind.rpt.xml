@@ -1,0 +1,145 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'SABR'" level="0">
+<item name = "Date">Mon Jan 13 02:33:33 2025
+</item>
+<item name = "Version">2024.2 (Build 5238294 on Nov  8 2024)</item>
+<item name = "Project">SABR</item>
+<item name = "Solution">hls (Vitis Kernel Flow Target)</item>
+<item name = "Product family">kintexuplus</item>
+<item name = "Target device">xcku5p-ffva676-3-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">8.00 ns, 7.040 ns, 0.96 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">168312, 168312, 1.346 ms, 1.346 ms, 168313, 168313, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_3_fu_10070">SABR_Pipeline_VITIS_LOOP_31_3, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_31_fu_10113">SABR_Pipeline_VITIS_LOOP_31_31, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_32_fu_10155">SABR_Pipeline_VITIS_LOOP_31_32, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_33_fu_10197">SABR_Pipeline_VITIS_LOOP_31_33, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_34_fu_10239">SABR_Pipeline_VITIS_LOOP_31_34, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_35_fu_10281">SABR_Pipeline_VITIS_LOOP_31_35, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_36_fu_10323">SABR_Pipeline_VITIS_LOOP_31_36, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_37_fu_10365">SABR_Pipeline_VITIS_LOOP_31_37, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_38_fu_10407">SABR_Pipeline_VITIS_LOOP_31_38, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_39_fu_10449">SABR_Pipeline_VITIS_LOOP_31_39, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_310_fu_10491">SABR_Pipeline_VITIS_LOOP_31_310, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_311_fu_10533">SABR_Pipeline_VITIS_LOOP_31_311, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_312_fu_10575">SABR_Pipeline_VITIS_LOOP_31_312, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_313_fu_10617">SABR_Pipeline_VITIS_LOOP_31_313, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_314_fu_10659">SABR_Pipeline_VITIS_LOOP_31_314, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_315_fu_10701">SABR_Pipeline_VITIS_LOOP_31_315, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_316_fu_10743">SABR_Pipeline_VITIS_LOOP_31_316, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_317_fu_10785">SABR_Pipeline_VITIS_LOOP_31_317, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_318_fu_10827">SABR_Pipeline_VITIS_LOOP_31_318, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_319_fu_10869">SABR_Pipeline_VITIS_LOOP_31_319, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_320_fu_10911">SABR_Pipeline_VITIS_LOOP_31_320, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_321_fu_10953">SABR_Pipeline_VITIS_LOOP_31_321, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_322_fu_10995">SABR_Pipeline_VITIS_LOOP_31_322, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_323_fu_11037">SABR_Pipeline_VITIS_LOOP_31_323, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_324_fu_11079">SABR_Pipeline_VITIS_LOOP_31_324, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_325_fu_11121">SABR_Pipeline_VITIS_LOOP_31_325, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_326_fu_11163">SABR_Pipeline_VITIS_LOOP_31_326, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_327_fu_11205">SABR_Pipeline_VITIS_LOOP_31_327, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_328_fu_11247">SABR_Pipeline_VITIS_LOOP_31_328, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_329_fu_11289">SABR_Pipeline_VITIS_LOOP_31_329, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_330_fu_11331">SABR_Pipeline_VITIS_LOOP_31_330, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_331_fu_11373">SABR_Pipeline_VITIS_LOOP_31_331, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_332_fu_11415">SABR_Pipeline_VITIS_LOOP_31_332, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_333_fu_11457">SABR_Pipeline_VITIS_LOOP_31_333, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_334_fu_11499">SABR_Pipeline_VITIS_LOOP_31_334, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_335_fu_11541">SABR_Pipeline_VITIS_LOOP_31_335, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_336_fu_11583">SABR_Pipeline_VITIS_LOOP_31_336, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_337_fu_11625">SABR_Pipeline_VITIS_LOOP_31_337, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_338_fu_11667">SABR_Pipeline_VITIS_LOOP_31_338, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_339_fu_11709">SABR_Pipeline_VITIS_LOOP_31_339, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_340_fu_11751">SABR_Pipeline_VITIS_LOOP_31_340, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_341_fu_11793">SABR_Pipeline_VITIS_LOOP_31_341, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_342_fu_11835">SABR_Pipeline_VITIS_LOOP_31_342, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_343_fu_11877">SABR_Pipeline_VITIS_LOOP_31_343, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_344_fu_11919">SABR_Pipeline_VITIS_LOOP_31_344, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_345_fu_11961">SABR_Pipeline_VITIS_LOOP_31_345, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_346_fu_12003">SABR_Pipeline_VITIS_LOOP_31_346, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_347_fu_12045">SABR_Pipeline_VITIS_LOOP_31_347, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_348_fu_12087">SABR_Pipeline_VITIS_LOOP_31_348, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_349_fu_12129">SABR_Pipeline_VITIS_LOOP_31_349, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_350_fu_12171">SABR_Pipeline_VITIS_LOOP_31_350, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_351_fu_12213">SABR_Pipeline_VITIS_LOOP_31_351, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_352_fu_12255">SABR_Pipeline_VITIS_LOOP_31_352, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_353_fu_12297">SABR_Pipeline_VITIS_LOOP_31_353, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_354_fu_12339">SABR_Pipeline_VITIS_LOOP_31_354, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_355_fu_12381">SABR_Pipeline_VITIS_LOOP_31_355, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_356_fu_12423">SABR_Pipeline_VITIS_LOOP_31_356, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_357_fu_12465">SABR_Pipeline_VITIS_LOOP_31_357, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_358_fu_12507">SABR_Pipeline_VITIS_LOOP_31_358, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_359_fu_12549">SABR_Pipeline_VITIS_LOOP_31_359, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_360_fu_12591">SABR_Pipeline_VITIS_LOOP_31_360, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_361_fu_12633">SABR_Pipeline_VITIS_LOOP_31_361, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_362_fu_12675">SABR_Pipeline_VITIS_LOOP_31_362, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_363_fu_12717">SABR_Pipeline_VITIS_LOOP_31_363, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_364_fu_12759">SABR_Pipeline_VITIS_LOOP_31_364, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_365_fu_12801">SABR_Pipeline_VITIS_LOOP_31_365, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_366_fu_12843">SABR_Pipeline_VITIS_LOOP_31_366, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_367_fu_12885">SABR_Pipeline_VITIS_LOOP_31_367, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_368_fu_12927">SABR_Pipeline_VITIS_LOOP_31_368, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_369_fu_12969">SABR_Pipeline_VITIS_LOOP_31_369, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_370_fu_13011">SABR_Pipeline_VITIS_LOOP_31_370, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_371_fu_13053">SABR_Pipeline_VITIS_LOOP_31_371, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_372_fu_13095">SABR_Pipeline_VITIS_LOOP_31_372, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_373_fu_13137">SABR_Pipeline_VITIS_LOOP_31_373, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_374_fu_13179">SABR_Pipeline_VITIS_LOOP_31_374, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_375_fu_13221">SABR_Pipeline_VITIS_LOOP_31_375, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_376_fu_13263">SABR_Pipeline_VITIS_LOOP_31_376, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_377_fu_13305">SABR_Pipeline_VITIS_LOOP_31_377, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_378_fu_13347">SABR_Pipeline_VITIS_LOOP_31_378, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_379_fu_13389">SABR_Pipeline_VITIS_LOOP_31_379, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_380_fu_13431">SABR_Pipeline_VITIS_LOOP_31_380, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_381_fu_13473">SABR_Pipeline_VITIS_LOOP_31_381, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_382_fu_13515">SABR_Pipeline_VITIS_LOOP_31_382, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_383_fu_13557">SABR_Pipeline_VITIS_LOOP_31_383, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_384_fu_13599">SABR_Pipeline_VITIS_LOOP_31_384, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_385_fu_13641">SABR_Pipeline_VITIS_LOOP_31_385, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_386_fu_13683">SABR_Pipeline_VITIS_LOOP_31_386, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_387_fu_13725">SABR_Pipeline_VITIS_LOOP_31_387, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_388_fu_13767">SABR_Pipeline_VITIS_LOOP_31_388, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_389_fu_13809">SABR_Pipeline_VITIS_LOOP_31_389, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_390_fu_13851">SABR_Pipeline_VITIS_LOOP_31_390, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_391_fu_13893">SABR_Pipeline_VITIS_LOOP_31_391, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_392_fu_13935">SABR_Pipeline_VITIS_LOOP_31_392, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_393_fu_13977">SABR_Pipeline_VITIS_LOOP_31_393, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_394_fu_14019">SABR_Pipeline_VITIS_LOOP_31_394, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_395_fu_14061">SABR_Pipeline_VITIS_LOOP_31_395, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_396_fu_14103">SABR_Pipeline_VITIS_LOOP_31_396, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_397_fu_14145">SABR_Pipeline_VITIS_LOOP_31_397, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_398_fu_14187">SABR_Pipeline_VITIS_LOOP_31_398, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_SABR_Pipeline_VITIS_LOOP_31_399_fu_14229">SABR_Pipeline_VITIS_LOOP_31_399, 1678, 1678, 13.424 us, 13.424 us, 1677, 1677, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

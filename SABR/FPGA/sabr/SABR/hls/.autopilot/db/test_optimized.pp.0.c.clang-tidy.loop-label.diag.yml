@@ -1,0 +1,31 @@
+---
+MainSourceFile:  'C:/Users/steve/thesis-monte-carlo/SABR/FPGA/sabr/SABR/hls/.autopilot/db/test_optimized.pp.0.c'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_1:  '
+    FileOffset:      21
+    FilePath:        'C:\Users\steve\thesis-monte-carlo\SABR\test_optimized.c'
+    Replacements:    
+      - FilePath:        'C:\Users\steve\thesis-monte-carlo\SABR\FPGA\sabr\SABR\hls\.autopilot\db\test_optimized.pp.0.c'
+        Offset:          31355
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_28_2:  '
+    FileOffset:      28
+    FilePath:        'C:\Users\steve\thesis-monte-carlo\SABR\test_optimized.c'
+    Replacements:    
+      - FilePath:        'C:\Users\steve\thesis-monte-carlo\SABR\FPGA\sabr\SABR\hls\.autopilot\db\test_optimized.pp.0.c'
+        Offset:          31468
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_28_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_3:  '
+    FileOffset:      31
+    FilePath:        'C:\Users\steve\thesis-monte-carlo\SABR\test_optimized.c'
+    Replacements:    
+      - FilePath:        'C:\Users\steve\thesis-monte-carlo\SABR\FPGA\sabr\SABR\hls\.autopilot\db\test_optimized.pp.0.c'
+        Offset:          31532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_3: '
+...

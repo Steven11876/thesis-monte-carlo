@@ -1,0 +1,80 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls\\csim\\code_analyzer\\app.csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Jan 13 02:26:02 2025",
+ "timestampMillis": "1736753162050",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Jan 13 02:26:02 2025",
+ "timestampMillis": "1736753162051",
+ "buildStep": {
+  "cmdId": "a45ec6c8-d17f-11ef-b29c-f8fe5e40e17d",
+  "name": "vitis_c++",
+  "logFile": "",
+  "commandLine": "vitis_c++ code_analyzer",
+  "args": [
+   "code_analyzer"
+  ],
+  "iniFiles": [],
+  "cwd": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Jan 13 02:26:02 2025",
+ "timestampMillis": "1736753162051",
+ "status": {
+  "cmdId": "a45ec6c8-d17f-11ef-b29c-f8fe5e40e17d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Jan 13 02:26:07 2025",
+ "timestampMillis": "1736753167447",
+ "status": {
+  "cmdId": "a45ec6c8-d17f-11ef-b29c-f8fe5e40e17d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Jan 13 02:26:07 2025",
+ "timestampMillis": "1736753167448",
+ "report": {
+  "path": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "VCXX_CODE_ANALYZER",
+  "cmdId": "a45ec6c8-d17f-11ef-b29c-f8fe5e40e17d"
+ }
+}
+</ENTRY>

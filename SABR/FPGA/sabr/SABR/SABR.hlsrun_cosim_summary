@@ -1,0 +1,226 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\SABR.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "01/13/25 03:17:30",
+ "timestampMillis": "1736756250531",
+ "buildStep": {
+  "cmdId": "5f62e172-023d-4e16-a53e-a402a545baab",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\logs\\SABR.steps.log",
+  "commandLine": "C:/Xilinx/Vitis/2024.2/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --cosim --config C:\\Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\hls_config.cfg --work_dir SABR ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\hls_config.cfg",
+   "--work_dir",
+   "SABR"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/13/25 03:17:30",
+ "timestampMillis": "1736756250531",
+ "status": {
+  "cmdId": "5f62e172-023d-4e16-a53e-a402a545baab",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256290",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "SABR",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\steve\\thesis-monte-carlo\\SABR\\test_optimized.c"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2024.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256291",
+ "buildStep": {
+  "cmdId": "1becbfb6-abdf-45ec-b8bc-26d501645315",
+  "name": "",
+  "logFile": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256292",
+ "status": {
+  "cmdId": "1becbfb6-abdf-45ec-b8bc-26d501645315",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256292",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls\\sim\\report\\SABR_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256293",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256293",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256293",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:17:36",
+ "timestampMillis": "1736756256293",
+ "report": {
+  "path": "C:/Users\\steve\\thesis-monte-carlo\\SABR\\FPGA\\sabr\\SABR\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/13/25 03:47:43",
+ "timestampMillis": "1736758063299",
+ "status": {
+  "cmdId": "1becbfb6-abdf-45ec-b8bc-26d501645315",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "01/13/25 03:47:43",
+ "timestampMillis": "1736758063476",
+ "status": {
+  "cmdId": "5f62e172-023d-4e16-a53e-a402a545baab",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:47:43",
+ "timestampMillis": "1736758063476",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "01/13/25 03:47:43",
+ "timestampMillis": "1736758063477",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

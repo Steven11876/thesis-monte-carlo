@@ -29,7 +29,6 @@ void SABR(double S[STOCKS], double V[STOCKS], double S0, double r, double sigma_
         #pragma HLS UNROLL factor=STOCKS
         // Pipeline the time steps
         for (int j = 0; j < (STEPS-1); j++) {
-            #pragma HLS PIPELINE
             
             // Pre-compute array indices
             int base_idx = 2*m * (STEPS-1);

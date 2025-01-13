@@ -15,3 +15,5 @@ comp.run(operation="PACKAGE")
 
 comp.run(operation="PACKAGE")
 
+vitis.dispose()
+

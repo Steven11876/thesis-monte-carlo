@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Jan 13 03:31:05 2025
+# Process ID         : 12820
+# Current directory  : C:/Users/steve/thesis-monte-carlo/SABR/FPGA/sabr/SABR/hls/.autopilot/db/ip_tmp
+# Command line       : vivado.exe -notrace -log vivado.log -mode batch -source run_vivado_gen_ip.tcl
+# Log file           : C:/Users/steve/thesis-monte-carlo/SABR/FPGA/sabr/SABR/hls/.autopilot/db/ip_tmp/vivado.log
+# Journal file       : C:/Users/steve/thesis-monte-carlo/SABR/FPGA/sabr/SABR/hls/.autopilot/db/ip_tmp\vivado.jou
+# Running On         : Steven
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33775 MB
+# Swap memory        : 59568 MB
+# Total Virtual      : 93343 MB
+# Available Virtual  : 67946 MB
+#-----------------------------------------------------------
+source run_vivado_gen_ip.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 619.699 ; gain = 191.031
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'SABR_dadddsub_64ns_64ns_64_5_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'SABR_dadddsub_64ns_64ns_64_5_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'SABR_dadddsub_64ns_64ns_64_5_full_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'SABR_ddiv_64ns_64ns_64_22_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'SABR_ddiv_64ns_64ns_64_22_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'SABR_ddiv_64ns_64ns_64_22_no_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'SABR_dexp_64ns_64ns_64_12_full_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'SABR_dexp_64ns_64ns_64_12_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'SABR_dexp_64ns_64ns_64_12_full_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'SABR_dmul_64ns_64ns_64_5_max_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'SABR_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'SABR_dmul_64ns_64ns_64_5_max_dsp_1_ip'...
+WARNING: [IP_Flow 19-4832] The IP name 'SABR_dsqrt_64ns_64ns_64_21_no_dsp_1_ip' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'SABR_dsqrt_64ns_64ns_64_21_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'SABR_dsqrt_64ns_64ns_64_21_no_dsp_1_ip'...
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 13 03:31:17 2025...

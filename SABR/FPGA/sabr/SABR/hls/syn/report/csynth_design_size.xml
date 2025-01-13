@@ -1,0 +1,76 @@
+<design_size title="Design Size Report">
+    <item name="Total Instructions per Compilation Phase">
+        <table>
+            <keys size="4">Phase, Step, Instructions, Description</keys>
+            <column name="Compile/Link">,  26918, After all functions are compiled and linked into a single design</column>
+            <column name="">, , </column>
+            <column name="Unroll/Inline">, , After user unroll and inline pragmas are applied</column>
+            <column name="">(1) unroll, 238713 *, user unroll pragmas are applied</column>
+            <column name="">(2) simplification,  95609, simplification of applied user unroll pragmas</column>
+            <column name="">(3) inline,  94534, user inline pragmas are applied</column>
+            <column name="">(4) simplification,  71634, simplification of applied user inline pragmas</column>
+            <column name="">, , </column>
+            <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(1) array partition,  93122, user array partition pragmas are applied</column>
+            <column name="">(2) simplification,  72827, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
+            <column name="">(3) aggregate/disaggregate ,  72827, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(4) array reshape,  72827, apply array reshape pragmas</column>
+            <column name="">(5) access patterns,  72828, array access pattern optmizations</column>
+            <column name="">, , </column>
+            <column name="Performance">, , After transformations are applied to meet performance pragma targets</column>
+            <column name="">(1) loop simplification,  68128, loop and instruction simplification</column>
+            <column name="">(2) parallelization,  67928, loops are unrolled or pipelined to meet performance targets</column>
+            <column name="">(3) array partition,  67928, arrays are partitioned to meet performance targets</column>
+            <column name="">(4) simplification,  67928, simplification of design after performance transformations</column>
+            <column name="">, , </column>
+            <column name="HW Transforms">, , After hardware transfomations</column>
+            <column name="">(1) lowering,  68739, initial conversion to HW specific instructions</column>
+            <column name="">(2) optimizations,  69340, high level synthesis optimizations</column>
+        </table>
+    </item>
+    <item name="Instructions per Function for each Compilation Phase">
+        <hiertable>
+            <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
+            <rows>
+                <row id="0" col0="SABR" col1="test_optimized.c:4" col2="26918" col3="71634" col4="72828" col5="67928" col6="69340">
+                    <row id="4" col0="pow" col1="powdouble.cpp:6" col2="26829" col3="68200" col3_disp="68,200 (100 calls)" col4="68000" col4_disp="68,000 (100 calls)" col5="63600" col5_disp="63,600 (100 calls)" col6="63100" col6_disp="63,100 (100 calls)">
+                        <row id="28" col0="pow_generic&lt;double&gt;" col1="hls_pow.h:291" col2="26827" col3="68000" col3_disp="68,000 (100 calls)" col4="67800" col4_disp="67,800 (100 calls)" col5="63400" col5_disp="63,400 (100 calls)" col6="62900" col6_disp="62,900 (100 calls)">
+                            <row id="37" col0="fp_struct" col1="x_hls_utils.h:456" col2="638" col2_disp="  638 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="2" col0="fp_struct" col1="x_hls_utils.h:454" col2="4" col3="" col4="" col5="" col6=""/>
+                            <row id="21" col0="expv" col1="x_hls_utils.h:485" col2="218" col2_disp="  218 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="34" col0="generic_isinf&lt;double&gt;" col1="hls_isinf.h:16" col2="778" col2_disp="  778 (2 calls)" col3="" col4="" col5="" col6="">
+                                <row id="37" col0="fp_struct" col1="x_hls_utils.h:456" col2="638" col2_disp="  638 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            </row>
+                            <row id="7" col0="generic_isnan&lt;double&gt;" col1="hls_isnan.h:16" col2="780" col2_disp="  780 (2 calls)" col3="" col4="" col5="" col6="">
+                                <row id="37" col0="fp_struct" col1="x_hls_utils.h:456" col2="638" col2_disp="  638 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            </row>
+                            <row id="3" col0="to_ieee" col1="x_hls_utils.h:509" col2="2727" col2_disp="2,727 (9 calls)" col3="8100" col3_disp="8,100 (900 calls)" col4="8100" col4_disp="8,100 (900 calls)" col5="5400" col5_disp="5,400 (900 calls)" col6="5400" col6_disp="5,400 (900 calls)">
+                                <row id="26" col0="to_double" col1="x_hls_utils.h:494" col2="2709" col2_disp="2,709 (9 calls)" col3="" col4="" col5="" col6="">
+                                    <row id="1" col0="data" col1="x_hls_utils.h:475" col2="2511" col2_disp="2,511 (9 calls)" col3="" col4="" col5="" col6=""/>
+                                </row>
+                            </row>
+                            <row id="22" col0="log_range_reduction&lt;71&gt;" col1="hls_pow.h:186" col2="10185" col3="22400" col3_disp="22,400 (100 calls)" col4="22400" col4_disp="22,400 (100 calls)" col5="22400" col5_disp="22,400 (100 calls)" col6="22400" col6_disp="22,400 (100 calls)">
+                                <row id="29" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 4, 4, 71, 73&gt;" col1="hls_pow.h:30" col2="1256" col3="" col4="" col5="" col6=""/>
+                                <row id="27" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 7, 6, 73, 83&gt;" col1="hls_pow.h:30" col2="1228" col3="" col4="" col5="" col6=""/>
+                                <row id="20" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 12, 6, 83, 92&gt;" col1="hls_pow.h:30" col2="1233" col3="" col4="" col5="" col6=""/>
+                                <row id="30" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 17, 6, 92, 87&gt;" col1="hls_pow.h:30" col2="1237" col3="" col4="" col5="" col6=""/>
+                                <row id="24" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 22, 6, 87, 82&gt;" col1="hls_pow.h:30" col2="1237" col3="" col4="" col5="" col6=""/>
+                                <row id="31" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 27, 6, 82, 77&gt;" col1="hls_pow.h:30" col2="1237" col3="" col4="" col5="" col6=""/>
+                                <row id="25" col0="log_range_reduce&lt;ap_fixed&lt;121, 12, AP_TRN, AP_WRAP, 0&gt;, 32, 6, 77, 72&gt;" col1="hls_pow.h:30" col2="1237" col3="" col4="" col5="" col6=""/>
+                            </row>
+                            <row id="12" col0="exp_Z1P_m_1" col1="hls_pow.h:224" col2="2725" col3="" col4="" col5="" col6=""/>
+                        </row>
+                    </row>
+                </row>
+            </rows>
+            <notes/>
+        </hiertable>
+    </item>
+    <item name="Design Size Message Settings">
+        <table>
+            <keys size="3">Message Setting, Value, Description</keys>
+            <column name="config_compile -design_size_maximum_warning">100000, Show a warning when total design instructions exceeds this value</column>
+        </table>
+    </item>
+</design_size>
+

@@ -1,0 +1,393 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=SABR" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:7:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=S complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:8:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=V complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:9:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=random_increments block factor=100" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:22:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=100" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaOptions="factor=100" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SABR" ARG_PragmaIsValid="1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_99' since this interface mode only supports scalar types">
+        <args Name="random_increments_99"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_98' since this interface mode only supports scalar types">
+        <args Name="random_increments_98"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_97' since this interface mode only supports scalar types">
+        <args Name="random_increments_97"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_96' since this interface mode only supports scalar types">
+        <args Name="random_increments_96"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_95' since this interface mode only supports scalar types">
+        <args Name="random_increments_95"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_94' since this interface mode only supports scalar types">
+        <args Name="random_increments_94"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_93' since this interface mode only supports scalar types">
+        <args Name="random_increments_93"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_92' since this interface mode only supports scalar types">
+        <args Name="random_increments_92"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_91' since this interface mode only supports scalar types">
+        <args Name="random_increments_91"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_90' since this interface mode only supports scalar types">
+        <args Name="random_increments_90"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_89' since this interface mode only supports scalar types">
+        <args Name="random_increments_89"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_88' since this interface mode only supports scalar types">
+        <args Name="random_increments_88"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_87' since this interface mode only supports scalar types">
+        <args Name="random_increments_87"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_86' since this interface mode only supports scalar types">
+        <args Name="random_increments_86"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_85' since this interface mode only supports scalar types">
+        <args Name="random_increments_85"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_84' since this interface mode only supports scalar types">
+        <args Name="random_increments_84"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_83' since this interface mode only supports scalar types">
+        <args Name="random_increments_83"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_82' since this interface mode only supports scalar types">
+        <args Name="random_increments_82"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_81' since this interface mode only supports scalar types">
+        <args Name="random_increments_81"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_80' since this interface mode only supports scalar types">
+        <args Name="random_increments_80"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_79' since this interface mode only supports scalar types">
+        <args Name="random_increments_79"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_78' since this interface mode only supports scalar types">
+        <args Name="random_increments_78"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_77' since this interface mode only supports scalar types">
+        <args Name="random_increments_77"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_76' since this interface mode only supports scalar types">
+        <args Name="random_increments_76"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_75' since this interface mode only supports scalar types">
+        <args Name="random_increments_75"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_74' since this interface mode only supports scalar types">
+        <args Name="random_increments_74"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_73' since this interface mode only supports scalar types">
+        <args Name="random_increments_73"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_72' since this interface mode only supports scalar types">
+        <args Name="random_increments_72"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_71' since this interface mode only supports scalar types">
+        <args Name="random_increments_71"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_70' since this interface mode only supports scalar types">
+        <args Name="random_increments_70"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_69' since this interface mode only supports scalar types">
+        <args Name="random_increments_69"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_68' since this interface mode only supports scalar types">
+        <args Name="random_increments_68"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_67' since this interface mode only supports scalar types">
+        <args Name="random_increments_67"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_66' since this interface mode only supports scalar types">
+        <args Name="random_increments_66"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_65' since this interface mode only supports scalar types">
+        <args Name="random_increments_65"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_64' since this interface mode only supports scalar types">
+        <args Name="random_increments_64"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_63' since this interface mode only supports scalar types">
+        <args Name="random_increments_63"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_62' since this interface mode only supports scalar types">
+        <args Name="random_increments_62"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_61' since this interface mode only supports scalar types">
+        <args Name="random_increments_61"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_60' since this interface mode only supports scalar types">
+        <args Name="random_increments_60"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_59' since this interface mode only supports scalar types">
+        <args Name="random_increments_59"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_58' since this interface mode only supports scalar types">
+        <args Name="random_increments_58"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_57' since this interface mode only supports scalar types">
+        <args Name="random_increments_57"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_56' since this interface mode only supports scalar types">
+        <args Name="random_increments_56"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_55' since this interface mode only supports scalar types">
+        <args Name="random_increments_55"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_54' since this interface mode only supports scalar types">
+        <args Name="random_increments_54"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_53' since this interface mode only supports scalar types">
+        <args Name="random_increments_53"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_52' since this interface mode only supports scalar types">
+        <args Name="random_increments_52"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_51' since this interface mode only supports scalar types">
+        <args Name="random_increments_51"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_50' since this interface mode only supports scalar types">
+        <args Name="random_increments_50"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_49' since this interface mode only supports scalar types">
+        <args Name="random_increments_49"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_48' since this interface mode only supports scalar types">
+        <args Name="random_increments_48"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_47' since this interface mode only supports scalar types">
+        <args Name="random_increments_47"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_46' since this interface mode only supports scalar types">
+        <args Name="random_increments_46"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_45' since this interface mode only supports scalar types">
+        <args Name="random_increments_45"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_44' since this interface mode only supports scalar types">
+        <args Name="random_increments_44"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_43' since this interface mode only supports scalar types">
+        <args Name="random_increments_43"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_42' since this interface mode only supports scalar types">
+        <args Name="random_increments_42"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_41' since this interface mode only supports scalar types">
+        <args Name="random_increments_41"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_40' since this interface mode only supports scalar types">
+        <args Name="random_increments_40"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_39' since this interface mode only supports scalar types">
+        <args Name="random_increments_39"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_38' since this interface mode only supports scalar types">
+        <args Name="random_increments_38"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_37' since this interface mode only supports scalar types">
+        <args Name="random_increments_37"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_36' since this interface mode only supports scalar types">
+        <args Name="random_increments_36"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_35' since this interface mode only supports scalar types">
+        <args Name="random_increments_35"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_34' since this interface mode only supports scalar types">
+        <args Name="random_increments_34"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_33' since this interface mode only supports scalar types">
+        <args Name="random_increments_33"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_32' since this interface mode only supports scalar types">
+        <args Name="random_increments_32"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_31' since this interface mode only supports scalar types">
+        <args Name="random_increments_31"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_30' since this interface mode only supports scalar types">
+        <args Name="random_increments_30"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_29' since this interface mode only supports scalar types">
+        <args Name="random_increments_29"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_28' since this interface mode only supports scalar types">
+        <args Name="random_increments_28"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_27' since this interface mode only supports scalar types">
+        <args Name="random_increments_27"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_26' since this interface mode only supports scalar types">
+        <args Name="random_increments_26"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_25' since this interface mode only supports scalar types">
+        <args Name="random_increments_25"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_24' since this interface mode only supports scalar types">
+        <args Name="random_increments_24"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_23' since this interface mode only supports scalar types">
+        <args Name="random_increments_23"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_22' since this interface mode only supports scalar types">
+        <args Name="random_increments_22"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_21' since this interface mode only supports scalar types">
+        <args Name="random_increments_21"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_20' since this interface mode only supports scalar types">
+        <args Name="random_increments_20"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_19' since this interface mode only supports scalar types">
+        <args Name="random_increments_19"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_18' since this interface mode only supports scalar types">
+        <args Name="random_increments_18"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_17' since this interface mode only supports scalar types">
+        <args Name="random_increments_17"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_16' since this interface mode only supports scalar types">
+        <args Name="random_increments_16"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_15' since this interface mode only supports scalar types">
+        <args Name="random_increments_15"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_14' since this interface mode only supports scalar types">
+        <args Name="random_increments_14"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_13' since this interface mode only supports scalar types">
+        <args Name="random_increments_13"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_12' since this interface mode only supports scalar types">
+        <args Name="random_increments_12"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_11' since this interface mode only supports scalar types">
+        <args Name="random_increments_11"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_10' since this interface mode only supports scalar types">
+        <args Name="random_increments_10"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_9' since this interface mode only supports scalar types">
+        <args Name="random_increments_9"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_8' since this interface mode only supports scalar types">
+        <args Name="random_increments_8"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_7' since this interface mode only supports scalar types">
+        <args Name="random_increments_7"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_6' since this interface mode only supports scalar types">
+        <args Name="random_increments_6"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_5' since this interface mode only supports scalar types">
+        <args Name="random_increments_5"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_4' since this interface mode only supports scalar types">
+        <args Name="random_increments_4"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_3' since this interface mode only supports scalar types">
+        <args Name="random_increments_3"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_2' since this interface mode only supports scalar types">
+        <args Name="random_increments_2"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_1' since this interface mode only supports scalar types">
+        <args Name="random_increments_1"/>
+    </msg>
+    <msg msg_groups="" msg_id="214-414" msg_severity="WARNING" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Cannot apply interface mode 'ap_none' on function argument 'random_increments_0' since this interface mode only supports scalar types">
+        <args Name="random_increments_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_28_2' (C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:28:22) in function 'SABR': changing partial unrolling into complete unrolling since the unrolling factor (=100) is no less than the loop trip count (=100).">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:28:22" LoopName="VITIS_LOOP_28_2" TripCount="100"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_28_2' (C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:28:22) in function 'SABR' completely with a factor of 100">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:28:22" LoopName="VITIS_LOOP_28_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-359" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_21_1' (C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:21:22) in function 'SABR': changing partial unrolling into complete unrolling since the unrolling factor (=100) is no less than the loop trip count (=100).">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:21:22" LoopName="VITIS_LOOP_21_1" TripCount="100"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Unrolling loop 'VITIS_LOOP_21_1' (C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:21:22) in function 'SABR' completely with a factor of 100">
+        <args Factor="100" LoopLoc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:21:22" LoopName="VITIS_LOOP_21_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isinf.h:16:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_isinf&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 456 Column 0" Caller="int generic_isinf&lt;double&gt;(double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isinf.h} Line 16 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h:16:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'int generic_isnan&lt;double&gt;(double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 456 Column 0" Caller="int generic_isnan&lt;double&gt;(double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h} Line 16 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:494:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::data() const (.103.113.123.156)' into 'fp_struct&lt;double&gt;::to_double() const (.100.110.120.153)'">
+        <args Callee="fp_struct&lt;double&gt;::data() const (.103.113.123.156)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 475 Column 0" Caller="fp_struct&lt;double&gt;::to_double() const (.100.110.120.153)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 494 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h:509:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::to_double() const (.100.110.120.153)' into 'fp_struct&lt;double&gt;::to_ieee() const'">
+        <args Callee="fp_struct&lt;double&gt;::to_double() const (.100.110.120.153)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 494 Column 0" Caller="fp_struct&lt;double&gt;::to_ieee() const" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 509 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 4, 4, 71, 73&gt;(ap_ufixed&lt;71, -(4), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;73, -(((4) + (4)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 4, 4, 71, 73&gt;(ap_ufixed&lt;71, -(4), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;73, -(((4) + (4)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 7, 6, 73, 83&gt;(ap_ufixed&lt;73, -(7), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;83, -(((7) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 7, 6, 73, 83&gt;(ap_ufixed&lt;73, -(7), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;83, -(((7) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 12, 6, 83, 92&gt;(ap_ufixed&lt;83, -(12), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;92, -(((12) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 12, 6, 83, 92&gt;(ap_ufixed&lt;83, -(12), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;92, -(((12) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 17, 6, 92, 87&gt;(ap_ufixed&lt;92, -(17), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;87, -(((17) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 17, 6, 92, 87&gt;(ap_ufixed&lt;92, -(17), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;87, -(((17) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 22, 6, 87, 82&gt;(ap_ufixed&lt;87, -(22), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;82, -(((22) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 22, 6, 87, 82&gt;(ap_ufixed&lt;87, -(22), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;82, -(((22) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 27, 6, 82, 77&gt;(ap_ufixed&lt;82, -(27), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;77, -(((27) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 27, 6, 82, 77&gt;(ap_ufixed&lt;82, -(27), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;77, -(((27) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:186:0" msg_body="Inlining function 'void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 32, 6, 77, 72&gt;(ap_ufixed&lt;77, -(32), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;72, -(((32) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)' into 'ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)'">
+        <args Callee="void pow_reduce::log_range_reduce&lt;ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 32, 6, 77, 72&gt;(ap_ufixed&lt;77, -(32), (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;, ap_ufixed&lt;72, -(((32) + (6)) - (1)), (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 31 Column 0" Caller="ap_ufixed&lt;72, -37, (ap_q_mode)5, (ap_o_mode)3, 0&gt; pow_reduce::pow_traits&lt;double&gt;::log_range_reduction&lt;71&gt;(ap_ufixed&lt;71, -4, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, ap_fixed&lt;121, 12, (ap_q_mode)5, (ap_o_mode)3, 0&gt;&amp;)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 186 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:292:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::fp_struct(double)' into 'double pow_reduce::pow_generic&lt;double&gt;(double, double)'">
+        <args Callee="fp_struct&lt;double&gt;::fp_struct(double)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 456 Column 0" Caller="double pow_reduce::pow_generic&lt;double&gt;(double, double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 292 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:292:0" msg_body="Inlining function 'fp_struct&lt;double&gt;::expv() const' into 'double pow_reduce::pow_generic&lt;double&gt;(double, double)'">
+        <args Callee="fp_struct&lt;double&gt;::expv() const" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/src/hls\utils/x_hls_utils.h} Line 485 Column 0" Caller="double pow_reduce::pow_generic&lt;double&gt;(double, double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 292 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:292:0" msg_body="Inlining function 'int generic_isinf&lt;double&gt;(double)' into 'double pow_reduce::pow_generic&lt;double&gt;(double, double)'">
+        <args Callee="int generic_isinf&lt;double&gt;(double)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_isinf.h} Line 16 Column 0" Caller="double pow_reduce::pow_generic&lt;double&gt;(double, double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 292 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:292:0" msg_body="Inlining function 'int generic_isnan&lt;double&gt;(double)' into 'double pow_reduce::pow_generic&lt;double&gt;(double, double)'">
+        <args Callee="int generic_isnan&lt;double&gt;(double)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint/hls_isnan.h} Line 16 Column 0" Caller="double pow_reduce::pow_generic&lt;double&gt;(double, double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 292 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h:292:0" msg_body="Inlining function 'pow_reduce::pow_traits&lt;double&gt;::exp_Z1P_m_1(ap_ufixed&lt;51, -8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)' into 'double pow_reduce::pow_generic&lt;double&gt;(double, double)'">
+        <args Callee="pow_reduce::pow_traits&lt;double&gt;::exp_Z1P_m_1(ap_ufixed&lt;51, -8, (ap_q_mode)5, (ap_o_mode)3, 0&gt;)" Callee-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 224 Column 0" Caller="double pow_reduce::pow_generic&lt;double&gt;(double, double)" Caller-DebugLoc="File {C:\scratch\2024.2\hls_product\495\2024.2\src\shared\hls\clib/hlsmath/include/FloatingPoint\hls_pow.h} Line 292 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Applying array_partition to 'S': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="S"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Applying array_partition to 'V': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="V"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="C:/Users/steve/thesis-monte-carlo/SABR/test_optimized.c:4:0" msg_body="Applying array_partition to 'random_increments': Block partitioning with factor 100 on dimension 1.">
+        <args Dim="1" Factor="100" Mode="Block" UOName="random_increments"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+
