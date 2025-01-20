@@ -40,7 +40,7 @@ void SABR(double S[STOCKS], double S0, double r, double sigma_init, double alpha
             double z2 = rho*z1 + sqrt_one_minus_rho_sq * random_increments[z2_idx] * sqrt_deltat;
             
             // Update stock price
-            double stock_beta = pow(S[m], beta);
+            double stock_beta = exp(beta * log(S[m])); // pow(S[m], beta) beta = 0.5 
             double vol_term = vol * stock_beta * z1;
             S[m] = S[m] * one_plus_r_deltat + vol_term;
             

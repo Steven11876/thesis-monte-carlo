@@ -5,7 +5,7 @@ void GBM(double S[STOCKS], double S0, double r, double sigma, double T, double r
     
     // Partition arrays for parallel access
     #pragma HLS ARRAY_PARTITION variable=S complete
-    #pragma HLS ARRAY_PARTITION variable=random_increments block factor=100
+    #pragma HLS ARRAY_PARTITION variable=random_increments block factor=STOCKS
     
     double deltat = T / STEPS;
     double half_sigma_sq = 0.5 * sigma * sigma;
